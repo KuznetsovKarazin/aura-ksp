@@ -1,0 +1,2 @@
+# Contributing
+Report the release version, Python/NumPy versions, exact command and smallest reproducible example. Distinguish implementation defects from new scientific experiments. Preserve original evidence, never overwrite saved results to make a comparison pass, and document any new protocol separately. Changes affecting fusion order, split membership, bootstrap draws, margins or checkpoints require a new scientific analysis, not a silent maintenance patch.

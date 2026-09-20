@@ -1,0 +1,11 @@
+full4_action_id,stream3_action_id,both_correct,lost_correct,gained_correct,both_wrong_same_label,both_wrong_different_labels,all_events
+A073,A076,0,14,18,0,1,33
+A012,A030,0,6,14,0,12,32
+A071,A072,0,7,14,0,6,27
+A072,A071,0,8,10,0,6,24
+A016,A017,0,3,10,0,3,16
+A106,A107,0,8,5,0,3,16
+A069,A072,0,7,2,0,6,15
+A011,A012,0,4,4,0,6,14
+A075,A073,0,3,6,0,5,14
+A074,A084,0,6,5,0,2,13

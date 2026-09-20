@@ -1,0 +1,58 @@
+{
+  "schema": "aura-har.ksp-stream3-gpu-gate-independent-audit.v1",
+  "created_utc": "2026-09-04T13:48:57Z",
+  "run_id": "20260904T120807Z",
+  "decision": "LATENCY_GATE_PASS_QUALITY_CONFIRMATION_REQUIRED",
+  "integrity": {
+    "evidence_zip_sha256": "dc53f932e4dc379c6ea153dd0b14161735c2d8c8608271b2546cb60c58b19ab2",
+    "inner_result_sha256": "776c8010118c01297aa13de7cdce62285addd8f1d458e3743877c94718a4eb84",
+    "protocol_sha256": "e62b88be09f23d21cc2a0ded82ef87e47e9778fba6e4216ac6ff9f25c136feb2",
+    "authorization_sha256": "da2042cf62083739b399276dbf2bff9423542b6cb5029f58df41e13caf8b4169",
+    "raw_traces_verified": 18,
+    "sidecars_verified": 18,
+    "analysis_manifest_passed": true,
+    "independent_recalculation_passed": true,
+    "byte_identical_reanalysis_outputs": [
+      "01_regime_latency_gate.csv",
+      "02_fold_regime_latency.csv",
+      "03_stage_timing.csv",
+      "REPORT_RU.md"
+    ]
+  },
+  "latency": {
+    "required_saving": 0.2,
+    "warm_reuse": {
+      "n_samples": 1200,
+      "full4_mean_ms": 65.27553953333333,
+      "stream3_mean_ms": 48.995912615,
+      "saving": 0.24939858076577126,
+      "one_sided_lcb": 0.2488187178030684,
+      "passed": true
+    },
+    "fresh_mapping": {
+      "n_samples": 1200,
+      "full4_mean_ms": 68.50971748833334,
+      "stream3_mean_ms": 51.86343317666667,
+      "saving": 0.2429769808129978,
+      "one_sided_lcb": 0.24222308667425818,
+      "passed": true
+    }
+  },
+  "runtime": {
+    "instance_id": "49850271",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "elapsed_seconds": 4431,
+    "rate_usd_per_hour": 0.33,
+    "estimated_compute_cost_usd": 0.406175,
+    "return_code": 0,
+    "autostop_accepted": true,
+    "autostop_attempt": 1
+  },
+  "scope": {
+    "training": false,
+    "test": false,
+    "old_validation": false,
+    "external_confirmation": false,
+    "quality_confirmatory": false
+  }
+}

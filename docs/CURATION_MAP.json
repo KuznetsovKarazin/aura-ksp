@@ -1,0 +1,3034 @@
+[
+  {
+    "release_path": "repository/tables/CONFIRMED_QUALITY_ENDPOINTS.csv",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/tables/CONFIRMED_QUALITY_ENDPOINTS.csv",
+    "sha256": "afcc1bf4af60cc834539a004bff8fab9ca0ddbc8f87ee2c4dcfc405d39f6a307",
+    "release_sha256": "afcc1bf4af60cc834539a004bff8fab9ca0ddbc8f87ee2c4dcfc405d39f6a307",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/tables/FINAL_PER_CLASS.csv",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/tables/FINAL_PER_CLASS.csv",
+    "sha256": "ce98889550ec73765830353c3d3176f8bc819ccd25914b8be774b08afa32da02",
+    "release_sha256": "ce98889550ec73765830353c3d3176f8bc819ccd25914b8be774b08afa32da02",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/tables/FINAL_ACTION_GROUPS.csv",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/tables/FINAL_ACTION_GROUPS.csv",
+    "sha256": "e0d5c4ec1f59ecaeb6851e0d21808c231f24f504a4c6298b035e4e739d737609",
+    "release_sha256": "e0d5c4ec1f59ecaeb6851e0d21808c231f24f504a4c6298b035e4e739d737609",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/tables/FINAL_PER_SETUP.csv",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/tables/FINAL_PER_SETUP.csv",
+    "sha256": "602b7d5c9a59d196dba9e01b7340d3240501dd518e4406eada3644326a0669d3",
+    "release_sha256": "602b7d5c9a59d196dba9e01b7340d3240501dd518e4406eada3644326a0669d3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/tables/K32_INPUT_ONLY_SAVING_BOUND.csv",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/tables/K32_INPUT_ONLY_SAVING_BOUND.csv",
+    "sha256": "2732636a36308b1e46b7508c060cc65303dc745943f679723d9821ac54d9d7bc",
+    "release_sha256": "2732636a36308b1e46b7508c060cc65303dc745943f679723d9821ac54d9d7bc",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/tables/HISTORICAL_TEMPORAL_TRADEOFF.csv",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/tables/HISTORICAL_TEMPORAL_TRADEOFF.csv",
+    "sha256": "450a51a8f888d38703b4ba257a7ce40237edb43887292de48f7f0652e6616c26",
+    "release_sha256": "450a51a8f888d38703b4ba257a7ce40237edb43887292de48f7f0652e6616c26",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/tables/FINAL_ENDPOINTS.csv",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/tables/FINAL_ENDPOINTS.csv",
+    "sha256": "e6bb58f823c7e77ba4bf3cccaf99eafe673313648c6b0a31c878868bdc67ce11",
+    "release_sha256": "e6bb58f823c7e77ba4bf3cccaf99eafe673313648c6b0a31c878868bdc67ce11",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/tables/FINAL_SINGLE_STREAM.csv",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/tables/FINAL_SINGLE_STREAM.csv",
+    "sha256": "c08596609fed69cb155e39b508eafc06a36f4fdb7b22d0648c7cfcaf3c7eabfe",
+    "release_sha256": "c08596609fed69cb155e39b508eafc06a36f4fdb7b22d0648c7cfcaf3c7eabfe",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/figures/FINAL_NONINFERIORITY.pdf",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/figures/FINAL_NONINFERIORITY.pdf",
+    "sha256": "89e27fe075df14879c74e38c9feaa9a61835c555c454725c525c23c880c71216",
+    "release_sha256": "c67e9e911bb65666f0b5922cbad2b5652b2256741c28245abe972370e2f6ba46",
+    "byte_identical": false,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/figures/FINAL_NONINFERIORITY.png",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/figures/FINAL_NONINFERIORITY.png",
+    "sha256": "2a2cd3a840eb1edea5f0f1466f2b18ba80cf476a5069c634db14f53d2f404086",
+    "release_sha256": "0a9e38f45cc368562d77f7f0f616e60a7b77499bdf0654c1acf9cddac3694760",
+    "byte_identical": false,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/figures/TEMPORAL_AND_STREAM_EVIDENCE.pdf",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/figures/TEMPORAL_AND_STREAM_EVIDENCE.pdf",
+    "sha256": "4a11591748405e820fba9e9083b3a1aaaaa2a0a016d242901f22e2fb98c3fca2",
+    "release_sha256": "136297882e738bd08d57f59042e27b556b13729afd97c471f76dab099b95fb4d",
+    "byte_identical": false,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/figures/FINAL_HETEROGENEITY.pdf",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/figures/FINAL_HETEROGENEITY.pdf",
+    "sha256": "1f4b301f0020470018be2155e3cc3f67703c9a9c6a1fd0351c2f8f8467382b19",
+    "release_sha256": "ea87822852574df45c9b44e3606329ef2958ea76c1cdb1f6a7269ff9a0863d59",
+    "byte_identical": false,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/figures/TEMPORAL_AND_STREAM_EVIDENCE.png",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/figures/TEMPORAL_AND_STREAM_EVIDENCE.png",
+    "sha256": "0a8c3aaea49380e9bf0a20ec2fea95058b23b609b946dbe4c01fcf454f982e9e",
+    "release_sha256": "b64bff8ceaed616f9ece229a3c99f395077e6293e11540c06999b3f355228eb0",
+    "byte_identical": false,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/figures/FINAL_HETEROGENEITY.png",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/figures/FINAL_HETEROGENEITY.png",
+    "sha256": "15fd52c265f97dcca55f714450d5551a3b93a638d27bb97c5f20ff94a30fc213",
+    "release_sha256": "15fd52c265f97dcca55f714450d5551a3b93a638d27bb97c5f20ff94a30fc213",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/reports/CHECKPOINT_INSPECTION.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/reports/independent/CHECKPOINT_INSPECTION.json",
+    "sha256": "a6496cdb0ab46a4abd3235cbc9dcaa42201e4d7f747ab9ca819f848da3d0a309",
+    "release_sha256": "a6496cdb0ab46a4abd3235cbc9dcaa42201e4d7f747ab9ca819f848da3d0a309",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/reports/FINAL_INDEPENDENT_AUDIT.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/reports/independent/FINAL_INDEPENDENT_AUDIT.json",
+    "sha256": "1ea8e391ccbba548af938362ad7f7c7ef786e100c5698c0b4d0bf3261025caa8",
+    "release_sha256": "1ea8e391ccbba548af938362ad7f7c7ef786e100c5698c0b4d0bf3261025caa8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/reports/PRIOR_VALIDATION.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/reports/VALIDATION.json",
+    "sha256": "b9bbc32e3c67717e7fc248706fddcae7420af84ea3aecf7983c6106fd2add0d2",
+    "release_sha256": "b9bbc32e3c67717e7fc248706fddcae7420af84ea3aecf7983c6106fd2add0d2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/scripts/offline_math.py",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/scripts/offline_math.py",
+    "sha256": "c112a4e6aa743e017164068902ff49ce1e307a45985ebdcc941928772484be67",
+    "release_sha256": "c112a4e6aa743e017164068902ff49ce1e307a45985ebdcc941928772484be67",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/scripts/checkpoint_inspect.py",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/scripts/checkpoint_inspect.py",
+    "sha256": "77af5db3b18e0aed1189a66fc60d0ac29df7458f3571ae6c224a05491e2e6f2f",
+    "release_sha256": "77af5db3b18e0aed1189a66fc60d0ac29df7458f3571ae6c224a05491e2e6f2f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/scripts/build_paper_assets.py",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/scripts/build_paper_assets.py",
+    "sha256": "11d2c61424797f0bef4afcfaaa25cc83c14e53752370b3076b9ad3ec0ee9a95d",
+    "release_sha256": "e36b1ca9e944a68d7203cde1aa0dbd91ac59067685e294f4644e76ad65697233",
+    "byte_identical": false,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/evidence/PROTOCOL.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/evidence/PROTOCOL.json",
+    "sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+    "release_sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/evidence/PLAN.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/evidence/PLAN.json",
+    "sha256": "ff802370c85ed286d2ff8bad8cdf681c59ad9aa892037adc971cc2e8fc34d8f3",
+    "release_sha256": "ff802370c85ed286d2ff8bad8cdf681c59ad9aa892037adc971cc2e8fc34d8f3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/evidence/DATA_BINDING.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/evidence/DATA_BINDING.json",
+    "sha256": "36ad4f6e0a212f01f637d4fc37ce1f3544e30e41b773013b9195f8abcc15479d",
+    "release_sha256": "36ad4f6e0a212f01f637d4fc37ce1f3544e30e41b773013b9195f8abcc15479d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/evidence/FINAL_TEST_EVENT.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/evidence/FINAL_TEST_EVENT.json",
+    "sha256": "ed9db9874f6983d0e9211d971b93ed445c722e81f889ffd73403ea3882b8bab6",
+    "release_sha256": "ed9db9874f6983d0e9211d971b93ed445c722e81f889ffd73403ea3882b8bab6",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/evidence/PREVIOUS_LATENCY_AUDIT.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/evidence/PREVIOUS_LATENCY_AUDIT.json",
+    "sha256": "24d3a556cf016a5dcd85fbdb54bbfd1feb314a9484864a40dddbb8195d226cac",
+    "release_sha256": "24d3a556cf016a5dcd85fbdb54bbfd1feb314a9484864a40dddbb8195d226cac",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/evidence/INDEPENDENT_QUALITY_AUDIT.json",
+    "source_path": "AURA-KSP_FINAL_AUDIT_AND_PAPER_20260906_v1.3.0/evidence/INDEPENDENT_QUALITY_AUDIT.json",
+    "sha256": "a9f1e3c6d178dcb3b86abec774765de607a776985feaa72b1b66f2d02c8a545e",
+    "release_sha256": "a9f1e3c6d178dcb3b86abec774765de607a776985feaa72b1b66f2d02c8a545e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/final_analysis.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/final_analysis.py",
+    "sha256": "8e4de6229bc9a9d2cd91b232d6c053fec576b435f05b6bf8ac3df58a07eab1a5",
+    "release_sha256": "8e4de6229bc9a9d2cd91b232d6c053fec576b435f05b6bf8ac3df58a07eab1a5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/ksp_analysis.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/ksp_analysis.py",
+    "sha256": "959ca721726dbd7f557af361bbba5fa4f25d8b4c54388ab1b89c7ddc6d6f258c",
+    "release_sha256": "959ca721726dbd7f557af361bbba5fa4f25d8b4c54388ab1b89c7ddc6d6f258c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/selective_router.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/selective_router.py",
+    "sha256": "23ff51a9d4224894e160f900db272266ce85e7781a3c82f41432556078da9d23",
+    "release_sha256": "23ff51a9d4224894e160f900db272266ce85e7781a3c82f41432556078da9d23",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/ksp_runtime.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/ksp_runtime.py",
+    "sha256": "ed99441cf08d07df9b4a2866b901d76530dc1e4e979d543ec92e89611e1dac33",
+    "release_sha256": "ed99441cf08d07df9b4a2866b901d76530dc1e4e979d543ec92e89611e1dac33",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/fusion.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/fusion.py",
+    "sha256": "afe75c34e4f2e5c984a408a99d1fb44f08dc1003cb48e2bd98758d0fd9ef645a",
+    "release_sha256": "afe75c34e4f2e5c984a408a99d1fb44f08dc1003cb48e2bd98758d0fd9ef645a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/runtime.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/runtime.py",
+    "sha256": "51e65cd8c2bb7c0f73be0811a59806290e8c5ee6a29f8e45c4736cbec0e567ea",
+    "release_sha256": "51e65cd8c2bb7c0f73be0811a59806290e8c5ee6a29f8e45c4736cbec0e567ea",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/__init__.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/__init__.py",
+    "sha256": "18611e94766f51099437fef629ad31e887fd30f765c00e0588cffbf5becf505f",
+    "release_sha256": "18611e94766f51099437fef629ad31e887fd30f765c00e0588cffbf5becf505f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/config.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/config.py",
+    "sha256": "7469f08752c2fc609540ce0e5137ec22ed9182cce368e4667fe8ecec856186c5",
+    "release_sha256": "7469f08752c2fc609540ce0e5137ec22ed9182cce368e4667fe8ecec856186c5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/comparison.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/comparison.py",
+    "sha256": "6e7a875a55a1cc7f2f9d933cdc779567e210944d91f3d11a088d803754c7f0da",
+    "release_sha256": "6e7a875a55a1cc7f2f9d933cdc779567e210944d91f3d11a088d803754c7f0da",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/confirmation.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/confirmation.py",
+    "sha256": "b519da16fa1ae3754b148a0a728ec20431bfbd8b3e2f0ce413356ed9e9db842e",
+    "release_sha256": "b519da16fa1ae3754b148a0a728ec20431bfbd8b3e2f0ce413356ed9e9db842e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/training.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/training.py",
+    "sha256": "3d59870c5a58fe1605a75cdd49af6b5c66782305635f00b8583b97861b3a34cb",
+    "release_sha256": "3d59870c5a58fe1605a75cdd49af6b5c66782305635f00b8583b97861b3a34cb",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/adaptive_fusion.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/adaptive_fusion.py",
+    "sha256": "442c1c5b925ab55a915865ad2abf0dbdedc3cb09f6276d2aac1198de71aebc94",
+    "release_sha256": "442c1c5b925ab55a915865ad2abf0dbdedc3cb09f6276d2aac1198de71aebc94",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/temporal_protocol.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/temporal_protocol.py",
+    "sha256": "f7f25bc4765e9e6418a073f2a0c5fb32cee34ecf89b511c560dad2b6cbd15a11",
+    "release_sha256": "f7f25bc4765e9e6418a073f2a0c5fb32cee34ecf89b511c560dad2b6cbd15a11",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/confirmation_ntu120.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/confirmation_ntu120.py",
+    "sha256": "cdb052647526af0f5e480c7606780151936eccadaa1bcc6311cef180d8c7bec8",
+    "release_sha256": "cdb052647526af0f5e480c7606780151936eccadaa1bcc6311cef180d8c7bec8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/reliability_fusion.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/reliability_fusion.py",
+    "sha256": "8dd17842d15368285b7fd032cc3f7bf8546dae1a0013a0f07d00a9ec85f17975",
+    "release_sha256": "8dd17842d15368285b7fd032cc3f7bf8546dae1a0013a0f07d00a9ec85f17975",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/ksp_protocol.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/ksp_protocol.py",
+    "sha256": "32f34fff919a507efaec5b40182da3b24b20fbe46e3de03f57294763dc9aa2b1",
+    "release_sha256": "32f34fff919a507efaec5b40182da3b24b20fbe46e3de03f57294763dc9aa2b1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/utils/io.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/utils/io.py",
+    "sha256": "ecbe672abc1f02d74abd693e90aaff4e4abbaa84cf18febbce7b2662d3647637",
+    "release_sha256": "ecbe672abc1f02d74abd693e90aaff4e4abbaa84cf18febbce7b2662d3647637",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/utils/__init__.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/utils/__init__.py",
+    "sha256": "bd3ce9cc0870670869f7177348df7949699fd36aa0c3b02c73450b5c6e1a1289",
+    "release_sha256": "bd3ce9cc0870670869f7177348df7949699fd36aa0c3b02c73450b5c6e1a1289",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/utils/reproducibility.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/utils/reproducibility.py",
+    "sha256": "b215ae09132f75529ba7a648f9ddb804ce1e96339369ef9114e05b5fb56f51ed",
+    "release_sha256": "b215ae09132f75529ba7a648f9ddb804ce1e96339369ef9114e05b5fb56f51ed",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/models/__init__.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/models/__init__.py",
+    "sha256": "b7d35249d6120ead7816bc2575a6b29b16ce0361c4e627f3deeb3c5e54ca62ab",
+    "release_sha256": "b7d35249d6120ead7816bc2575a6b29b16ce0361c4e627f3deeb3c5e54ca62ab",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/models/graph.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/models/graph.py",
+    "sha256": "c14742654a19bd2c51122934e33f515d0405de837cb55d370fbb1b265e5054a8",
+    "release_sha256": "c14742654a19bd2c51122934e33f515d0405de837cb55d370fbb1b265e5054a8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/models/ctrgcn.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/models/ctrgcn.py",
+    "sha256": "41f0be437a4b7d713705bbd5fc0557ae5aa7f5a52888fcce40dbae9f2738e4f2",
+    "release_sha256": "41f0be437a4b7d713705bbd5fc0557ae5aa7f5a52888fcce40dbae9f2738e4f2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/models/ctrgcn_reference.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/models/ctrgcn_reference.py",
+    "sha256": "e026b8b321e903156206618d55776d2418ada10f693dc646ab3a1baedc45cd16",
+    "release_sha256": "e026b8b321e903156206618d55776d2418ada10f693dc646ab3a1baedc45cd16",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/models/factory.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/models/factory.py",
+    "sha256": "3dbd26ac8af4184326044107be340e0c28c9dd27e9dad0050241dd31af000f9b",
+    "release_sha256": "3dbd26ac8af4184326044107be340e0c28c9dd27e9dad0050241dd31af000f9b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/models/stgcn.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/models/stgcn.py",
+    "sha256": "1df60d2d76694d225f17b18a18bef5194f0e9861eeb4ff02b42b16b0845cc53a",
+    "release_sha256": "1df60d2d76694d225f17b18a18bef5194f0e9861eeb4ff02b42b16b0845cc53a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/calibration/__init__.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/calibration/__init__.py",
+    "sha256": "cd5a863c8bde7c84525ce1f25a2c7cf8a760cdf0478ff12397b5c114597b618f",
+    "release_sha256": "cd5a863c8bde7c84525ce1f25a2c7cf8a760cdf0478ff12397b5c114597b618f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/calibration/temperature.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/calibration/temperature.py",
+    "sha256": "76ede9baf3640005d708832a105d0be4783dbdca2e2eb01cf9f05a76c9d6cc18",
+    "release_sha256": "76ede9baf3640005d708832a105d0be4783dbdca2e2eb01cf9f05a76c9d6cc18",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/data/ntu.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/data/ntu.py",
+    "sha256": "9ea9e821b009cf0dfbcd21ccc084f50a2ac1dbc0d25ef0897956d352fb59d192",
+    "release_sha256": "9ea9e821b009cf0dfbcd21ccc084f50a2ac1dbc0d25ef0897956d352fb59d192",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/data/dataset.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/data/dataset.py",
+    "sha256": "d3e6bcf37dab450ae27f31f90d2465735cc6ff87b51d112797dd53de340b3020",
+    "release_sha256": "d3e6bcf37dab450ae27f31f90d2465735cc6ff87b51d112797dd53de340b3020",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/data/reference.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/data/reference.py",
+    "sha256": "0d3cfd1a7cb75909d5d00368424ede0a5ec03d1fe1ad498be28e42711fe73439",
+    "release_sha256": "0d3cfd1a7cb75909d5d00368424ede0a5ec03d1fe1ad498be28e42711fe73439",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/data/sparse_store.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/data/sparse_store.py",
+    "sha256": "b87e34b4248f8f37db831db78538be159298574556d742c3016d61c40493db33",
+    "release_sha256": "b87e34b4248f8f37db831db78538be159298574556d742c3016d61c40493db33",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/data/__init__.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/data/__init__.py",
+    "sha256": "1ce7acf39dde312c610a08f5071c7a2ee3188060548c4ee1fecd9c34cff27078",
+    "release_sha256": "1ce7acf39dde312c610a08f5071c7a2ee3188060548c4ee1fecd9c34cff27078",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/data/ntu120.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/data/ntu120.py",
+    "sha256": "37129fa8aacbb40da55b4b1659ad590b5487a9c8e95e37c8bccddbb924019bb1",
+    "release_sha256": "37129fa8aacbb40da55b4b1659ad590b5487a9c8e95e37c8bccddbb924019bb1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/data/sparse_reference.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/data/sparse_reference.py",
+    "sha256": "bbaabb917828fd84a50fad4b0e7ad2de3a4698639415065cebc4092e62144d10",
+    "release_sha256": "bbaabb917828fd84a50fad4b0e7ad2de3a4698639415065cebc4092e62144d10",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/sampling/__init__.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/sampling/__init__.py",
+    "sha256": "9359d5da0f2729c43bb4cc217eed7fe4f2dd2e03617c188d45bcc81a6e8efdac",
+    "release_sha256": "9359d5da0f2729c43bb4cc217eed7fe4f2dd2e03617c188d45bcc81a6e8efdac",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/sampling/temporal.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/sampling/temporal.py",
+    "sha256": "e58826203e3fc165d9bdd406d603f8474ee4f1b866777ecc74bf2c8f208fc2f2",
+    "release_sha256": "e58826203e3fc165d9bdd406d603f8474ee4f1b866777ecc74bf2c8f208fc2f2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/ksp_execution/portable.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/ksp_execution/portable.py",
+    "sha256": "a85d3961cb07ba43d544e637416b455102c44f365ace7b69abad0ea795616ee8",
+    "release_sha256": "a85d3961cb07ba43d544e637416b455102c44f365ace7b69abad0ea795616ee8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/ksp_execution/__init__.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/ksp_execution/__init__.py",
+    "sha256": "baa3b160e818b265e4b9a30f237cfbb18fc6d8e36d0a9dd5d8823037de125f3d",
+    "release_sha256": "baa3b160e818b265e4b9a30f237cfbb18fc6d8e36d0a9dd5d8823037de125f3d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/ksp_execution/core.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/ksp_execution/core.py",
+    "sha256": "b23622ce5483526dc146f8a70667fd449707b7d23eb89d1d845055f2eb3fc522",
+    "release_sha256": "b23622ce5483526dc146f8a70667fd449707b7d23eb89d1d845055f2eb3fc522",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/ksp_execution/pins.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/ksp_execution/pins.py",
+    "sha256": "c841c0f0507384cfcfe04a1ef1ee47aef5085a081e883e9557184bdf87fc579a",
+    "release_sha256": "c841c0f0507384cfcfe04a1ef1ee47aef5085a081e883e9557184bdf87fc579a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/metrics/__init__.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/metrics/__init__.py",
+    "sha256": "0629a8de6886e7ec11b3b5828d6686145aa026d3b0adfacfe118df85686fa475",
+    "release_sha256": "0629a8de6886e7ec11b3b5828d6686145aa026d3b0adfacfe118df85686fa475",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/src/aura_har/metrics/classification.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/src/aura_har/metrics/classification.py",
+    "sha256": "9a1484532e1a3d84e6bc28385b688bc8d1128c7734cc02a0388855f00ef4c9b5",
+    "release_sha256": "9a1484532e1a3d84e6bc28385b688bc8d1128c7734cc02a0388855f00ef4c9b5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/project/pyproject.toml",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/project/pyproject.toml",
+    "sha256": "65ed3210fe20d77fa49f0c21f37e3cd15d52ccaea0d77928a21aa18963e23aa5",
+    "release_sha256": "65ed3210fe20d77fa49f0c21f37e3cd15d52ccaea0d77928a21aa18963e23aa5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/scripts/final_common.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/scripts/final_common.py",
+    "sha256": "ba3f729d99a6db7d635d2728d7989b75cc22c3f9f6605019ffcd827ccd846ccd",
+    "release_sha256": "ba3f729d99a6db7d635d2728d7989b75cc22c3f9f6605019ffcd827ccd846ccd",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/scripts/final_dataset.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/scripts/final_dataset.py",
+    "sha256": "c809ea09d448b586a270c9c9db02807dac9c602bb2e3695ed17c3c9423f39b4f",
+    "release_sha256": "c809ea09d448b586a270c9c9db02807dac9c602bb2e3695ed17c3c9423f39b4f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/scripts/final_job.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/scripts/final_job.py",
+    "sha256": "5e47cd0729a0aa4beff538ae3490a8d8259c361e329a69317e5d3273499704cf",
+    "release_sha256": "5e47cd0729a0aa4beff538ae3490a8d8259c361e329a69317e5d3273499704cf",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/scripts/prepare_final_data.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/scripts/prepare_final_data.py",
+    "sha256": "3a0535a95a6516e26bfb33983c1f50dd37764767bb3a4e318a6be4d335f55c2e",
+    "release_sha256": "3a0535a95a6516e26bfb33983c1f50dd37764767bb3a4e318a6be4d335f55c2e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/scripts/analyze_final.py",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/scripts/analyze_final.py",
+    "sha256": "b9d5f78ff356d210426c63707f416bb0666b87f61464e74b00dbed355c523cbf",
+    "release_sha256": "b9d5f78ff356d210426c63707f416bb0666b87f61464e74b00dbed355c523cbf",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/PLAN.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/PLAN.json",
+    "sha256": "ff802370c85ed286d2ff8bad8cdf681c59ad9aa892037adc971cc2e8fc34d8f3",
+    "release_sha256": "ff802370c85ed286d2ff8bad8cdf681c59ad9aa892037adc971cc2e8fc34d8f3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/SOURCE_PINS.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/SOURCE_PINS.json",
+    "sha256": "6d283b1420e238f2e9ed2a87acc5ae0a6018cefe6d03c84c56a522d986a3122b",
+    "release_sha256": "6d283b1420e238f2e9ed2a87acc5ae0a6018cefe6d03c84c56a522d986a3122b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/MANIFEST_SHA256.txt",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/MANIFEST_SHA256.txt",
+    "sha256": "281e0e4fe510c9c593b27c83a74d475542fd2b0eecb1a0b8196af4793e75ea89",
+    "release_sha256": "281e0e4fe510c9c593b27c83a74d475542fd2b0eecb1a0b8196af4793e75ea89",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/protocol/BOOTSTRAP_POOL.json.gz",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/protocol/BOOTSTRAP_POOL.json.gz",
+    "sha256": "bf9c3b01981efdaf125c2dbeb57fd066ae36d89f079b9f3c2ba5145234ff089a",
+    "release_sha256": "bf9c3b01981efdaf125c2dbeb57fd066ae36d89f079b9f3c2ba5145234ff089a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/runtime/protocol/PROTOCOL.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/protocol/PROTOCOL.json",
+    "sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+    "release_sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/BOOTSTRAP_DRAW_INDICES.json.gz",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/BOOTSTRAP_DRAW_INDICES.json.gz",
+    "sha256": "b753734b3d0acb1bdfbe5080b80b92b11a35634d9ac6b1e9bbf8052e9e645cc8",
+    "release_sha256": "b753734b3d0acb1bdfbe5080b80b92b11a35634d9ac6b1e9bbf8052e9e645cc8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/TEST.jsonl",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/TEST.jsonl",
+    "sha256": "0b09df9bb50e3a413fd1df9054c533ef94ff6ec61a156f7183bc90975abab836",
+    "release_sha256": "0b09df9bb50e3a413fd1df9054c533ef94ff6ec61a156f7183bc90975abab836",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/FINAL_TRAIN.jsonl",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/FINAL_TRAIN.jsonl",
+    "sha256": "ed8ceb7c4f89ebd71655959709c5c6fde77cb31889ecc4d01997c42b43e7cb8d",
+    "release_sha256": "ed8ceb7c4f89ebd71655959709c5c6fde77cb31889ecc4d01997c42b43e7cb8d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/HISTORY_AUDIT_WINDOWS.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/HISTORY_AUDIT_WINDOWS.json",
+    "sha256": "810e04a1c2080a1cd57af27db5bfa1c3a231ddad17727035a18dd9affd5bf979",
+    "release_sha256": "810e04a1c2080a1cd57af27db5bfa1c3a231ddad17727035a18dd9affd5bf979",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/PARITY_SAMPLES.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/PARITY_SAMPLES.json",
+    "sha256": "f0f249ae07532490cb43e2d600d90097efce1d61150538d72bfef95bc60ac3a0",
+    "release_sha256": "f0f249ae07532490cb43e2d600d90097efce1d61150538d72bfef95bc60ac3a0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/DATA_BINDING.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/DATA_BINDING.json",
+    "sha256": "36ad4f6e0a212f01f637d4fc37ce1f3544e30e41b773013b9195f8abcc15479d",
+    "release_sha256": "36ad4f6e0a212f01f637d4fc37ce1f3544e30e41b773013b9195f8abcc15479d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/NPZ_INVENTORY.jsonl",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/NPZ_INVENTORY.jsonl",
+    "sha256": "e9ba0774759d601e5c78153d33c1cf7cbeddae7bf49ea9e3c6f1aa8aa2207a8b",
+    "release_sha256": "e9ba0774759d601e5c78153d33c1cf7cbeddae7bf49ea9e3c6f1aa8aa2207a8b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/source_manifests/val.jsonl",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/source_manifests/val.jsonl",
+    "sha256": "94868e14ae5a3c168514db7298ebd0f747259080b843a5ca244c234a0a82a769",
+    "release_sha256": "94868e14ae5a3c168514db7298ebd0f747259080b843a5ca244c234a0a82a769",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/source_manifests/train.jsonl",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/source_manifests/train.jsonl",
+    "sha256": "6ab087b665b25c43dc0978233dd76d528773894cbc2834437243cd54b45f75a4",
+    "release_sha256": "6ab087b665b25c43dc0978233dd76d528773894cbc2834437243cd54b45f75a4",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/data_binding/source_manifests/test.jsonl",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/data_binding/source_manifests/test.jsonl",
+    "sha256": "35d2c844680e00939f596d031441e51f5d4da89e1905b6553c803b461e1b7fd5",
+    "release_sha256": "35d2c844680e00939f596d031441e51f5d4da89e1905b6553c803b461e1b7fd5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/sealed_event/AURA_KSP_NTU120_XSET_TEST_EVENT.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/sealed_event/AURA_KSP_NTU120_XSET_TEST_EVENT.json",
+    "sha256": "ed9db9874f6983d0e9211d971b93ed445c722e81f889ffd73403ea3882b8bab6",
+    "release_sha256": "ed9db9874f6983d0e9211d971b93ed445c722e81f889ffd73403ea3882b8bab6",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/evaluate_joint_motion.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/evaluate_joint_motion.json",
+    "sha256": "aed6a09edc91525941f302098d9fc42b33ef3a26107f1aa6772d0f2f84355c2a",
+    "release_sha256": "aed6a09edc91525941f302098d9fc42b33ef3a26107f1aa6772d0f2f84355c2a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/evaluate_bone_motion.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/evaluate_bone_motion.json",
+    "sha256": "76f31e61d642aa93e265bc531eae04c222bdd5a2058a8f0260c6f49871513deb",
+    "release_sha256": "76f31e61d642aa93e265bc531eae04c222bdd5a2058a8f0260c6f49871513deb",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/evaluate_bone.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/evaluate_bone.json",
+    "sha256": "497ebc2a44db37e45e90cd153f023d9205ffbe3e14c730aea54f6d34dffad3cc",
+    "release_sha256": "497ebc2a44db37e45e90cd153f023d9205ffbe3e14c730aea54f6d34dffad3cc",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/train_bone.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/train_bone.json",
+    "sha256": "8d2274b457e876910417f858904c91dbfa3e74f0a48bb6fc2fcb601c340997f0",
+    "release_sha256": "8d2274b457e876910417f858904c91dbfa3e74f0a48bb6fc2fcb601c340997f0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/train_joint.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/train_joint.json",
+    "sha256": "3ea3a43ef59754a10c07b333986f1849f24134990cb4d1ac7d02676447ee37b7",
+    "release_sha256": "3ea3a43ef59754a10c07b333986f1849f24134990cb4d1ac7d02676447ee37b7",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/train_bone_motion.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/train_bone_motion.json",
+    "sha256": "0926a52a561f3137d2d7a84145940c6ba77dd6e96d6a8e46760617878d9f95d3",
+    "release_sha256": "0926a52a561f3137d2d7a84145940c6ba77dd6e96d6a8e46760617878d9f95d3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/evaluate_joint.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/evaluate_joint.json",
+    "sha256": "9b0d9506b6b61cd65fcfc72efb744c4c676e8e8f3c424fe251ec939e694114c1",
+    "release_sha256": "9b0d9506b6b61cd65fcfc72efb744c4c676e8e8f3c424fe251ec939e694114c1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/analysis.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/analysis.json",
+    "sha256": "97b587e464bf7d31fa5a298163741aa196a5eb3cd964f2f5a1c5a5be6a2e96bb",
+    "release_sha256": "97b587e464bf7d31fa5a298163741aa196a5eb3cd964f2f5a1c5a5be6a2e96bb",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/receipts/train_joint_motion.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/receipts/train_joint_motion.json",
+    "sha256": "dea0ff665fbc9175d04decabe9863963610fca703e6a3fe95ee406b7174f44c4",
+    "release_sha256": "dea0ff665fbc9175d04decabe9863963610fca703e6a3fe95ee406b7174f44c4",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone_motion/final.pt",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone_motion/final.pt",
+    "sha256": "e15cb6bcb39511fe7838a1cef9737ac3089a8d1d28332a7c721772c24a2665ed",
+    "release_sha256": "e15cb6bcb39511fe7838a1cef9737ac3089a8d1d28332a7c721772c24a2665ed",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone_motion/TRAINING_BINDING.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone_motion/TRAINING_BINDING.json",
+    "sha256": "6c61835a8d858edfe07039ff66bc71f50cbd5212b235d8ef2cf1564418793cf2",
+    "release_sha256": "6c61835a8d858edfe07039ff66bc71f50cbd5212b235d8ef2cf1564418793cf2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone_motion/training_summary.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone_motion/training_summary.json",
+    "sha256": "747139d7afc7bb19ed51e8c56a94c5130f5e9c696360344f075474a9a7698c6e",
+    "release_sha256": "747139d7afc7bb19ed51e8c56a94c5130f5e9c696360344f075474a9a7698c6e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone_motion/history.csv",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone_motion/history.csv",
+    "sha256": "300a5684ff7407a9c8732922de574e0d7a2bf04882d2505c1ad119ddb9ecabc8",
+    "release_sha256": "300a5684ff7407a9c8732922de574e0d7a2bf04882d2505c1ad119ddb9ecabc8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone/final.pt",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone/final.pt",
+    "sha256": "2117a21178835717939a08663f9c1b7b0eac0b5cfabe9d752044992ed996962c",
+    "release_sha256": "2117a21178835717939a08663f9c1b7b0eac0b5cfabe9d752044992ed996962c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone/TRAINING_BINDING.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone/TRAINING_BINDING.json",
+    "sha256": "77f7a1c539b481624bc231400bd56d0e28997ba41ffae4d4c73e1882de09b036",
+    "release_sha256": "77f7a1c539b481624bc231400bd56d0e28997ba41ffae4d4c73e1882de09b036",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone/training_summary.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone/training_summary.json",
+    "sha256": "cbf455c812bb41ab782aaf7a594be11a8706db7d87b35916cea77df6910ed01c",
+    "release_sha256": "cbf455c812bb41ab782aaf7a594be11a8706db7d87b35916cea77df6910ed01c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone/history.csv",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone/history.csv",
+    "sha256": "677704cb94c6b45fdca8360800cb72376d84938ddef305829c547fa9e97f769f",
+    "release_sha256": "677704cb94c6b45fdca8360800cb72376d84938ddef305829c547fa9e97f769f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint/final.pt",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint/final.pt",
+    "sha256": "c335121ee4d5661a57dffef486695c7e6ee58c90247f3d6ec69e3978ea4d43f5",
+    "release_sha256": "c335121ee4d5661a57dffef486695c7e6ee58c90247f3d6ec69e3978ea4d43f5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint/TRAINING_BINDING.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint/TRAINING_BINDING.json",
+    "sha256": "318848279cdb491527420ca4999144d6e34eae62254379a5f63a1d00b55e080e",
+    "release_sha256": "318848279cdb491527420ca4999144d6e34eae62254379a5f63a1d00b55e080e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint/training_summary.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint/training_summary.json",
+    "sha256": "3943d0cbf76d8cf230b5333f63d2f44b01feb359cfb9555f0ff592f4d2fcf686",
+    "release_sha256": "3943d0cbf76d8cf230b5333f63d2f44b01feb359cfb9555f0ff592f4d2fcf686",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint/history.csv",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint/history.csv",
+    "sha256": "e87049a549a55783565b194876d4c200bc977515124b86f1e8f2058a355fcd86",
+    "release_sha256": "e87049a549a55783565b194876d4c200bc977515124b86f1e8f2058a355fcd86",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint_motion/final.pt",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint_motion/final.pt",
+    "sha256": "e948ee55fa8a70ee9cdd0c6c8db6bb5ad435f24bd6a00cd30520fef29fced427",
+    "release_sha256": "e948ee55fa8a70ee9cdd0c6c8db6bb5ad435f24bd6a00cd30520fef29fced427",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint_motion/TRAINING_BINDING.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint_motion/TRAINING_BINDING.json",
+    "sha256": "a4c07da3b8d4a509220e2c1c278e593dc6e6efa288798966f161bb0558f848d5",
+    "release_sha256": "a4c07da3b8d4a509220e2c1c278e593dc6e6efa288798966f161bb0558f848d5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint_motion/training_summary.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint_motion/training_summary.json",
+    "sha256": "18e8a444e84e42b6d4e540d56da7b0fe0cf7541292c8895500a1890fd3004c6d",
+    "release_sha256": "18e8a444e84e42b6d4e540d56da7b0fe0cf7541292c8895500a1890fd3004c6d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint_motion/history.csv",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint_motion/history.csv",
+    "sha256": "69b1d087eb8baa822e90ff374a0fc466c0c3960b1ad6655f328541e01b90554e",
+    "release_sha256": "69b1d087eb8baa822e90ff374a0fc466c0c3960b1ad6655f328541e01b90554e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone_motion/epochs/epoch_065.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone_motion/epochs/epoch_065.commit.json",
+    "sha256": "cdc0473950cc4aa2127a20556cfb483749e39efa5ecde305d04bfcae3a76d612",
+    "release_sha256": "cdc0473950cc4aa2127a20556cfb483749e39efa5ecde305d04bfcae3a76d612",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone_motion/epochs/epoch_064.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone_motion/epochs/epoch_064.commit.json",
+    "sha256": "ca73f3e19edc5e914c38277c65993ef07258dae3aa12d662930d879d2b6cf89c",
+    "release_sha256": "ca73f3e19edc5e914c38277c65993ef07258dae3aa12d662930d879d2b6cf89c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone/epochs/epoch_065.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone/epochs/epoch_065.commit.json",
+    "sha256": "e5ca86251bdef726252172f321a8ae888d4bac51c3c1bae43d53224e5fe105cb",
+    "release_sha256": "e5ca86251bdef726252172f321a8ae888d4bac51c3c1bae43d53224e5fe105cb",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/bone/epochs/epoch_064.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/bone/epochs/epoch_064.commit.json",
+    "sha256": "e1f7a9993b9aa8d7e94b810166f5331819366a02496dcb4118fd05905fb8e7ed",
+    "release_sha256": "e1f7a9993b9aa8d7e94b810166f5331819366a02496dcb4118fd05905fb8e7ed",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint/epochs/epoch_065.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint/epochs/epoch_065.commit.json",
+    "sha256": "54e8a01769fa463351260b7ed6fd5a673020ee96f9133f46b548cef2a8513164",
+    "release_sha256": "54e8a01769fa463351260b7ed6fd5a673020ee96f9133f46b548cef2a8513164",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint/epochs/epoch_064.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint/epochs/epoch_064.commit.json",
+    "sha256": "7aa9acd12268359613d05efa0b70a55151fea9d29ce1fa5b22d390f6588b036e",
+    "release_sha256": "7aa9acd12268359613d05efa0b70a55151fea9d29ce1fa5b22d390f6588b036e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint_motion/epochs/epoch_065.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint_motion/epochs/epoch_065.commit.json",
+    "sha256": "3f998467d8cf4eda62e9bf47b77d529ad5015517e6175614bc15ba200cd86760",
+    "release_sha256": "3f998467d8cf4eda62e9bf47b77d529ad5015517e6175614bc15ba200cd86760",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/checkpoints/joint_motion/epochs/epoch_064.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/checkpoints/joint_motion/epochs/epoch_064.commit.json",
+    "sha256": "c52e34cf77918fe12c24359af8853fefff37298394909015d3da649320cb0b5f",
+    "release_sha256": "c52e34cf77918fe12c24359af8853fefff37298394909015d3da649320cb0b5f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/predictions.npz",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/predictions.npz",
+    "sha256": "87b88975183d3dbdff4774f44704c9f87ba0ae7671245c8d08eadcde35d153e2",
+    "release_sha256": "87b88975183d3dbdff4774f44704c9f87ba0ae7671245c8d08eadcde35d153e2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/evaluation_provenance.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/evaluation_provenance.json",
+    "sha256": "f12d7b60b18b4500f29a4b784e79d89ced63382b20be4fa8c3a1cdddfb3741bc",
+    "release_sha256": "f12d7b60b18b4500f29a4b784e79d89ced63382b20be4fa8c3a1cdddfb3741bc",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/predictions.npz",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/predictions.npz",
+    "sha256": "33fab4a540fa170bdc7c18401bef4d797e546897557e3f7ee0349350f86d9099",
+    "release_sha256": "33fab4a540fa170bdc7c18401bef4d797e546897557e3f7ee0349350f86d9099",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/evaluation_provenance.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/evaluation_provenance.json",
+    "sha256": "f6317b8c293ea14d57e01731acc5449929442d5ad85b0936c817521f808f5220",
+    "release_sha256": "f6317b8c293ea14d57e01731acc5449929442d5ad85b0936c817521f808f5220",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/predictions.npz",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/predictions.npz",
+    "sha256": "b92b6213beb374e609243d6754c4fa9f78dfbf977a471944017d8542e6eeece6",
+    "release_sha256": "b92b6213beb374e609243d6754c4fa9f78dfbf977a471944017d8542e6eeece6",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/evaluation_provenance.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/evaluation_provenance.json",
+    "sha256": "5d3f4637c1775b9b1dd5100e6adb1124612253aa714bbba0285a71bf5d3a35b9",
+    "release_sha256": "5d3f4637c1775b9b1dd5100e6adb1124612253aa714bbba0285a71bf5d3a35b9",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/predictions.npz",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/predictions.npz",
+    "sha256": "18a37ae383792bff4024a0ae4a3b1e40339324eefdd0cef39881377e742dc610",
+    "release_sha256": "18a37ae383792bff4024a0ae4a3b1e40339324eefdd0cef39881377e742dc610",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/evaluation_provenance.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/evaluation_provenance.json",
+    "sha256": "dc08774ed73561944a659e5af736060590c0699d1b91085594e0e7567a030c24",
+    "release_sha256": "dc08774ed73561944a659e5af736060590c0699d1b91085594e0e7567a030c24",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0017.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0017.commit.json",
+    "sha256": "8aaf0b453e76c5041a791e3f172e94d35184bacf5542459b5c0ee02fd0c80a2e",
+    "release_sha256": "8aaf0b453e76c5041a791e3f172e94d35184bacf5542459b5c0ee02fd0c80a2e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0014.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0014.commit.json",
+    "sha256": "69a700252bdf46ce6f4cd6e978e0090dd60b33b1379891bb22e7fd5bf194fe7e",
+    "release_sha256": "69a700252bdf46ce6f4cd6e978e0090dd60b33b1379891bb22e7fd5bf194fe7e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0035.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0035.commit.json",
+    "sha256": "41d4e42a5ba67ab44f048efe5db25fc0c25702f6ec415f7424b08dbb90c09c38",
+    "release_sha256": "41d4e42a5ba67ab44f048efe5db25fc0c25702f6ec415f7424b08dbb90c09c38",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0039.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0039.commit.json",
+    "sha256": "67be0b6b058eda5e76db3a11bc6c14b86c807f210d7654c9e9ca6382bd4bfda0",
+    "release_sha256": "67be0b6b058eda5e76db3a11bc6c14b86c807f210d7654c9e9ca6382bd4bfda0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0043.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0043.commit.json",
+    "sha256": "ecf9b914180a7c174399d49e39c248c7ea7042dcdb42a4d994e6afe7445beb4f",
+    "release_sha256": "ecf9b914180a7c174399d49e39c248c7ea7042dcdb42a4d994e6afe7445beb4f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0053.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0053.commit.json",
+    "sha256": "b30f5f5141ead6cdba45b8f5140a711963394d6164f651126d58877524e2931f",
+    "release_sha256": "b30f5f5141ead6cdba45b8f5140a711963394d6164f651126d58877524e2931f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0018.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0018.commit.json",
+    "sha256": "a8f8649f092ca9d92c5ec419a6aa03db32c6d8163283b220eff3e9b2e40f1bd9",
+    "release_sha256": "a8f8649f092ca9d92c5ec419a6aa03db32c6d8163283b220eff3e9b2e40f1bd9",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0029.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0029.commit.json",
+    "sha256": "5db0e6e9abe90e8c945c4b0b14e6925cd6c3e943b90316eed36288569cc3b5cc",
+    "release_sha256": "5db0e6e9abe90e8c945c4b0b14e6925cd6c3e943b90316eed36288569cc3b5cc",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0020.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0020.commit.json",
+    "sha256": "69a66e3585055d26f99e9438d5acb677e3490eabcd052efe5dbbc2fff5cfbe02",
+    "release_sha256": "69a66e3585055d26f99e9438d5acb677e3490eabcd052efe5dbbc2fff5cfbe02",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0021.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0021.commit.json",
+    "sha256": "e04fec74fa691d93602fe6734a171169d2e2339e6dc8e5a3c927c3ae417d229c",
+    "release_sha256": "e04fec74fa691d93602fe6734a171169d2e2339e6dc8e5a3c927c3ae417d229c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0026.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0026.commit.json",
+    "sha256": "eda634ef92b61cfca5b67a178248aedb231362392564cc3e3e27746e0a8ff306",
+    "release_sha256": "eda634ef92b61cfca5b67a178248aedb231362392564cc3e3e27746e0a8ff306",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0015.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0015.commit.json",
+    "sha256": "d21d3d9dfbca18c5c1cf6eb132ed4786f7559f95eba9dea6ccfd862d93ff0bae",
+    "release_sha256": "d21d3d9dfbca18c5c1cf6eb132ed4786f7559f95eba9dea6ccfd862d93ff0bae",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0023.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0023.commit.json",
+    "sha256": "458b3be2bcc909f935142d3a33285e8e4033df567f26be8da1dd3b2dff0de53e",
+    "release_sha256": "458b3be2bcc909f935142d3a33285e8e4033df567f26be8da1dd3b2dff0de53e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0054.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0054.commit.json",
+    "sha256": "ea432e9685e9f279c55de1c8c2a02d35e0b3779a7e35a7ecf75b61b055fe876b",
+    "release_sha256": "ea432e9685e9f279c55de1c8c2a02d35e0b3779a7e35a7ecf75b61b055fe876b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0028.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0028.commit.json",
+    "sha256": "65a1881dd280a5ba1e54a80e26a5a75e1fbdc3e1ba0b835a2d002fd1f65470e6",
+    "release_sha256": "65a1881dd280a5ba1e54a80e26a5a75e1fbdc3e1ba0b835a2d002fd1f65470e6",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0031.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0031.commit.json",
+    "sha256": "c9b28af8cdf7959aecaa9c7c37e284c936e0102a2f118b11cab58b2aa7a858a0",
+    "release_sha256": "c9b28af8cdf7959aecaa9c7c37e284c936e0102a2f118b11cab58b2aa7a858a0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0012.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0012.commit.json",
+    "sha256": "489d953a1f2961cd19763e79a2acdd7d4a3172ccaab0de286fcb38febf8ed8db",
+    "release_sha256": "489d953a1f2961cd19763e79a2acdd7d4a3172ccaab0de286fcb38febf8ed8db",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0032.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0032.commit.json",
+    "sha256": "9ecebd1a91caa4de4edb2bb882d0bffae4a63b547a1b7e30285abaf96403d9d2",
+    "release_sha256": "9ecebd1a91caa4de4edb2bb882d0bffae4a63b547a1b7e30285abaf96403d9d2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0051.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0051.commit.json",
+    "sha256": "73c85fdbbad044934847df93ee8cb80c7eaf1f7ef73ba8e5ead2e919bced8b47",
+    "release_sha256": "73c85fdbbad044934847df93ee8cb80c7eaf1f7ef73ba8e5ead2e919bced8b47",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0003.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0003.commit.json",
+    "sha256": "30b72f38badb979a2762f0aa268d46240e3de02ec2543ea08e7e721c10028ecc",
+    "release_sha256": "30b72f38badb979a2762f0aa268d46240e3de02ec2543ea08e7e721c10028ecc",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0022.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0022.commit.json",
+    "sha256": "9928505fb94050050e952d296643b222ea25adaea659d8ca8876715afd816d2c",
+    "release_sha256": "9928505fb94050050e952d296643b222ea25adaea659d8ca8876715afd816d2c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0011.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0011.commit.json",
+    "sha256": "8756cd7f60734bc8b56340826e5fad08d7e1fdfeb1e9956483ce033671c570f4",
+    "release_sha256": "8756cd7f60734bc8b56340826e5fad08d7e1fdfeb1e9956483ce033671c570f4",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0044.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0044.commit.json",
+    "sha256": "2e903624658e2c8b66d7b81022176d81febe2bd1453d5eb8964ffa050fc2754d",
+    "release_sha256": "2e903624658e2c8b66d7b81022176d81febe2bd1453d5eb8964ffa050fc2754d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0049.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0049.commit.json",
+    "sha256": "af0bdfecf2b538a4c9c86510025ffbd9e2f1a988e791f87df8118fb9826b87d4",
+    "release_sha256": "af0bdfecf2b538a4c9c86510025ffbd9e2f1a988e791f87df8118fb9826b87d4",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0056.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0056.commit.json",
+    "sha256": "e50c0015ac920e026ed1fa03ab4ca2ef61ffbade4448126941b9d94e20982418",
+    "release_sha256": "e50c0015ac920e026ed1fa03ab4ca2ef61ffbade4448126941b9d94e20982418",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0048.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0048.commit.json",
+    "sha256": "01f1ed784cb0dd7a6bce2d76deb12687e661307ddc9f210a74ada8c25d82f507",
+    "release_sha256": "01f1ed784cb0dd7a6bce2d76deb12687e661307ddc9f210a74ada8c25d82f507",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0045.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0045.commit.json",
+    "sha256": "3b7e8c4d33abd039acd8ba362398a2ee635a083d8bab212f011cb7ce0263665d",
+    "release_sha256": "3b7e8c4d33abd039acd8ba362398a2ee635a083d8bab212f011cb7ce0263665d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0005.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0005.commit.json",
+    "sha256": "0344e4869262a421563c5225bbaa69610225094b336928983c712ac696fd9a46",
+    "release_sha256": "0344e4869262a421563c5225bbaa69610225094b336928983c712ac696fd9a46",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0040.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0040.commit.json",
+    "sha256": "065fb4cc6a68b062449ce1ddc767d781b69fbb23f4908446ac8f2b4b1f45eeeb",
+    "release_sha256": "065fb4cc6a68b062449ce1ddc767d781b69fbb23f4908446ac8f2b4b1f45eeeb",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0034.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0034.commit.json",
+    "sha256": "9689f634c2ab9a05c36ff5622fb15e8d7b4c66d2bf2351d9a2de93f410c2bf59",
+    "release_sha256": "9689f634c2ab9a05c36ff5622fb15e8d7b4c66d2bf2351d9a2de93f410c2bf59",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0037.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0037.commit.json",
+    "sha256": "1beb6ab83f669129d3120211ce9cdf628f96ab06723038b560fc7bd97ebee003",
+    "release_sha256": "1beb6ab83f669129d3120211ce9cdf628f96ab06723038b560fc7bd97ebee003",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0041.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0041.commit.json",
+    "sha256": "44b17a1c6cd7ae165902dace1d2f39598d37651212e480faf9f8388cb7be9768",
+    "release_sha256": "44b17a1c6cd7ae165902dace1d2f39598d37651212e480faf9f8388cb7be9768",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0000.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0000.commit.json",
+    "sha256": "80e57140e7cf1826a89ca0113eb1d366fe9ed6958a79cb72789329e8ffc8f386",
+    "release_sha256": "80e57140e7cf1826a89ca0113eb1d366fe9ed6958a79cb72789329e8ffc8f386",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0058.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0058.commit.json",
+    "sha256": "83c42da1cb60ae91d8a4f61fb163e65a36cfed29b6df3d413e8e568e12c5593f",
+    "release_sha256": "83c42da1cb60ae91d8a4f61fb163e65a36cfed29b6df3d413e8e568e12c5593f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0001.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0001.commit.json",
+    "sha256": "dc82c1edfe8f02cc56e256521ca1f5a85331aea767efb91e9c7d237fb6260367",
+    "release_sha256": "dc82c1edfe8f02cc56e256521ca1f5a85331aea767efb91e9c7d237fb6260367",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0052.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0052.commit.json",
+    "sha256": "eecfb288a9fb68ad6b761463aa2742d39cc4015dfcf38ee21e2581331cbf467a",
+    "release_sha256": "eecfb288a9fb68ad6b761463aa2742d39cc4015dfcf38ee21e2581331cbf467a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0016.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0016.commit.json",
+    "sha256": "a5d4e8f7793cf812f775daeebefceb097ee8ac6d5897f9ed6e7b3300e25f0adf",
+    "release_sha256": "a5d4e8f7793cf812f775daeebefceb097ee8ac6d5897f9ed6e7b3300e25f0adf",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0004.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0004.commit.json",
+    "sha256": "06fb89b9dd7840fe062aba323622991e7acff4fb9d721ac9d5294d2ea39e0118",
+    "release_sha256": "06fb89b9dd7840fe062aba323622991e7acff4fb9d721ac9d5294d2ea39e0118",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0013.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0013.commit.json",
+    "sha256": "a35902d7147be1f0be2dbadd9694943e54e1118c6ed9a9dc85ea88e9a6971791",
+    "release_sha256": "a35902d7147be1f0be2dbadd9694943e54e1118c6ed9a9dc85ea88e9a6971791",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0042.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0042.commit.json",
+    "sha256": "2e6c694e6db31d6ae77bf7c3858b54fa87d4bfd6a6f61c8b7ae302deda25a8df",
+    "release_sha256": "2e6c694e6db31d6ae77bf7c3858b54fa87d4bfd6a6f61c8b7ae302deda25a8df",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0002.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0002.commit.json",
+    "sha256": "c99d8617f899ddb5c246e0a0f49bb375c42658a1f6ec344699a46c8b01f4fed4",
+    "release_sha256": "c99d8617f899ddb5c246e0a0f49bb375c42658a1f6ec344699a46c8b01f4fed4",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0050.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0050.commit.json",
+    "sha256": "fa27ad6a1a0bb076ead4053d89d4dd80d24fb9fb2fae3057fecda849a876b172",
+    "release_sha256": "fa27ad6a1a0bb076ead4053d89d4dd80d24fb9fb2fae3057fecda849a876b172",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0033.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0033.commit.json",
+    "sha256": "0111b46b032b61a954b3b5a9aef44dc396bec9c1328636489bb955d78db23bdf",
+    "release_sha256": "0111b46b032b61a954b3b5a9aef44dc396bec9c1328636489bb955d78db23bdf",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0047.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0047.commit.json",
+    "sha256": "a395510b8383f7c218f873e99d6e2f59c2af2bef294ce9509dd7cb6aa412ee7b",
+    "release_sha256": "a395510b8383f7c218f873e99d6e2f59c2af2bef294ce9509dd7cb6aa412ee7b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0006.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0006.commit.json",
+    "sha256": "7bc319320d295a2033be0c3ce87c29b02881f7baff07886516f9c80ef871ab20",
+    "release_sha256": "7bc319320d295a2033be0c3ce87c29b02881f7baff07886516f9c80ef871ab20",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0038.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0038.commit.json",
+    "sha256": "aaccbd54268772a10e2f90d99f64de031494bd982a6d4f7c3674d90e32aaaa67",
+    "release_sha256": "aaccbd54268772a10e2f90d99f64de031494bd982a6d4f7c3674d90e32aaaa67",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0010.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0010.commit.json",
+    "sha256": "1bc81278017b4e04fd56b788e01fd025f182944e518613f87259ff2f00b51a49",
+    "release_sha256": "1bc81278017b4e04fd56b788e01fd025f182944e518613f87259ff2f00b51a49",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0009.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0009.commit.json",
+    "sha256": "0c1b25d56da028cac9871209a227136d440e2b7557bd5f474e973459a318b05a",
+    "release_sha256": "0c1b25d56da028cac9871209a227136d440e2b7557bd5f474e973459a318b05a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0024.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0024.commit.json",
+    "sha256": "e256de726d129f6e40f271b9bbc205f9f1cc32e72651e4ad17c680041534c88e",
+    "release_sha256": "e256de726d129f6e40f271b9bbc205f9f1cc32e72651e4ad17c680041534c88e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0025.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0025.commit.json",
+    "sha256": "ef2c5e81c92a2628f6b09e614a46c223dbf2f7d40bcf86f98daf9bf32edbbb3b",
+    "release_sha256": "ef2c5e81c92a2628f6b09e614a46c223dbf2f7d40bcf86f98daf9bf32edbbb3b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0027.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0027.commit.json",
+    "sha256": "ebd368a69172bfcae8af543f501a7418b502fe4d6e331fc6369f7e2e5335fa7d",
+    "release_sha256": "ebd368a69172bfcae8af543f501a7418b502fe4d6e331fc6369f7e2e5335fa7d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0036.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0036.commit.json",
+    "sha256": "079cf1933062e8445942c2a7f07cafa0ca2076b91d33016b10236e28c4fe4c0e",
+    "release_sha256": "079cf1933062e8445942c2a7f07cafa0ca2076b91d33016b10236e28c4fe4c0e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0057.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0057.commit.json",
+    "sha256": "64d8a0700851df14bd58fe0952974ce94d76072cd85ce23cdbbf2995a6830923",
+    "release_sha256": "64d8a0700851df14bd58fe0952974ce94d76072cd85ce23cdbbf2995a6830923",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0008.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0008.commit.json",
+    "sha256": "e2090eee21e13842dd2ab6eeaab71ed4c7db4e6a64f4c4bbafa86f3ef850456f",
+    "release_sha256": "e2090eee21e13842dd2ab6eeaab71ed4c7db4e6a64f4c4bbafa86f3ef850456f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0046.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0046.commit.json",
+    "sha256": "740fbbaef16dd069d10f5156a3b025572593cd4b1b6798f533ab904edb48cf31",
+    "release_sha256": "740fbbaef16dd069d10f5156a3b025572593cd4b1b6798f533ab904edb48cf31",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0007.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0007.commit.json",
+    "sha256": "714bea05ab814f3bb33d2a11b00f3ccb0c3bcf54f18af67a3c8348cb708832af",
+    "release_sha256": "714bea05ab814f3bb33d2a11b00f3ccb0c3bcf54f18af67a3c8348cb708832af",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0055.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0055.commit.json",
+    "sha256": "48a9b6c9ddd12d880794594156a9292e57912459cbdb87f67d11db076041ac1a",
+    "release_sha256": "48a9b6c9ddd12d880794594156a9292e57912459cbdb87f67d11db076041ac1a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0030.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0030.commit.json",
+    "sha256": "31daeb2080021f1acca0a61e70cac27f4fe001d3c4ea2811aa375d73ee75d6af",
+    "release_sha256": "31daeb2080021f1acca0a61e70cac27f4fe001d3c4ea2811aa375d73ee75d6af",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone_motion/chunks/chunk_0019.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone_motion/chunks/chunk_0019.commit.json",
+    "sha256": "b34a31c30fa86bfdcd94e375bef97b3f86fea51ee8e11f40d0fe1270ee7aede2",
+    "release_sha256": "b34a31c30fa86bfdcd94e375bef97b3f86fea51ee8e11f40d0fe1270ee7aede2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0017.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0017.commit.json",
+    "sha256": "d9598b974888a774b3094d8f5f0bdc8466c55d994531185cc350bc5288f17e00",
+    "release_sha256": "d9598b974888a774b3094d8f5f0bdc8466c55d994531185cc350bc5288f17e00",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0014.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0014.commit.json",
+    "sha256": "8c472779c572778003eeaafb39d7bf4efaa576ca5f9fabfdcb09e5dd33850035",
+    "release_sha256": "8c472779c572778003eeaafb39d7bf4efaa576ca5f9fabfdcb09e5dd33850035",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0035.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0035.commit.json",
+    "sha256": "2cbd86d176cebe534c07c99127108d39ec4df87edb8bb6be24c6838431a5f087",
+    "release_sha256": "2cbd86d176cebe534c07c99127108d39ec4df87edb8bb6be24c6838431a5f087",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0039.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0039.commit.json",
+    "sha256": "54c8365e2e4bae2b9d078a6c269592f6177520d6c7f473c9f2be05e390bcaeb3",
+    "release_sha256": "54c8365e2e4bae2b9d078a6c269592f6177520d6c7f473c9f2be05e390bcaeb3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0043.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0043.commit.json",
+    "sha256": "c73bf1f853c6b0ef6e88be7004db61288b054cc9cd6d81a7bcd2a86b14ba1985",
+    "release_sha256": "c73bf1f853c6b0ef6e88be7004db61288b054cc9cd6d81a7bcd2a86b14ba1985",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0053.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0053.commit.json",
+    "sha256": "a925d38505e4c93653a6225e7c94820c1383c58250f4d0e111207fa58ceccc56",
+    "release_sha256": "a925d38505e4c93653a6225e7c94820c1383c58250f4d0e111207fa58ceccc56",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0018.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0018.commit.json",
+    "sha256": "a17a2a4be0afd0ed0edeb532394c7eb5d4d02f58a492738661728fc10015491a",
+    "release_sha256": "a17a2a4be0afd0ed0edeb532394c7eb5d4d02f58a492738661728fc10015491a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0029.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0029.commit.json",
+    "sha256": "888536c24d4a154100cb08b0941db106cfc3ba98c6433b0a16d728f0cd5accd9",
+    "release_sha256": "888536c24d4a154100cb08b0941db106cfc3ba98c6433b0a16d728f0cd5accd9",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0020.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0020.commit.json",
+    "sha256": "1e7f19b5180a027e1939d02edabfe01395d8eae13b4ac4498e46db7f4135130c",
+    "release_sha256": "1e7f19b5180a027e1939d02edabfe01395d8eae13b4ac4498e46db7f4135130c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0021.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0021.commit.json",
+    "sha256": "4ebaceb66f454083df256f5b1365879646f32af2aba6e17df6aa22d0bc7c8016",
+    "release_sha256": "4ebaceb66f454083df256f5b1365879646f32af2aba6e17df6aa22d0bc7c8016",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0026.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0026.commit.json",
+    "sha256": "8dae27ae9e90b0ebe42e62b974256300eb3031097f55935d80f030959c04bc74",
+    "release_sha256": "8dae27ae9e90b0ebe42e62b974256300eb3031097f55935d80f030959c04bc74",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0015.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0015.commit.json",
+    "sha256": "44912cd52dc9b40800eb10da810d062ad30f4c378405a9a9253e1065237fe311",
+    "release_sha256": "44912cd52dc9b40800eb10da810d062ad30f4c378405a9a9253e1065237fe311",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0023.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0023.commit.json",
+    "sha256": "40411c14f1f2ad5012045e23eb0694440753659c5bf205cbd969c21cc4d638cd",
+    "release_sha256": "40411c14f1f2ad5012045e23eb0694440753659c5bf205cbd969c21cc4d638cd",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0054.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0054.commit.json",
+    "sha256": "d5b277bceae37ae75811c21a70001b806f3bccc05dcbe03dff8fc1d328e65215",
+    "release_sha256": "d5b277bceae37ae75811c21a70001b806f3bccc05dcbe03dff8fc1d328e65215",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0028.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0028.commit.json",
+    "sha256": "27a07941881a6020a5cd75f07ae0d1bd5fe5b2bd69988bec3de67cc090439a82",
+    "release_sha256": "27a07941881a6020a5cd75f07ae0d1bd5fe5b2bd69988bec3de67cc090439a82",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0031.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0031.commit.json",
+    "sha256": "f0ecfb4285e7edf1cd9c1265caa6023d2d500140c18128e6ada2c171a8cba58e",
+    "release_sha256": "f0ecfb4285e7edf1cd9c1265caa6023d2d500140c18128e6ada2c171a8cba58e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0012.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0012.commit.json",
+    "sha256": "96165e2a8b2face7f7084873495176d277ad10fe06fd9f975a79a76dd2015558",
+    "release_sha256": "96165e2a8b2face7f7084873495176d277ad10fe06fd9f975a79a76dd2015558",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0032.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0032.commit.json",
+    "sha256": "8718cc7523ad6cc4b3adde8638d4be0ea9d605e12253f944ccab1e13317a8295",
+    "release_sha256": "8718cc7523ad6cc4b3adde8638d4be0ea9d605e12253f944ccab1e13317a8295",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0051.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0051.commit.json",
+    "sha256": "37da2d293ecac0b64772065cc5097d9b4fe3ef51bdb691f76380de170595254c",
+    "release_sha256": "37da2d293ecac0b64772065cc5097d9b4fe3ef51bdb691f76380de170595254c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0003.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0003.commit.json",
+    "sha256": "ecb9f2a64b2dfff0f2f3ba81bb16c7595d2c122d4853dd629e0cc954c9842b06",
+    "release_sha256": "ecb9f2a64b2dfff0f2f3ba81bb16c7595d2c122d4853dd629e0cc954c9842b06",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0022.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0022.commit.json",
+    "sha256": "afb1ae99deb2eaef92cbbfdc3a14fafb26ad37838b93316487cad0c58d71bcca",
+    "release_sha256": "afb1ae99deb2eaef92cbbfdc3a14fafb26ad37838b93316487cad0c58d71bcca",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0011.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0011.commit.json",
+    "sha256": "9373a4d5483dfc31f0a1d406c90bf86303247f3d7101392ef8411c59e4b01009",
+    "release_sha256": "9373a4d5483dfc31f0a1d406c90bf86303247f3d7101392ef8411c59e4b01009",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0044.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0044.commit.json",
+    "sha256": "218c28c77232b86a309cfe9ff149dc6c5858abfb708e89d7b8ebf8f177a23b99",
+    "release_sha256": "218c28c77232b86a309cfe9ff149dc6c5858abfb708e89d7b8ebf8f177a23b99",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0049.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0049.commit.json",
+    "sha256": "d1745c24bbe8afb00ce1c9ca629a980b588b144b8b041b55d7851b6f28b93b9e",
+    "release_sha256": "d1745c24bbe8afb00ce1c9ca629a980b588b144b8b041b55d7851b6f28b93b9e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0056.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0056.commit.json",
+    "sha256": "7a913c54dabedff24f21107a63b49ef60772daf7b32f1ac8f3aed46957c8dfc5",
+    "release_sha256": "7a913c54dabedff24f21107a63b49ef60772daf7b32f1ac8f3aed46957c8dfc5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0048.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0048.commit.json",
+    "sha256": "f40ee765d94b1650091bf08f00a68f87e4e320503f355a846208299d9205cfb5",
+    "release_sha256": "f40ee765d94b1650091bf08f00a68f87e4e320503f355a846208299d9205cfb5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0045.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0045.commit.json",
+    "sha256": "c5ce47f6fe5d5066b373018fb88dcb6c4b121f435fa0e2030e84c9b240b2b1ac",
+    "release_sha256": "c5ce47f6fe5d5066b373018fb88dcb6c4b121f435fa0e2030e84c9b240b2b1ac",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0005.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0005.commit.json",
+    "sha256": "161c03cea32a0e30153fe0150453ea7e445fb4e172c60d483db93fb65ac4e28c",
+    "release_sha256": "161c03cea32a0e30153fe0150453ea7e445fb4e172c60d483db93fb65ac4e28c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0040.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0040.commit.json",
+    "sha256": "3495f93a4c0d0abe6a81928441819cfb8d06811eb531d987ecbf17dab8868bfc",
+    "release_sha256": "3495f93a4c0d0abe6a81928441819cfb8d06811eb531d987ecbf17dab8868bfc",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0034.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0034.commit.json",
+    "sha256": "7416ac1b5fd1d02af1ab43fa855df56fe3422b68dc892eecf6cba6b9d59ad25f",
+    "release_sha256": "7416ac1b5fd1d02af1ab43fa855df56fe3422b68dc892eecf6cba6b9d59ad25f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0037.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0037.commit.json",
+    "sha256": "020bb2db36367190cd3641587fec8a1a316d6affbf1f6c9c068f98e050f5e567",
+    "release_sha256": "020bb2db36367190cd3641587fec8a1a316d6affbf1f6c9c068f98e050f5e567",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0041.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0041.commit.json",
+    "sha256": "ffef4c45157b240c2dd04ab7a9ec65b2b94dc5f24cab8592c4fe9fa561568b65",
+    "release_sha256": "ffef4c45157b240c2dd04ab7a9ec65b2b94dc5f24cab8592c4fe9fa561568b65",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0000.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0000.commit.json",
+    "sha256": "2937bc4a6ab03bb831c25dab931a8d198b02b1b98da6f55f2492190db4275c3d",
+    "release_sha256": "2937bc4a6ab03bb831c25dab931a8d198b02b1b98da6f55f2492190db4275c3d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0058.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0058.commit.json",
+    "sha256": "a58d9739c56835db6efb38778704b31271233d53652ff29e1f8da1d619d68f31",
+    "release_sha256": "a58d9739c56835db6efb38778704b31271233d53652ff29e1f8da1d619d68f31",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0001.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0001.commit.json",
+    "sha256": "dabaad5670a5c3b8f379b0434618f4d33708e07b28d06a207e06f55a94e162b9",
+    "release_sha256": "dabaad5670a5c3b8f379b0434618f4d33708e07b28d06a207e06f55a94e162b9",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0052.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0052.commit.json",
+    "sha256": "839d096bd205680646752638cb27444e047658f067da3053f4454506ca2f4c62",
+    "release_sha256": "839d096bd205680646752638cb27444e047658f067da3053f4454506ca2f4c62",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0016.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0016.commit.json",
+    "sha256": "1964e1b9ff567358a59b1ad270683ea7da75671a950174ea7ca5618f991773ce",
+    "release_sha256": "1964e1b9ff567358a59b1ad270683ea7da75671a950174ea7ca5618f991773ce",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0004.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0004.commit.json",
+    "sha256": "76d39b4706fa5577e1d326efe58f6643b1f618412378818c822780606a0c637a",
+    "release_sha256": "76d39b4706fa5577e1d326efe58f6643b1f618412378818c822780606a0c637a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0013.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0013.commit.json",
+    "sha256": "087fd98cf7b6f750034022a82f1cdb07f95e9534e50389cfb2e793bea848b38e",
+    "release_sha256": "087fd98cf7b6f750034022a82f1cdb07f95e9534e50389cfb2e793bea848b38e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0042.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0042.commit.json",
+    "sha256": "2da215019c45d46b19a00873c5a3be06ae5c851ca5b01b1ccc2d673811fa7d85",
+    "release_sha256": "2da215019c45d46b19a00873c5a3be06ae5c851ca5b01b1ccc2d673811fa7d85",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0002.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0002.commit.json",
+    "sha256": "1ee03461f97e43b31918ac3c08d6fd2ef0bc42c2f744669860a2ec51c7eef6e8",
+    "release_sha256": "1ee03461f97e43b31918ac3c08d6fd2ef0bc42c2f744669860a2ec51c7eef6e8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0050.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0050.commit.json",
+    "sha256": "e060b3b97b6cbe91f2469b3029c6c2240ebfaa0ac462b33652aa71a4457f9be2",
+    "release_sha256": "e060b3b97b6cbe91f2469b3029c6c2240ebfaa0ac462b33652aa71a4457f9be2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0033.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0033.commit.json",
+    "sha256": "f8714234a564ae94ea2c92068c95f192476aa44934371c72d0637cd1f6836661",
+    "release_sha256": "f8714234a564ae94ea2c92068c95f192476aa44934371c72d0637cd1f6836661",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0047.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0047.commit.json",
+    "sha256": "a18ee47b913f2a0bd474565e03de9646063fa6046f1f6eb4227c58b386f43350",
+    "release_sha256": "a18ee47b913f2a0bd474565e03de9646063fa6046f1f6eb4227c58b386f43350",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0006.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0006.commit.json",
+    "sha256": "7a51e20f8e8843e94d7f3e5884400d6c7bb2af8562c688263fa58522ab5c8189",
+    "release_sha256": "7a51e20f8e8843e94d7f3e5884400d6c7bb2af8562c688263fa58522ab5c8189",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0038.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0038.commit.json",
+    "sha256": "919d4df2d30124f21924161a0b26ac9896124180ed7cacd9b6eee6ecee811ec1",
+    "release_sha256": "919d4df2d30124f21924161a0b26ac9896124180ed7cacd9b6eee6ecee811ec1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0010.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0010.commit.json",
+    "sha256": "7105a1f1f76f3403447e5dc1c9d808905960175c0da9d3b1d2a55007e44bd319",
+    "release_sha256": "7105a1f1f76f3403447e5dc1c9d808905960175c0da9d3b1d2a55007e44bd319",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0009.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0009.commit.json",
+    "sha256": "246a65e32469fe23a3fcfe3ea73be7d67aee72e54617d76c11a5946c8fec2ed9",
+    "release_sha256": "246a65e32469fe23a3fcfe3ea73be7d67aee72e54617d76c11a5946c8fec2ed9",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0024.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0024.commit.json",
+    "sha256": "23ff3a42d41c201bea85b114f8d8b56c3991967da2008beac636d3209e8af0c0",
+    "release_sha256": "23ff3a42d41c201bea85b114f8d8b56c3991967da2008beac636d3209e8af0c0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0025.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0025.commit.json",
+    "sha256": "b40d0d33d0275909f4fe9a506748d22d454fe6b335071fdcad4217e57e42b5fc",
+    "release_sha256": "b40d0d33d0275909f4fe9a506748d22d454fe6b335071fdcad4217e57e42b5fc",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0027.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0027.commit.json",
+    "sha256": "e10584e9ae5f1bba731d50f71f714a79a54ca5db97fa00571abf812c5abd073a",
+    "release_sha256": "e10584e9ae5f1bba731d50f71f714a79a54ca5db97fa00571abf812c5abd073a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0036.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0036.commit.json",
+    "sha256": "9a368a1c5bcbf80c28a3e6b88ede68a37088676766783329949ef52221c727b8",
+    "release_sha256": "9a368a1c5bcbf80c28a3e6b88ede68a37088676766783329949ef52221c727b8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0057.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0057.commit.json",
+    "sha256": "df136456817957379f96957abc3210fcbb1bc08f55b27a7f62250353f012f8aa",
+    "release_sha256": "df136456817957379f96957abc3210fcbb1bc08f55b27a7f62250353f012f8aa",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0008.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0008.commit.json",
+    "sha256": "bc3086e90f23105ed94ab6c1a563ed6005220cbc5c48d8cbfc89e4c438158267",
+    "release_sha256": "bc3086e90f23105ed94ab6c1a563ed6005220cbc5c48d8cbfc89e4c438158267",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0046.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0046.commit.json",
+    "sha256": "9bf77e512e524b7e29cf41cacdc7ae4966c7336c147bf7fe35fd88ddeed7641c",
+    "release_sha256": "9bf77e512e524b7e29cf41cacdc7ae4966c7336c147bf7fe35fd88ddeed7641c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0007.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0007.commit.json",
+    "sha256": "65e2f73efb190b4d59a448867ae7de2b6e59d86bb3829b6226e99b3b3710f017",
+    "release_sha256": "65e2f73efb190b4d59a448867ae7de2b6e59d86bb3829b6226e99b3b3710f017",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0055.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0055.commit.json",
+    "sha256": "1946dbda2f6be1931e1aa532f496b26172537ce1836debbd0ce4cc0ee8723b24",
+    "release_sha256": "1946dbda2f6be1931e1aa532f496b26172537ce1836debbd0ce4cc0ee8723b24",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0030.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0030.commit.json",
+    "sha256": "5af8182e21ab555eddb47dd23e573eb21ec94b6a60d8e836f91cc1ce2e4872ac",
+    "release_sha256": "5af8182e21ab555eddb47dd23e573eb21ec94b6a60d8e836f91cc1ce2e4872ac",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/bone/chunks/chunk_0019.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/bone/chunks/chunk_0019.commit.json",
+    "sha256": "d2f9efe6e434b0dbfd524c120ffc8248ffb60cffe07d7165c38cdfae729ebfa0",
+    "release_sha256": "d2f9efe6e434b0dbfd524c120ffc8248ffb60cffe07d7165c38cdfae729ebfa0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0017.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0017.commit.json",
+    "sha256": "43aec8f2fb0fed50dbc9f645c9d047d7094634ec2d623e4da785dd6b688bc726",
+    "release_sha256": "43aec8f2fb0fed50dbc9f645c9d047d7094634ec2d623e4da785dd6b688bc726",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0014.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0014.commit.json",
+    "sha256": "62bac5d19c239d7a19a5205c974858729a1e6cdd0dcccc1acfd5ee19ef775dee",
+    "release_sha256": "62bac5d19c239d7a19a5205c974858729a1e6cdd0dcccc1acfd5ee19ef775dee",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0035.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0035.commit.json",
+    "sha256": "8e1ebc8beab89a1f05dd15973aae953395e44c639a6b27f10e8565f5a11458b9",
+    "release_sha256": "8e1ebc8beab89a1f05dd15973aae953395e44c639a6b27f10e8565f5a11458b9",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0039.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0039.commit.json",
+    "sha256": "cd91a5c663abad9047c31170149babcae518c55aa6e3a3c98ff96cccadf6e55c",
+    "release_sha256": "cd91a5c663abad9047c31170149babcae518c55aa6e3a3c98ff96cccadf6e55c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0043.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0043.commit.json",
+    "sha256": "fcfb1027e8513856c44708259bc2c9c641ac6768a9d677a3b385b89469ffffec",
+    "release_sha256": "fcfb1027e8513856c44708259bc2c9c641ac6768a9d677a3b385b89469ffffec",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0053.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0053.commit.json",
+    "sha256": "5013c1cdb0518476f1d4dad893dd3551a317c3b89a44cfe214d454c330862535",
+    "release_sha256": "5013c1cdb0518476f1d4dad893dd3551a317c3b89a44cfe214d454c330862535",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0018.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0018.commit.json",
+    "sha256": "9cd4c1c0e3c57af5104388432bbfb66da9d893a4c0f752f76567670b86f266c6",
+    "release_sha256": "9cd4c1c0e3c57af5104388432bbfb66da9d893a4c0f752f76567670b86f266c6",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0029.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0029.commit.json",
+    "sha256": "fb3a1621bab60f493fe0af74f621f39692929557d7315f716961cd0b226b800b",
+    "release_sha256": "fb3a1621bab60f493fe0af74f621f39692929557d7315f716961cd0b226b800b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0020.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0020.commit.json",
+    "sha256": "b85b6d997b6c27dfcb1fa4be98d986eff6750c2166b826aa8e6f6dd4dca893bb",
+    "release_sha256": "b85b6d997b6c27dfcb1fa4be98d986eff6750c2166b826aa8e6f6dd4dca893bb",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0021.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0021.commit.json",
+    "sha256": "150833ede1a6d7caa4ce17e78da18d8c9da668ca579c1df9021949f90190036d",
+    "release_sha256": "150833ede1a6d7caa4ce17e78da18d8c9da668ca579c1df9021949f90190036d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0026.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0026.commit.json",
+    "sha256": "5cd7ab9f06c89eb9383c901f87270db39caf7f611e75a6594d9bce679cd16132",
+    "release_sha256": "5cd7ab9f06c89eb9383c901f87270db39caf7f611e75a6594d9bce679cd16132",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0015.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0015.commit.json",
+    "sha256": "484e849c6a17f739cf3f7ba85b643f7eecf3004b932669b0154b1324a23c5ea8",
+    "release_sha256": "484e849c6a17f739cf3f7ba85b643f7eecf3004b932669b0154b1324a23c5ea8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0023.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0023.commit.json",
+    "sha256": "094ca31f67093725fbf356748f812f28f9784688d27475d5235dd443f340ddcb",
+    "release_sha256": "094ca31f67093725fbf356748f812f28f9784688d27475d5235dd443f340ddcb",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0054.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0054.commit.json",
+    "sha256": "b3a5726e5f847bdcdb0055ba0388cf188c65bc754cb4df52dbd2d89d84a6686b",
+    "release_sha256": "b3a5726e5f847bdcdb0055ba0388cf188c65bc754cb4df52dbd2d89d84a6686b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0028.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0028.commit.json",
+    "sha256": "3b72bfa9b0429e11123762aa10c2ceb2477366f2cc2bd5722143e04087cb1e9b",
+    "release_sha256": "3b72bfa9b0429e11123762aa10c2ceb2477366f2cc2bd5722143e04087cb1e9b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0031.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0031.commit.json",
+    "sha256": "98a3888fe67e40c6ea44c3469d022153c0346e562bed4ea5ec22620e10572c27",
+    "release_sha256": "98a3888fe67e40c6ea44c3469d022153c0346e562bed4ea5ec22620e10572c27",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0012.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0012.commit.json",
+    "sha256": "ba577c8ec1f8797afb7fd0cf160979e9181f7607507a48e99775e3f1b67f3015",
+    "release_sha256": "ba577c8ec1f8797afb7fd0cf160979e9181f7607507a48e99775e3f1b67f3015",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0032.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0032.commit.json",
+    "sha256": "1a4349eef3e3b1865fae644b509b555859daa38ae46ff78d8fe2e958511eb264",
+    "release_sha256": "1a4349eef3e3b1865fae644b509b555859daa38ae46ff78d8fe2e958511eb264",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0051.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0051.commit.json",
+    "sha256": "49cff1a66c04038e49bbd17f20cc8625eec25983ceda4ed6aa93076aac7296f9",
+    "release_sha256": "49cff1a66c04038e49bbd17f20cc8625eec25983ceda4ed6aa93076aac7296f9",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0003.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0003.commit.json",
+    "sha256": "08ab2575c9d6d1ab436110d82f319c05944edcf507dec152ceb51b82f9a59591",
+    "release_sha256": "08ab2575c9d6d1ab436110d82f319c05944edcf507dec152ceb51b82f9a59591",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0022.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0022.commit.json",
+    "sha256": "e881cacd174a44a1ab88cbf5135f522fbe6e211532f431a0377a6a1de13212c1",
+    "release_sha256": "e881cacd174a44a1ab88cbf5135f522fbe6e211532f431a0377a6a1de13212c1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0011.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0011.commit.json",
+    "sha256": "4103ef147cbf817eda3a89694d523782276c6cab59cc5e765a99a54cb0b2dbc2",
+    "release_sha256": "4103ef147cbf817eda3a89694d523782276c6cab59cc5e765a99a54cb0b2dbc2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0044.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0044.commit.json",
+    "sha256": "0342e93464c3dc28c8df6a16fc459299a38e29ca26102d4b2688307694397c19",
+    "release_sha256": "0342e93464c3dc28c8df6a16fc459299a38e29ca26102d4b2688307694397c19",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0049.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0049.commit.json",
+    "sha256": "e23f66120d4e0d98b61f694d7f4a1ae3471860a56d183141d798fd178bfd31e9",
+    "release_sha256": "e23f66120d4e0d98b61f694d7f4a1ae3471860a56d183141d798fd178bfd31e9",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0056.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0056.commit.json",
+    "sha256": "00c8f934909e3bdf6757af4db12f97578dddb9f8d0eff345b54232dc0de44cc1",
+    "release_sha256": "00c8f934909e3bdf6757af4db12f97578dddb9f8d0eff345b54232dc0de44cc1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0048.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0048.commit.json",
+    "sha256": "6216f6467c2ea367061f9c496e703ded3a8d06bb2ea5028e30b5f63fe7fbcff3",
+    "release_sha256": "6216f6467c2ea367061f9c496e703ded3a8d06bb2ea5028e30b5f63fe7fbcff3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0045.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0045.commit.json",
+    "sha256": "c6b7b0d96f88bef3198aaf4c517682f6e7ff9712f0bba7e1ba9484069f2574cf",
+    "release_sha256": "c6b7b0d96f88bef3198aaf4c517682f6e7ff9712f0bba7e1ba9484069f2574cf",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0005.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0005.commit.json",
+    "sha256": "4e2807bebbf7d30559d23067250f0a7babe590eedbdd7437dbd6aa960d8e57d8",
+    "release_sha256": "4e2807bebbf7d30559d23067250f0a7babe590eedbdd7437dbd6aa960d8e57d8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0040.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0040.commit.json",
+    "sha256": "a1dd91bdf43148303716121ff3bf7e0ed3dc71b3d5468e172e3d77212e94d068",
+    "release_sha256": "a1dd91bdf43148303716121ff3bf7e0ed3dc71b3d5468e172e3d77212e94d068",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0034.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0034.commit.json",
+    "sha256": "5d15af9436c5fa282cbefb8857888650336239749fce24eaf11c1cfb7724a2de",
+    "release_sha256": "5d15af9436c5fa282cbefb8857888650336239749fce24eaf11c1cfb7724a2de",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0037.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0037.commit.json",
+    "sha256": "76831892618d7bf3261f4710fcb7c84a8fc9d1f935157c69ee2a13d64847aab1",
+    "release_sha256": "76831892618d7bf3261f4710fcb7c84a8fc9d1f935157c69ee2a13d64847aab1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0041.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0041.commit.json",
+    "sha256": "1c329d2edce9cc6680b97a9b662013ec7bf96a41eade939eb4a3d6576bd96133",
+    "release_sha256": "1c329d2edce9cc6680b97a9b662013ec7bf96a41eade939eb4a3d6576bd96133",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0000.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0000.commit.json",
+    "sha256": "09d172f15335ba2ba76443d5065ec319cbeb46434754e368508bba975c419bf8",
+    "release_sha256": "09d172f15335ba2ba76443d5065ec319cbeb46434754e368508bba975c419bf8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0058.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0058.commit.json",
+    "sha256": "f2c17a9771c72ac1a3dcb3f1f3ce25d2b422508475098696c6c504bbf76f46b3",
+    "release_sha256": "f2c17a9771c72ac1a3dcb3f1f3ce25d2b422508475098696c6c504bbf76f46b3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0001.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0001.commit.json",
+    "sha256": "d7c3057e4db3bcede16c790f1f74bc40a343de3ca01a0cfb93250c6d1774c747",
+    "release_sha256": "d7c3057e4db3bcede16c790f1f74bc40a343de3ca01a0cfb93250c6d1774c747",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0052.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0052.commit.json",
+    "sha256": "955bbbaad67296d603558adc3c1d9fdfc3c24b85889208a34f466981a2083b05",
+    "release_sha256": "955bbbaad67296d603558adc3c1d9fdfc3c24b85889208a34f466981a2083b05",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0016.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0016.commit.json",
+    "sha256": "5cbf46a6c1973f0a334d9d08ecdfdc28b6196acc8da33500783fc11ffc53c5cf",
+    "release_sha256": "5cbf46a6c1973f0a334d9d08ecdfdc28b6196acc8da33500783fc11ffc53c5cf",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0004.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0004.commit.json",
+    "sha256": "63a9513156fdd5fc2edc14b7231b05da9f5a1fab6754644bfa3b8b1e57b499a3",
+    "release_sha256": "63a9513156fdd5fc2edc14b7231b05da9f5a1fab6754644bfa3b8b1e57b499a3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0013.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0013.commit.json",
+    "sha256": "7b73d081279c76169c56f7314449649a7d005f5f1c37f56a758c33a35729819b",
+    "release_sha256": "7b73d081279c76169c56f7314449649a7d005f5f1c37f56a758c33a35729819b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0042.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0042.commit.json",
+    "sha256": "187692eaacb3eecd668258404c9df946f195a703e66d3ac738dcf63ed0ce94ca",
+    "release_sha256": "187692eaacb3eecd668258404c9df946f195a703e66d3ac738dcf63ed0ce94ca",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0002.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0002.commit.json",
+    "sha256": "e6a83f27b67086869f7b76fec1cc329c47b47fbe2de2b7823b6d60a33e6f684b",
+    "release_sha256": "e6a83f27b67086869f7b76fec1cc329c47b47fbe2de2b7823b6d60a33e6f684b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0050.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0050.commit.json",
+    "sha256": "55ab76a30671601a0c5341883d282605fe4e46546f870ffc3eedf991b52fbe0b",
+    "release_sha256": "55ab76a30671601a0c5341883d282605fe4e46546f870ffc3eedf991b52fbe0b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0033.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0033.commit.json",
+    "sha256": "4072633de7afc7075147c1f8068be5f1f0824c5d2bf669378073d367df09e5c0",
+    "release_sha256": "4072633de7afc7075147c1f8068be5f1f0824c5d2bf669378073d367df09e5c0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0047.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0047.commit.json",
+    "sha256": "b1fa2eee5285d60c7e00f48a5b0a5ac7d0912811d9dc11f83bd3d4a63de515f2",
+    "release_sha256": "b1fa2eee5285d60c7e00f48a5b0a5ac7d0912811d9dc11f83bd3d4a63de515f2",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0006.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0006.commit.json",
+    "sha256": "0543f38a5c080cc7a60b1b1bafedf98e75c4d159f6131308a35d76e7be5c9b7a",
+    "release_sha256": "0543f38a5c080cc7a60b1b1bafedf98e75c4d159f6131308a35d76e7be5c9b7a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0038.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0038.commit.json",
+    "sha256": "e8365956c48ce4414d513b31baa78e30a0e005fb3102bc47a13c3aa43b4bb9ab",
+    "release_sha256": "e8365956c48ce4414d513b31baa78e30a0e005fb3102bc47a13c3aa43b4bb9ab",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0010.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0010.commit.json",
+    "sha256": "73ab0ba922dfc4022eeb07b8794f969c8b0623b05c8825f7955945d251239857",
+    "release_sha256": "73ab0ba922dfc4022eeb07b8794f969c8b0623b05c8825f7955945d251239857",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0009.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0009.commit.json",
+    "sha256": "72404015644c25a7da342eb6cbec2b7692ba891fe4f36ebd7b8b9be9cd49de83",
+    "release_sha256": "72404015644c25a7da342eb6cbec2b7692ba891fe4f36ebd7b8b9be9cd49de83",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0024.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0024.commit.json",
+    "sha256": "07ae0a9b56ff9195130d3be5c69496fd93a4450f808eb72bd9b88709ee846974",
+    "release_sha256": "07ae0a9b56ff9195130d3be5c69496fd93a4450f808eb72bd9b88709ee846974",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0025.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0025.commit.json",
+    "sha256": "e0d4fa799a1a25d4c5edf16c8442b5ab2dac53e133e064befa71fac3ebbf1662",
+    "release_sha256": "e0d4fa799a1a25d4c5edf16c8442b5ab2dac53e133e064befa71fac3ebbf1662",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0027.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0027.commit.json",
+    "sha256": "f320eea78519fa5181a1d4b2e79f39a8d29b9f7471b66e9e1414808e33f7080c",
+    "release_sha256": "f320eea78519fa5181a1d4b2e79f39a8d29b9f7471b66e9e1414808e33f7080c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0036.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0036.commit.json",
+    "sha256": "e2e97f5962d2ef7425877a40409d398ada75ce9e3fe9655a2b47368f12d57b90",
+    "release_sha256": "e2e97f5962d2ef7425877a40409d398ada75ce9e3fe9655a2b47368f12d57b90",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0057.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0057.commit.json",
+    "sha256": "82ee9fef75d439231430893179ae6b9b5c98dc61dfc337de3c2f64b7bc20749e",
+    "release_sha256": "82ee9fef75d439231430893179ae6b9b5c98dc61dfc337de3c2f64b7bc20749e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0008.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0008.commit.json",
+    "sha256": "b2fccb08668fd1bd3e4e6fa7b0a57e580a7d1cd0c2d268454e6315e293e65a6c",
+    "release_sha256": "b2fccb08668fd1bd3e4e6fa7b0a57e580a7d1cd0c2d268454e6315e293e65a6c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0046.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0046.commit.json",
+    "sha256": "986785f5aa1c6cdd66a16bb6c493435303db5134524f7c5b19da3494c07b51c3",
+    "release_sha256": "986785f5aa1c6cdd66a16bb6c493435303db5134524f7c5b19da3494c07b51c3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0007.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0007.commit.json",
+    "sha256": "4d7aeff3225fcabec526eda93bf581756a6034dc64bf10c1a502db7285ae7d1e",
+    "release_sha256": "4d7aeff3225fcabec526eda93bf581756a6034dc64bf10c1a502db7285ae7d1e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0055.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0055.commit.json",
+    "sha256": "76af3c51997c5470e38b90c3d9c260f07cd19cb61bfc9aa17159d9bf0cbb6543",
+    "release_sha256": "76af3c51997c5470e38b90c3d9c260f07cd19cb61bfc9aa17159d9bf0cbb6543",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0030.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0030.commit.json",
+    "sha256": "ceca121f4ba54245a11c3644c47c3006fac4c244ceaf89cd083fccecabb705ab",
+    "release_sha256": "ceca121f4ba54245a11c3644c47c3006fac4c244ceaf89cd083fccecabb705ab",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint/chunks/chunk_0019.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint/chunks/chunk_0019.commit.json",
+    "sha256": "fb917239c26d81c7b07811af5f8bbe3fb305ca726ec41b0091579420a6a2a222",
+    "release_sha256": "fb917239c26d81c7b07811af5f8bbe3fb305ca726ec41b0091579420a6a2a222",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0017.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0017.commit.json",
+    "sha256": "80b904722ea9bf0c4de8a98636d8afb60de6eb8c9c5be20888cdb4f25898881d",
+    "release_sha256": "80b904722ea9bf0c4de8a98636d8afb60de6eb8c9c5be20888cdb4f25898881d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0014.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0014.commit.json",
+    "sha256": "353be68a0258c69c862618264e2749925841802a8341d4d46cf81eba333b9e7e",
+    "release_sha256": "353be68a0258c69c862618264e2749925841802a8341d4d46cf81eba333b9e7e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0035.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0035.commit.json",
+    "sha256": "8194f29147846f1475b8bb94481f43417c33119eaf0c3310913166ecc506d31c",
+    "release_sha256": "8194f29147846f1475b8bb94481f43417c33119eaf0c3310913166ecc506d31c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0039.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0039.commit.json",
+    "sha256": "c7b8dd1aea6c43584654df698937577ac0f365ba305e7092f456466d8709ed9d",
+    "release_sha256": "c7b8dd1aea6c43584654df698937577ac0f365ba305e7092f456466d8709ed9d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0043.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0043.commit.json",
+    "sha256": "2f0635a124b7c58c8a8dad00601710d420368ce5de8f8e2cf1dee0c8e4aadbcd",
+    "release_sha256": "2f0635a124b7c58c8a8dad00601710d420368ce5de8f8e2cf1dee0c8e4aadbcd",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0053.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0053.commit.json",
+    "sha256": "bd9f1216c87fb67686fff946c0e994e69d5d0e62cedbffdffcdcb89e855da384",
+    "release_sha256": "bd9f1216c87fb67686fff946c0e994e69d5d0e62cedbffdffcdcb89e855da384",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0018.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0018.commit.json",
+    "sha256": "73f828ace5965ec166e7ddb46cbddabbda2ee621f3f7d45ebd0e308860801710",
+    "release_sha256": "73f828ace5965ec166e7ddb46cbddabbda2ee621f3f7d45ebd0e308860801710",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0029.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0029.commit.json",
+    "sha256": "3015aec5c2e8dcf99a248380c1f813240ed2dfd0ec1e081ed1064dfad30bea7f",
+    "release_sha256": "3015aec5c2e8dcf99a248380c1f813240ed2dfd0ec1e081ed1064dfad30bea7f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0020.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0020.commit.json",
+    "sha256": "2cdae43691ce66c106663555353013fd545e0f36ca91db85b33a332f3fa152c8",
+    "release_sha256": "2cdae43691ce66c106663555353013fd545e0f36ca91db85b33a332f3fa152c8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0021.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0021.commit.json",
+    "sha256": "bb2174900c02b56043c5e614210c89b7e56c786795cddcf097877ee87d258a9f",
+    "release_sha256": "bb2174900c02b56043c5e614210c89b7e56c786795cddcf097877ee87d258a9f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0026.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0026.commit.json",
+    "sha256": "92c876be338a8a9e2c463ae8e8e9ddd806c4a4c0e431bc6d552f35f4e5d1a75d",
+    "release_sha256": "92c876be338a8a9e2c463ae8e8e9ddd806c4a4c0e431bc6d552f35f4e5d1a75d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0015.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0015.commit.json",
+    "sha256": "9875d23d574b43196d00ef821d51b729a156256eed0640b329a026005c4d81b5",
+    "release_sha256": "9875d23d574b43196d00ef821d51b729a156256eed0640b329a026005c4d81b5",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0023.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0023.commit.json",
+    "sha256": "40a8fdec446d60f070b28e7184867ae6c83c805a765837bf31f4cf26bc557c2a",
+    "release_sha256": "40a8fdec446d60f070b28e7184867ae6c83c805a765837bf31f4cf26bc557c2a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0054.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0054.commit.json",
+    "sha256": "ebbfd415f055bce6cc9df0a1ea3c56311986e4b2c0c42d6443591a99609ab538",
+    "release_sha256": "ebbfd415f055bce6cc9df0a1ea3c56311986e4b2c0c42d6443591a99609ab538",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0028.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0028.commit.json",
+    "sha256": "25704c04e84f898b0a6108ae2ebfa3c062ad854bf6b162023b698386780d0622",
+    "release_sha256": "25704c04e84f898b0a6108ae2ebfa3c062ad854bf6b162023b698386780d0622",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0031.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0031.commit.json",
+    "sha256": "046384e5a1bd322c6cea6f2dadb0e7661b62a629f76f1ccb98a958238a7837eb",
+    "release_sha256": "046384e5a1bd322c6cea6f2dadb0e7661b62a629f76f1ccb98a958238a7837eb",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0012.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0012.commit.json",
+    "sha256": "f97e25ec5f00dde837894c6be8807754a469b866894470f2f18a8b1f40cc1d3f",
+    "release_sha256": "f97e25ec5f00dde837894c6be8807754a469b866894470f2f18a8b1f40cc1d3f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0032.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0032.commit.json",
+    "sha256": "68939d4254b813df1cac61f9ca0a2aca099e1f024986e974e9e76e8dad0bcb0d",
+    "release_sha256": "68939d4254b813df1cac61f9ca0a2aca099e1f024986e974e9e76e8dad0bcb0d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0051.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0051.commit.json",
+    "sha256": "9d4d543ddcaaa5c9226a409c13743f5fdab1c921870cd28f7b153eff5b63a107",
+    "release_sha256": "9d4d543ddcaaa5c9226a409c13743f5fdab1c921870cd28f7b153eff5b63a107",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0003.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0003.commit.json",
+    "sha256": "736eeef5e37df8b22cf99bd08727a49f04cdb1a9996a3f3c4e7ce5147fbb3ab1",
+    "release_sha256": "736eeef5e37df8b22cf99bd08727a49f04cdb1a9996a3f3c4e7ce5147fbb3ab1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0022.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0022.commit.json",
+    "sha256": "6c4e8352bbdac6d2d94da9ff0ce89b717292039f1b79c1c2f207168d5e3010de",
+    "release_sha256": "6c4e8352bbdac6d2d94da9ff0ce89b717292039f1b79c1c2f207168d5e3010de",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0011.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0011.commit.json",
+    "sha256": "9ec6d438fee6fa1ebe847e0c4388bd0e02a0e5c816d6d14273eabfa2c9591ad6",
+    "release_sha256": "9ec6d438fee6fa1ebe847e0c4388bd0e02a0e5c816d6d14273eabfa2c9591ad6",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0044.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0044.commit.json",
+    "sha256": "1815fd640574a16778d46829b6c62c808c2b3e62a9cc48674109733d52c4ad52",
+    "release_sha256": "1815fd640574a16778d46829b6c62c808c2b3e62a9cc48674109733d52c4ad52",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0049.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0049.commit.json",
+    "sha256": "6b60d72a9b1211f40d6ed6cf8896a45b72bc5d671e7d3d0d4c934443a3374a4c",
+    "release_sha256": "6b60d72a9b1211f40d6ed6cf8896a45b72bc5d671e7d3d0d4c934443a3374a4c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0056.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0056.commit.json",
+    "sha256": "ab7956bba5b0095dd55e51ec3a15337eb60286d6a8d7caa6606737f7edc69e34",
+    "release_sha256": "ab7956bba5b0095dd55e51ec3a15337eb60286d6a8d7caa6606737f7edc69e34",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0048.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0048.commit.json",
+    "sha256": "367146ab27476f5f379862d329ea30c52189dc5c73037b400bf46521faf28e42",
+    "release_sha256": "367146ab27476f5f379862d329ea30c52189dc5c73037b400bf46521faf28e42",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0045.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0045.commit.json",
+    "sha256": "31e6d603d0b64876cccc93ad8ced8afcfd9736513993bb4fafbce854425bf96b",
+    "release_sha256": "31e6d603d0b64876cccc93ad8ced8afcfd9736513993bb4fafbce854425bf96b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0005.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0005.commit.json",
+    "sha256": "5cc19bf44f73de4c958c3bf4775818e4ec9559cc353b04aefead8244514e8ea0",
+    "release_sha256": "5cc19bf44f73de4c958c3bf4775818e4ec9559cc353b04aefead8244514e8ea0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0040.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0040.commit.json",
+    "sha256": "fff57a97bf650636a8fc03af068460919ea258b2344e1f2b0066883c2360e63e",
+    "release_sha256": "fff57a97bf650636a8fc03af068460919ea258b2344e1f2b0066883c2360e63e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0034.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0034.commit.json",
+    "sha256": "da100fc0f67d0f64b23faf624e9b89f447fd140c4a6fa478d19a33750b51c503",
+    "release_sha256": "da100fc0f67d0f64b23faf624e9b89f447fd140c4a6fa478d19a33750b51c503",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0037.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0037.commit.json",
+    "sha256": "0f4fa8abe2805b92e6c2d50e47e96692a588d942f87b60f1d326573ffb8e7de6",
+    "release_sha256": "0f4fa8abe2805b92e6c2d50e47e96692a588d942f87b60f1d326573ffb8e7de6",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0041.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0041.commit.json",
+    "sha256": "b63cf8ad8b107befed06d0436a42c05e59a8138de9187b55600f4ae1d162f792",
+    "release_sha256": "b63cf8ad8b107befed06d0436a42c05e59a8138de9187b55600f4ae1d162f792",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0000.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0000.commit.json",
+    "sha256": "67d164c5e41ab0e9fdf506ed10ff1fdd9ada8a573e8ba2425d244a752706452f",
+    "release_sha256": "67d164c5e41ab0e9fdf506ed10ff1fdd9ada8a573e8ba2425d244a752706452f",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0058.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0058.commit.json",
+    "sha256": "2ae4d6802a270eb4cdd9a5eeeb0660ae317abdb8058db989a1207bb36a767ed4",
+    "release_sha256": "2ae4d6802a270eb4cdd9a5eeeb0660ae317abdb8058db989a1207bb36a767ed4",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0001.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0001.commit.json",
+    "sha256": "41985c5fe8d93dd8c1717b941a2af51ec11b430e8a47d4300a46c16b17c53250",
+    "release_sha256": "41985c5fe8d93dd8c1717b941a2af51ec11b430e8a47d4300a46c16b17c53250",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0052.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0052.commit.json",
+    "sha256": "edff527cc572fe831e90d9d39b53c36f19c719c37a07dc71e11fee589fde90e8",
+    "release_sha256": "edff527cc572fe831e90d9d39b53c36f19c719c37a07dc71e11fee589fde90e8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0016.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0016.commit.json",
+    "sha256": "e342c1a32760a6874cc40b86d9859a5d0e647a0285532980674cd69a999ce45d",
+    "release_sha256": "e342c1a32760a6874cc40b86d9859a5d0e647a0285532980674cd69a999ce45d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0004.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0004.commit.json",
+    "sha256": "08b23b1b445352478617f948539110930db796d6b744781b2621e998a44f2996",
+    "release_sha256": "08b23b1b445352478617f948539110930db796d6b744781b2621e998a44f2996",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0013.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0013.commit.json",
+    "sha256": "98fbb38e85537dad53c3dfb49d08387fc3800f044a95418e975e982e80ea6cf3",
+    "release_sha256": "98fbb38e85537dad53c3dfb49d08387fc3800f044a95418e975e982e80ea6cf3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0042.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0042.commit.json",
+    "sha256": "32c2db324cb46801115fcae43cf6b143531cf1e90c2c938c0b8334e68d5863e0",
+    "release_sha256": "32c2db324cb46801115fcae43cf6b143531cf1e90c2c938c0b8334e68d5863e0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0002.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0002.commit.json",
+    "sha256": "9d683f18c99664e355dd260b08e7bc27237ce308c60cfe246ab971d363d813d4",
+    "release_sha256": "9d683f18c99664e355dd260b08e7bc27237ce308c60cfe246ab971d363d813d4",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0050.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0050.commit.json",
+    "sha256": "530844f6155728839e4f0ef6ee6da1ae82d53ae55897b78cb0d0bf31c914d799",
+    "release_sha256": "530844f6155728839e4f0ef6ee6da1ae82d53ae55897b78cb0d0bf31c914d799",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0033.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0033.commit.json",
+    "sha256": "77ae07ab9e7a7b0533400a9bdf98100e8c0be4988bd34c3e4df1f55f0ac8d114",
+    "release_sha256": "77ae07ab9e7a7b0533400a9bdf98100e8c0be4988bd34c3e4df1f55f0ac8d114",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0047.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0047.commit.json",
+    "sha256": "6a1b9221b5e8efb87c653bc6d6bc257bef594a818650a70ef17408f2a5fab42b",
+    "release_sha256": "6a1b9221b5e8efb87c653bc6d6bc257bef594a818650a70ef17408f2a5fab42b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0006.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0006.commit.json",
+    "sha256": "5e5c99e4fc3f4d9d6c1c7ff85015e96076f283ed1c725496142328f7da84dea1",
+    "release_sha256": "5e5c99e4fc3f4d9d6c1c7ff85015e96076f283ed1c725496142328f7da84dea1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0038.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0038.commit.json",
+    "sha256": "7d5c2128c200c9ab62fc407e811d1d45b0ecdf9c41589ed287334d21edbc1783",
+    "release_sha256": "7d5c2128c200c9ab62fc407e811d1d45b0ecdf9c41589ed287334d21edbc1783",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0010.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0010.commit.json",
+    "sha256": "b9364f94e7df58cef516617621ed6325abced8e39c9da2817fb9ec017e8254d8",
+    "release_sha256": "b9364f94e7df58cef516617621ed6325abced8e39c9da2817fb9ec017e8254d8",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0009.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0009.commit.json",
+    "sha256": "62efcf9ef78a65d22c168f341365d164d40868e1941a5520eb8ccc4ee6811dc1",
+    "release_sha256": "62efcf9ef78a65d22c168f341365d164d40868e1941a5520eb8ccc4ee6811dc1",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0024.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0024.commit.json",
+    "sha256": "42d5ff6542b4ae2a42fa32d255e5a3cd8a1c5a6ef6f0adee568e0d6922daec15",
+    "release_sha256": "42d5ff6542b4ae2a42fa32d255e5a3cd8a1c5a6ef6f0adee568e0d6922daec15",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0025.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0025.commit.json",
+    "sha256": "f5ca273722d0f33c8dd9e97f349fc6492a99a3bdeb7f15d16d23cacc3a6c9100",
+    "release_sha256": "f5ca273722d0f33c8dd9e97f349fc6492a99a3bdeb7f15d16d23cacc3a6c9100",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0027.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0027.commit.json",
+    "sha256": "86ecb0367bfee6938bb8bccae1b449ed5fd7ad988328d19cb754974cfbd86268",
+    "release_sha256": "86ecb0367bfee6938bb8bccae1b449ed5fd7ad988328d19cb754974cfbd86268",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0036.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0036.commit.json",
+    "sha256": "2f59d15047c3906200c98404bb6aa0b5f469eaf0b0343bb760594ce74c2ec94e",
+    "release_sha256": "2f59d15047c3906200c98404bb6aa0b5f469eaf0b0343bb760594ce74c2ec94e",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0057.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0057.commit.json",
+    "sha256": "2e5be808a61560d2fd7ab527eed8432ad7459768af2b6b9b26600f2bb5d40dec",
+    "release_sha256": "2e5be808a61560d2fd7ab527eed8432ad7459768af2b6b9b26600f2bb5d40dec",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0008.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0008.commit.json",
+    "sha256": "953b07a1ece5d13942b5e9dc636c252de093344ee9d42d92ccb5bbd647fd2df4",
+    "release_sha256": "953b07a1ece5d13942b5e9dc636c252de093344ee9d42d92ccb5bbd647fd2df4",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0046.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0046.commit.json",
+    "sha256": "36d0ada44a283b3eb92ad65f2f7112c8e756b53f8ee585ce77a0966b2fc9758c",
+    "release_sha256": "36d0ada44a283b3eb92ad65f2f7112c8e756b53f8ee585ce77a0966b2fc9758c",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0007.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0007.commit.json",
+    "sha256": "e80a996d79121c6ddd6a646bb2b3001a22e2ed5f5ec37ec0e67d700cea6e7135",
+    "release_sha256": "e80a996d79121c6ddd6a646bb2b3001a22e2ed5f5ec37ec0e67d700cea6e7135",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0055.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0055.commit.json",
+    "sha256": "588538603bf19c72af100989f1c6c56ef6c4d665602ce9b3029e0f222cbf3d35",
+    "release_sha256": "588538603bf19c72af100989f1c6c56ef6c4d665602ce9b3029e0f222cbf3d35",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0030.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0030.commit.json",
+    "sha256": "9c4592115fe7321dee5a55cd25c0f58827a63f55950970adcc74530ad2b8d62b",
+    "release_sha256": "9c4592115fe7321dee5a55cd25c0f58827a63f55950970adcc74530ad2b8d62b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/predictions/joint_motion/chunks/chunk_0019.commit.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/predictions/joint_motion/chunks/chunk_0019.commit.json",
+    "sha256": "852c99a48408b928d708db8ba936d17ba06491028c74acc64d0b0b7da4aecc41",
+    "release_sha256": "852c99a48408b928d708db8ba936d17ba06491028c74acc64d0b0b7da4aecc41",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/analysis/FINAL_TEST_PAIRED_RESULTS.npz",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/analysis/FINAL_TEST_PAIRED_RESULTS.npz",
+    "sha256": "0d03c56a36861efd080200942c7a46264e985cd6bd73c1ce7a060f300e76623b",
+    "release_sha256": "0d03c56a36861efd080200942c7a46264e985cd6bd73c1ce7a060f300e76623b",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/analysis/01_primary_endpoints.csv",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/analysis/01_primary_endpoints.csv",
+    "sha256": "e6bb58f823c7e77ba4bf3cccaf99eafe673313648c6b0a31c878868bdc67ce11",
+    "release_sha256": "e6bb58f823c7e77ba4bf3cccaf99eafe673313648c6b0a31c878868bdc67ce11",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/analysis/04_single_stream_metrics.csv",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/analysis/04_single_stream_metrics.csv",
+    "sha256": "c08596609fed69cb155e39b508eafc06a36f4fdb7b22d0648c7cfcaf3c7eabfe",
+    "release_sha256": "c08596609fed69cb155e39b508eafc06a36f4fdb7b22d0648c7cfcaf3c7eabfe",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/analysis/REPORT_RU.md",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/analysis/REPORT_RU.md",
+    "sha256": "dc2c3942b709f2ab19ace89c9f7db3fb4c55de94fcee04ec3fd01ff0ca884a3d",
+    "release_sha256": "dc2c3942b709f2ab19ace89c9f7db3fb4c55de94fcee04ec3fd01ff0ca884a3d",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/analysis/02_per_setup.csv",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/analysis/02_per_setup.csv",
+    "sha256": "4ba19709b4aa9951ec00cf88d709968be0a99edcad9271a9bc23765b8b178317",
+    "release_sha256": "4ba19709b4aa9951ec00cf88d709968be0a99edcad9271a9bc23765b8b178317",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/analysis/FINAL_TEST_SUMMARY.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/analysis/FINAL_TEST_SUMMARY.json",
+    "sha256": "ca4d1980d51b9860e0d7e6a81bb6f6ec0dcdf1d22412d0353e48e2cac07a8ec0",
+    "release_sha256": "ca4d1980d51b9860e0d7e6a81bb6f6ec0dcdf1d22412d0353e48e2cac07a8ec0",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/run/analysis/03_per_class.csv",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/run/analysis/03_per_class.csv",
+    "sha256": "1c0d443a4a413657c95dd1a67badfb03c2dabccf729fc49c74329cdd9cf3a976",
+    "release_sha256": "1c0d443a4a413657c95dd1a67badfb03c2dabccf729fc49c74329cdd9cf3a976",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/kit/protocol/BOOTSTRAP_POOL.json.gz",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/protocol/BOOTSTRAP_POOL.json.gz",
+    "sha256": "bf9c3b01981efdaf125c2dbeb57fd066ae36d89f079b9f3c2ba5145234ff089a",
+    "release_sha256": "bf9c3b01981efdaf125c2dbeb57fd066ae36d89f079b9f3c2ba5145234ff089a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/kit/protocol/PROTOCOL.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/protocol/PROTOCOL.json",
+    "sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+    "release_sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "research-assets/final/kit/PLAN.json",
+    "source_path": "final_evidence_metadata/AURA-KSP_STREAM3_FINAL_EVIDENCE_20260905T181536Z_1363/kit/PLAN.json",
+    "sha256": "ff802370c85ed286d2ff8bad8cdf681c59ad9aa892037adc971cc2e8fc34d8f3",
+    "release_sha256": "ff802370c85ed286d2ff8bad8cdf681c59ad9aa892037adc971cc2e8fc34d8f3",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/scripts/reproduce_latency.py",
+    "source_path": "release_sources/latency_analyze.py",
+    "sha256": "188898a66c456216b2b456d56c01ed0d391965df906db60277d49502c4839221",
+    "release_sha256": "188898a66c456216b2b456d56c01ed0d391965df906db60277d49502c4839221",
+    "byte_identical": true,
+    "included_in_v1_0_0": true
+  },
+  {
+    "release_path": "repository/tests/test_offline_math.py",
+    "source_path": "AURA-KSP_PREAUDIT_FINAL_XSET_20260906_v1.1.0/tests/test_offline_math.py",
+    "sha256": "24f33e344da14f4af6fc65580fcaa655529d5c09c7682f56ec3e55233ff8cc3d",
+    "release_sha256": "56223f152e1ecdc15c372012e00627e1a7c2458c8db885361c2c8b86e441f3b0",
+    "byte_identical": false,
+    "included_in_v1_0_0": true
+  }
+]

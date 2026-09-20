@@ -1,0 +1,2 @@
+-r requirements-audit.txt
+matplotlib==3.10.8

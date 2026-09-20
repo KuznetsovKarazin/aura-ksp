@@ -1,0 +1,108 @@
+{
+  "status": "INDEPENDENT_AUDIT_PASS",
+  "outer_archive_sha256": "fdbb0a403aa829656ad949a53bd7870f35e5ec2fcbbf2509351bfed992dd3a45",
+  "outer_manifest": {
+    "entries": 75,
+    "passed": 75,
+    "failed": 0
+  },
+  "analysis_manifest": {
+    "entries": 6,
+    "passed": 6,
+    "failed": 0
+  },
+  "protocol_sha256": "008015c236c5af8211c0d83ee41548475a717e74c85eafb9850cd9585dc2d500",
+  "plan_sha256": "9611857558ff089ed16402d7e1ac82266f5a9a72c9bd54280eebf967e5c6a804",
+  "authorization_sha256": "617bdbcd499d53c5e40ecef84060250f04e8b75fcb847243c53d9d639393b35e",
+  "bootstrap_draw_file_sha256": "5948061d5ef0bd55119596b0085e2f316c201ccc8c6895ff5cadd6455e72bca2",
+  "bootstrap_draw_raw_sha256": "aa9d2afdc6337422352751dc81f7cad07e6e7ff0fac6e1da82cb4b296689f161",
+  "oof_sha256": "b12b87c017af2eb52caae423cde7f952c650565ed368bc8703c701d058792613",
+  "jobs": {
+    "train": 12,
+    "evaluate": 12,
+    "analyze": 1
+  },
+  "receipts": 25,
+  "verified_outputs_present_in_compact_evidence": 43,
+  "receipt_attested_outputs_omitted_from_compact_evidence": {
+    "final_pt": 12,
+    "predictions_npz": 12
+  },
+  "omitted_payload_expected_bytes": {
+    "final_pt": 145864340,
+    "predictions_npz": 82000193,
+    "combined": 227864533
+  },
+  "samples": 38670,
+  "unique_sample_ids": 38670,
+  "endpoints": [
+    {
+      "endpoint": "all_top1",
+      "reference": 0.8376777863977244,
+      "candidate": 0.8342125678820791,
+      "delta": -0.0034652185156452964,
+      "margin": -0.01,
+      "one_sided_lcb": -0.006609083059891052,
+      "margin_null_p": 9.999000099990002e-05,
+      "passed": true
+    },
+    {
+      "endpoint": "a61_a120_top1",
+      "reference": 0.8172161750013146,
+      "candidate": 0.8163222379975811,
+      "delta": -0.0008939370037335248,
+      "margin": -0.015,
+      "one_sided_lcb": -0.0054638785707830095,
+      "margin_null_p": 9.999000099990002e-05,
+      "passed": true
+    },
+    {
+      "endpoint": "macro_f1",
+      "reference": 0.8379128297384718,
+      "candidate": 0.8345619966036754,
+      "delta": -0.0033508331347964493,
+      "margin": -0.015,
+      "one_sided_lcb": -0.006012423538808931,
+      "margin_null_p": 9.999000099990002e-05,
+      "passed": true
+    }
+  ],
+  "bootstrap": {
+    "resamples": 10000,
+    "setup_clusters_per_draw": 12,
+    "stored_distribution_recomputed": true,
+    "undefined_a61_draws": 0
+  },
+  "timing_seconds_from_receipts": {
+    "training": 60542.69320440292,
+    "evaluation": 190.27927446365356,
+    "analysis": 22.467568397521973
+  },
+  "runtime_cost": {
+    "schema": "aura-ksp.stream3-confirmatory-runtime-cost.v1",
+    "status": "COMPLETE",
+    "created_utc": "2026-09-05T08:07:23.194001Z",
+    "instance_id": "49850271",
+    "controller_elapsed_seconds": 60903,
+    "controller_elapsed_hours": 16.9175,
+    "accounting_rate_usd_per_hour": 0.33,
+    "controller_compute_cost_estimate_usd": 5.582775000000001,
+    "actual_vast_invoice_may_differ": true,
+    "completed_jobs": 25,
+    "expected_jobs": 25,
+    "return_code": 0,
+    "autostop_mode": "VAST_STOP_PRESERVE_STORAGE",
+    "storage_charges_continue_after_stop": true
+  },
+  "constraints": {
+    "test_used": false,
+    "old_validation_used": false,
+    "candidate_search": false,
+    "margins_changed": false,
+    "latency_repeated": false
+  },
+  "log_checks": {
+    "run_lines": 25,
+    "epoch_lines": 780
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "aura-har.ksp-stream3-gpu-latency-trace-report.v1",
+  "status": "TRACE_COMPLETE",
+  "created_utc": "2026-09-04T12:10:03.766940Z",
+  "fold": 1,
+  "cache_regime": "warm_reuse",
+  "replicate": 2,
+  "samples": 400,
+  "systems": [
+    "full4_k64",
+    "stream3_drop_bone_motion"
+  ],
+  "raw_trace": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_1/warm_reuse/replicate_2.npz",
+  "raw_trace_sha256": "6fdffeb019953366a7e5d1af8bbc808922f2eaf293d424f2e77c84eab78e72bb",
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "checkpoint_sha256": {
+    "joint": "74207e047fc579fdc1134056fbf0a200f0aa6e041e312e261636ebc064007311",
+    "bone": "a89a5a96b2a1dc46ab1d0b54a42be2142cd426874ce191d548f72652cc49ef0a",
+    "joint_motion": "a9120c2b4b5c64600127a4de8c8581d54c22efd43f09383403a86a43d5fd328d",
+    "bone_motion": "cd42ba68e8662ef4086c5279fab16e1c7280781444220829c3fc6111be3ef6a5"
+  },
+  "config_sha256": {
+    "joint": "2ad109c637b59af5d1678a293b8a901da00a2748bf7808b3e6a3174c6680c79f",
+    "bone": "96ec16008c554c4c6f963d83c571ecd2ef23db431b4662f251fb76018c6971c0",
+    "joint_motion": "8524eb1732ce65dc208d853d24292a2cdc24b1efe54ec798ff8bff922cc42f1f",
+    "bone_motion": "cf4c83688a10fa05bfce83f24e1daf54349b692cbbbcaed41454e2b6dda67093"
+  },
+  "scope": "latency_only_no_training_train_only",
+  "old_validation_used": false,
+  "test_read": false,
+  "training_performed": false,
+  "external_confirmation": false,
+  "python": "3.11.16 | packaged by conda-forge | (main, Aug 21 2026, 22:44:51) [GCC 14.4.0]",
+  "platform": "Linux-5.15.0-186-generic-x86_64-with-glibc2.39"
+}

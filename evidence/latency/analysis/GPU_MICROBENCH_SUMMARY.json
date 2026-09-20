@@ -1,0 +1,195 @@
+{
+  "schema": "aura-har.ksp-stream3-gpu-microbenchmark-summary.v1",
+  "status": "GPU_LATENCY_MICROBENCHMARK_COMPLETE",
+  "created_utc": "2026-09-04T13:21:58.290995Z",
+  "protocol_id": "aura-ksp-stream3-latency-microbenchmark-v1",
+  "protocol_sha256": "e62b88be09f23d21cc2a0ded82ef87e47e9778fba6e4216ac6ff9f25c136feb2",
+  "source_protocol_id": "aura-ksp-ntu120-xset-trainonly-sparse-v1",
+  "candidate": "drop_bone_motion",
+  "systems": [
+    "full4_k64",
+    "stream3_drop_bone_motion"
+  ],
+  "decision": "LATENCY_GATE_PASS",
+  "latency_gate_passed": true,
+  "quality_confirmatory": false,
+  "quality_confirmation_requires_new_seed": true,
+  "regimes": {
+    "warm_reuse": {
+      "cache_regime": "warm_reuse",
+      "n_samples": 1200,
+      "full4_mean_latency_ms": 65.27553953333333,
+      "stream3_mean_latency_ms": 48.995912615,
+      "measured_saving": 0.24939858076577126,
+      "one_sided_lcb": 0.2488187178030684,
+      "required_saving": 0.2,
+      "multiplicity_alpha": 0.025,
+      "margin_null_p": 9.999000099990002e-05,
+      "passed": true
+    },
+    "fresh_mapping": {
+      "cache_regime": "fresh_mapping",
+      "n_samples": 1200,
+      "full4_mean_latency_ms": 68.50971748833334,
+      "stream3_mean_latency_ms": 51.86343317666667,
+      "measured_saving": 0.2429769808129978,
+      "one_sided_lcb": 0.24222308667425818,
+      "required_saving": 0.2,
+      "multiplicity_alpha": 0.025,
+      "margin_null_p": 9.999000099990002e-05,
+      "passed": true
+    }
+  },
+  "bootstrap": {
+    "cluster": "setup",
+    "resamples": 10000,
+    "seed": 314159,
+    "draw_sha256": "1147c97e41e81e04b00f62aa3de02e282ff292f57b179668e797d53f1e831212",
+    "family_alpha": 0.05,
+    "per_regime_alpha": 0.025
+  },
+  "matrix": {
+    "folds": 3,
+    "cache_regimes": 2,
+    "process_repetitions": 3,
+    "samples_per_setup": 100,
+    "traces": 18
+  },
+  "device": "cuda:0",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "authorization_sha256": "da2042cf62083739b399276dbf2bff9423542b6cb5029f58df41e13caf8b4169",
+  "trace_hashes": [
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_1/fresh_mapping/replicate_1.npz",
+      "sha256": "8be53321404cf065e184d466ac8a4fac0df61da9135349ba29be5a2dbcf51920",
+      "fold": 1,
+      "cache_regime": "fresh_mapping",
+      "replicate": 1
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_1/fresh_mapping/replicate_2.npz",
+      "sha256": "627e05692402c4fc113878dfe1c555fd3ba9bb3875e5e729e7834746f80cb1a3",
+      "fold": 1,
+      "cache_regime": "fresh_mapping",
+      "replicate": 2
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_1/fresh_mapping/replicate_3.npz",
+      "sha256": "a5c2c5c13230fcbf4150c38986acd032eee65129475c0d2652c2e49d7fba3346",
+      "fold": 1,
+      "cache_regime": "fresh_mapping",
+      "replicate": 3
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_1/warm_reuse/replicate_1.npz",
+      "sha256": "292694ec3dbc4b03d799140bf92ed68be192a555205a526dd6b7c1420819e1d6",
+      "fold": 1,
+      "cache_regime": "warm_reuse",
+      "replicate": 1
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_1/warm_reuse/replicate_2.npz",
+      "sha256": "6fdffeb019953366a7e5d1af8bbc808922f2eaf293d424f2e77c84eab78e72bb",
+      "fold": 1,
+      "cache_regime": "warm_reuse",
+      "replicate": 2
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_1/warm_reuse/replicate_3.npz",
+      "sha256": "986732a6133111249d9897ef97b01acd1c1b69f877788709b1d418fe5406fe17",
+      "fold": 1,
+      "cache_regime": "warm_reuse",
+      "replicate": 3
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_2/fresh_mapping/replicate_1.npz",
+      "sha256": "b5ef9fdc2a9c1ad07ee2cdf57ca620b8ed5af3ae3fb7dce7aa29d40998693367",
+      "fold": 2,
+      "cache_regime": "fresh_mapping",
+      "replicate": 1
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_2/fresh_mapping/replicate_2.npz",
+      "sha256": "a917512a1fa2b43b78b7a837d19ef279a51197d4dc1d91b4f013821b68b9eccd",
+      "fold": 2,
+      "cache_regime": "fresh_mapping",
+      "replicate": 2
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_2/fresh_mapping/replicate_3.npz",
+      "sha256": "e4fbbd2690049b5589eb6b468f514ee88c8b47442f81a0a74410b0f2e2f200d6",
+      "fold": 2,
+      "cache_regime": "fresh_mapping",
+      "replicate": 3
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_2/warm_reuse/replicate_1.npz",
+      "sha256": "8bde5b5fdf0c74380175d4886499d0ab155d60528b1437a95b4f5e9328815cf6",
+      "fold": 2,
+      "cache_regime": "warm_reuse",
+      "replicate": 1
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_2/warm_reuse/replicate_2.npz",
+      "sha256": "54b7daf9fb97c24c6dbb798d1f795bc6f73acd0238205ac1155ea4dc40e3a386",
+      "fold": 2,
+      "cache_regime": "warm_reuse",
+      "replicate": 2
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_2/warm_reuse/replicate_3.npz",
+      "sha256": "1471047b5186b501bc7aacf26a8a2455639ba7361a29bf8e8f073a28366e7a71",
+      "fold": 2,
+      "cache_regime": "warm_reuse",
+      "replicate": 3
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_3/fresh_mapping/replicate_1.npz",
+      "sha256": "c70db94313fb51904bd385eee11bed5ff6a81bf0e9753c26eb3e283144767b5d",
+      "fold": 3,
+      "cache_regime": "fresh_mapping",
+      "replicate": 1
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_3/fresh_mapping/replicate_2.npz",
+      "sha256": "f7d655a292d9b14ae9636bdb4e1969bf75147793fd74520b3f0aee06192ef55f",
+      "fold": 3,
+      "cache_regime": "fresh_mapping",
+      "replicate": 2
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_3/fresh_mapping/replicate_3.npz",
+      "sha256": "c5f66db7a4754aac134a1804079a910c2992e71b46f8dfd811a9db2ada72406d",
+      "fold": 3,
+      "cache_regime": "fresh_mapping",
+      "replicate": 3
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_3/warm_reuse/replicate_1.npz",
+      "sha256": "7ddc999aa7d3cb6d691dbcaba116732ce8805b3e91b663491430ee747333ec5d",
+      "fold": 3,
+      "cache_regime": "warm_reuse",
+      "replicate": 1
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_3/warm_reuse/replicate_2.npz",
+      "sha256": "f41f14d1f32c2c49ed2bffdb9d5ec4c42f0d10e075e61a5f9d50e546ae766f34",
+      "fold": 3,
+      "cache_regime": "warm_reuse",
+      "replicate": 2
+    },
+    {
+      "path": "/workspace/aura_ksp_stream3_microbench_results/20260904T120807Z/raw/fold_3/warm_reuse/replicate_3.npz",
+      "sha256": "1b6038e4a8e37bc2cfb274370b5c6c03a4b0e375af935fa5adb5b1330afeae49",
+      "fold": 3,
+      "cache_regime": "warm_reuse",
+      "replicate": 3
+    }
+  ],
+  "constraints": {
+    "training": false,
+    "test": false,
+    "old_validation": false,
+    "external_confirmation": false
+  }
+}

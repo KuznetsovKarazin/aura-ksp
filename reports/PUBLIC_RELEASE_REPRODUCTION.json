@@ -1,0 +1,97 @@
+{
+  "status": "CURATED_SAVED_OUTPUT_REPRODUCTION_PASS",
+  "gate_passed": true,
+  "manifest_files": 298,
+  "receipts": 9,
+  "receipt_outputs": 31,
+  "models": [
+    {
+      "stream": "joint",
+      "sha256": "c335121ee4d5661a57dffef486695c7e6ee58c90247f3d6ec69e3978ea4d43f5",
+      "epoch": 65
+    },
+    {
+      "stream": "bone",
+      "sha256": "2117a21178835717939a08663f9c1b7b0eac0b5cfabe9d752044992ed996962c",
+      "epoch": 65
+    },
+    {
+      "stream": "joint_motion",
+      "sha256": "e948ee55fa8a70ee9cdd0c6c8db6bb5ad435f24bd6a00cd30520fef29fced427",
+      "epoch": 65
+    },
+    {
+      "stream": "bone_motion",
+      "sha256": "e15cb6bcb39511fe7838a1cef9737ac3089a8d1d28332a7c721772c24a2665ed",
+      "epoch": 65
+    }
+  ],
+  "endpoints": [
+    {
+      "endpoint": "all_top1",
+      "delta": -0.0007734082082150318,
+      "one_sided_lcb": -0.002041376258170914,
+      "margin": -0.01,
+      "margin_null_p": 9.999000099990002e-05,
+      "bonferroni_adjusted_p": 0.00029997000299970003,
+      "passed": true
+    },
+    {
+      "endpoint": "a61_a120_top1",
+      "delta": -0.002008510638297878,
+      "one_sided_lcb": -0.0036929378251069974,
+      "margin": -0.015,
+      "margin_null_p": 9.999000099990002e-05,
+      "bonferroni_adjusted_p": 0.00029997000299970003,
+      "passed": true
+    },
+    {
+      "endpoint": "macro_f1_all120",
+      "delta": -0.0008257103993889459,
+      "one_sided_lcb": -0.002646882535991879,
+      "margin": -0.015,
+      "margin_null_p": 9.999000099990002e-05,
+      "bonferroni_adjusted_p": 0.00029997000299970003,
+      "passed": true
+    }
+  ],
+  "derived_comparisons": {
+    "sample_ids": {
+      "exact_equal": true
+    },
+    "labels": {
+      "exact_equal": true
+    },
+    "setups": {
+      "exact_equal": true
+    },
+    "reference_logits": {
+      "exact_equal": true
+    },
+    "candidate_logits": {
+      "exact_equal": true
+    },
+    "reference_predictions": {
+      "exact_equal": true
+    },
+    "candidate_predictions": {
+      "exact_equal": true
+    },
+    "reference_confusion": {
+      "exact_equal": true
+    },
+    "candidate_confusion": {
+      "exact_equal": true
+    },
+    "bootstrap_distribution": {
+      "exact_equal": true
+    }
+  },
+  "reference_correct": 52997,
+  "candidate_correct": 52951,
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "new_training": false,
+  "new_test_forward": false,
+  "scope": "Curated final saved outputs, not a re-audit of unavailable original TAR or provider control records."
+}

@@ -1,0 +1,305 @@
+{
+  "schema": "aura-ksp.stream3-final-frozen-protocol.v1",
+  "protocol_id": "aura-ksp-stream3-ntu120-xset-final-v1",
+  "created_utc_date": "2026-09-05",
+  "status": "FROZEN_METHOD_AWAITING_DATA_BINDING_AND_PREFLIGHT",
+  "scientific_entry_status": "LATENCY_GATE_PASS_QUALITY_CONFIRMATION_PASS",
+  "prior_protocols_modified": false,
+  "recommended_design": "four_final_trainings_on_full_official_train_and_one_sealed_test_event",
+  "candidate": {
+    "num_frames": 64,
+    "model": "ctrgcn_reference",
+    "reference_streams": [
+      "joint",
+      "bone",
+      "joint_motion",
+      "bone_motion"
+    ],
+    "reference_prior": [
+      0.3,
+      0.3,
+      0.2,
+      0.2
+    ],
+    "candidate_streams": [
+      "joint",
+      "bone",
+      "joint_motion"
+    ],
+    "candidate_prior": [
+      0.375,
+      0.375,
+      0.25
+    ],
+    "same_shared_checkpoints_required": true,
+    "candidate_search_allowed": false,
+    "learned_fusion_allowed": false,
+    "temperature_fitting_allowed": false
+  },
+  "data": {
+    "preprocessing_event": "reuse_existing_ntu120_xset_preprocessed_npz_20260828",
+    "repeat_preprocessing_allowed": false,
+    "base_train_samples": 38670,
+    "base_train_canonical_sha256": "fd037a9f71dbb00778bf71428892c8de407577402ee8330fdba0b02cea20edaa",
+    "old_validation_samples": 15798,
+    "old_validation_canonical_sha256": "2ece0ff18ea434cea3815dfeaf4832cb527d2f64dbbc5167f7389d9d2892ff35",
+    "proposed_old_validation_role": "training_only_after_separate_explicit_authorization",
+    "old_validation_metrics_or_selection_allowed": false,
+    "final_train_samples": 54468,
+    "final_train_manifest": "proposed_separate_union_manifest_without_mutating_source_manifests",
+    "final_train_setups": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32
+    ],
+    "test_samples": 59477,
+    "test_canonical_sha256": "5aed365468ad753ffd6887df88109841155f302db6cc033459c79cd9afd3194f",
+    "test_setups": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "new_class_endpoint_mask": "labels >= 60 and labels < 120; argmax remains over all 120 classes",
+    "historical_exposure_boundary": "NTU120 contains the original NTU60 samples; A1-A60 cannot be presented as independent of all prior NTU60 work.",
+    "strongest_untouched_data_claim": "held-out A61-A120 samples within NTU120 XSet; not a new external dataset",
+    "exact_overlap_counts_with_old_ntu60_test": "not_measured_in_this_stage",
+    "full_npz_presence_verified": false,
+    "live_test_ledger_verified": false,
+    "backend": "hybrid_existing_canonical_train_sparse_store_plus_existing_npz_for_old_validation_and_test",
+    "backend_reason": "Reuse existing processed data without rebuilding preprocessing or the sparse store.",
+    "adapter": "Use the frozen sparse K64 support/interpolation plan and independent rotation RNG for both backends.",
+    "augmentation_rng_rule": "plan_rng=default_rng(job_seed+crc32(sample_id)+epoch*1000003); rotation_rng=default_rng(rng_seed ^ 0x5DEECE66D); eval epoch offset=0 and no rotation.",
+    "final_train_order": "original train manifest order followed by original old-validation manifest order",
+    "parity_selection": "For each of the 12 base-train setups, sort by (sequence_length,sample_id); take first, middle floor(n/2), last; deduplicate. Use only these base-train NPZ arrays for parity.",
+    "parity_contexts": {
+      "stream_seeds": [
+        161803,
+        161813,
+        161823,
+        161833
+      ],
+      "training_epochs": [
+        1,
+        65
+      ],
+      "evaluation_epoch": 0,
+      "criterion": "exact_equal_float32_tensor_and_source_indices_between_npz_adapter_and_canonical_sparse_backend"
+    },
+    "sparse_pins": {
+      "store.json": "a2f58252b9d4e45f4c295ba84e4a3900880205443257abb0fbe907c1c2fc7957",
+      "index.jsonl": "e8c70ef75ce32dfd076d8cb2d26a0c15e8116f5535e691830706e4e41367ede5",
+      "frames.npy": "3cec30ca30661b49e6ee7b86ce472e5e20890ec13ceb657c235be721c83ced8d"
+    },
+    "expected_test_setups": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "sealed_event_boundary": "The marker is committed before the first test NPZ tensor is decoded or any test forward is executed. Prior canonical manifest metadata, compressed-file hashing and copying are permitted preparation under this authorization; no predictions or test arrays are inspected."
+  },
+  "training": {
+    "trainings": 4,
+    "base_seed": 161803,
+    "stream_order": [
+      "joint",
+      "bone",
+      "joint_motion",
+      "bone_motion"
+    ],
+    "job_seed_rule": "base_seed + 10*stream_index",
+    "epochs": 65,
+    "checkpoint_rule": "final_epoch_65_no_validation_monitoring",
+    "batch_size": 64,
+    "num_workers": 8,
+    "optimizer": "sgd",
+    "learning_rate": 0.1,
+    "momentum": 0.9,
+    "nesterov": true,
+    "weight_decay": 0.0004,
+    "scheduler": "warmup_multistep",
+    "warmup_epochs": 5,
+    "milestones": [
+      35,
+      55
+    ],
+    "lr_decay_rate": 0.1,
+    "amp": false,
+    "deterministic": true,
+    "validate_every": 0,
+    "resume_from_verified_last_checkpoint": true,
+    "new_seed_search_allowed": false,
+    "determinism_scope": "Same canonical seed_everything implementation with deterministic algorithms requested in warn_only mode; bitwise determinism across hardware/software is not claimed.",
+    "checkpoint_transaction": "Immutable epoch state plus hashed COMMIT receipt; resume only from latest verified committed epoch, preserve RNG/optimizer/scheduler/history, retain last two committed epochs plus final checkpoint."
+  },
+  "evaluation": {
+    "test_open_events": 1,
+    "stream_evaluations": 4,
+    "system_metrics_from_same_four_prediction_files": true,
+    "shared_fold_model_ensemble_allowed": false,
+    "p_interval_eval": [
+      0.95
+    ],
+    "random_rotation": false,
+    "ledger_marker_before_first_test_tensor_read": true,
+    "on_partial_failure": "The event remains consumed; permit only an audited technical resume of the same frozen event with identical code/model/data pins and no outcome-dependent choice.",
+    "on_scientific_gate_failure": "record negative result; no new candidate, seed, checkpoint, margin, or test event"
+  },
+  "statistics": {
+    "delta_direction": "candidate_minus_reference",
+    "quality_gate_endpoints": [
+      {
+        "name": "all_top1",
+        "margin": -0.01,
+        "claim_role": "all-class guard with historical NTU60 exposure disclosed"
+      },
+      {
+        "name": "a61_a120_top1",
+        "margin": -0.015,
+        "claim_role": "held-out confirmation on the additional actions"
+      },
+      {
+        "name": "macro_f1_all120",
+        "margin": -0.015,
+        "claim_role": "all-class guard with historical NTU60 exposure disclosed"
+      }
+    ],
+    "cluster_unit": "setup",
+    "bootstrap_method": "paired_setup_cluster_resample_with_replacement_centered_basic",
+    "bootstrap_resamples": 10000,
+    "proposed_bootstrap_seed": 223607,
+    "bootstrap_draws_frozen": false,
+    "draw_rule": "In frozen pool order, retain the first 10000 rows whose sampled setup counts give nonzero A61-A120 support according to canonical test-manifest metadata. Fail if fewer than 10000 valid rows. Freeze selected rows and their SHA-256 in DATA_BINDING before all model training; never inspect predictions when filtering.",
+    "family_alpha": 0.05,
+    "per_endpoint_alpha": 0.016666666666666666,
+    "multiplicity": "bonferroni_over_the_same_three_quality_gate_endpoints",
+    "quantile_method": "higher",
+    "pass_rule": "all_three_one_sided_LCB_strictly_above_their_unchanged_margins",
+    "secondary_descriptive_outputs": [
+      "all120_confusion_matrices",
+      "per_class_recall_and_f1",
+      "per_setup_metrics",
+      "paired_correct_to_error_transitions"
+    ],
+    "secondary_results_may_change_decision": false,
+    "change_margins_after_results_allowed": false,
+    "scope": "within-dataset held-out evaluation; no external-dataset or universal per-class claim",
+    "setup_order": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ],
+    "bootstrap_seed": 223607,
+    "bootstrap_pool": {
+      "file": "BOOTSTRAP_POOL.json.gz",
+      "shape": [
+        20000,
+        16
+      ],
+      "sha256": "bf9c3b01981efdaf125c2dbeb57fd066ae36d89f079b9f3c2ba5145234ff089a",
+      "raw_int64_little_endian_sha256": "9c5b0cd7b83affbac4ccbffab0b19f755a1843455193ac948133b872d0132351"
+    },
+    "future_binding": "Only metadata-dependent row filtering and absolute local paths remain to be bound; no method parameter is selectable.",
+    "publish_regardless_of_pass_or_fail": true,
+    "bootstrap_engine": "The same centered-basic family-alpha 0.05/3 calculation; numpy>=1.26 higher quantile; all 120 classes in macro-F1."
+  },
+  "latency": {
+    "reuse_verified_prior_evidence": true,
+    "microbenchmark_repeat_authorized": false,
+    "claim_boundary": "Previous paired RTX4090 batch-1 K64 latency measurements used seed271828 models; final quality will use newly trained seed161803 models with the same architecture and streams. No new latency measurement is implied."
+  },
+  "execution_proposal": {
+    "accounting_rate_usd_per_hour": 0.33,
+    "estimated_controller_hours": [
+      13,
+      16
+    ],
+    "proposed_max_controller_hours": 18,
+    "proposed_compute_cap_usd": 5.94,
+    "autostop": "stop_instance_preserve_storage_on_success_failure_or_budget_deadline",
+    "training_receipts": 4,
+    "evaluation_receipts": 4,
+    "analysis_receipts": 1,
+    "final_payload_includes_final_models": true,
+    "final_payload_includes_stream_predictions": true,
+    "controller_logs_and_accounting_required": true,
+    "user_authorized_gpu_execution": true,
+    "user_authorized_old_validation_training": true,
+    "user_authorized_test_access": true,
+    "runtime_binding_required_before_execution": true,
+    "compute_cutoff_before_hard_deadline_seconds": 600,
+    "deadline_semantics": "18 hours cumulative controller wall time across verified resumes, with a 10-minute finalization reserve. An independent watchdog requests instance stop on hard deadline or controller death; API/network acceptance is recorded separately.",
+    "artifact_rule": "Always package verified completed results and latest committed resume checkpoints. A statistical FAIL is a completed experiment, not a technical retry condition."
+  },
+  "conditions_before_protocol_freeze_and_launch_kit_release": [
+    "Freeze method and source/config pins locally.",
+    "Bind canonical manifests and compressed NPZ hashes plus metadata-selected bootstrap rows before GPU.",
+    "Verify Windows/remote historical test markers and actual train-only NPZ/sparse parity.",
+    "Verify original source pins, frames hash and prior successful campaign integrity.",
+    "Record runtime authorization bound to this protocol, data binding and instance49850271; do not reuse historical authorization tokens."
+  ],
+  "approved_design": {
+    "date_utc": "2026-09-05",
+    "source": "User explicitly accepted the recommended final experiment and asked to launch it in this conversation.",
+    "user_message": "хорошо, согласен, давай запустим ээтот финальный тест, давай инструкции",
+    "scope": [
+      "four_final_trainings_full_official_train",
+      "old_validation_as_training_only",
+      "one_xset_test_event_for_four_fixed_streams",
+      "fixed_pair_analysis",
+      "autostop"
+    ],
+    "instance_id": "49850271"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source_url": "https://rose1.ntu.edu.sg/dataset/actionRecognition/",
+  "source_title": "Action Recognition Datasets: NTU RGB+D Dataset and NTU RGB+D 120 Dataset",
+  "source_authority": "ROSE Lab, Nanyang Technological University, Singapore",
+  "source_location": "Section 1.1 Daily Actions: action-class table",
+  "checked_utc_date": "2026-09-20",
+  "verification": "Read directly from the official dataset page; no inferred action names",
+  "mapping": {
+    "A073": "staple book",
+    "A076": "cutting paper"
+  },
+  "scope": "Two prose labels only. The numerical analysis retains A001-A120 IDs and does not use semantic labels for grouping, selection, or inference."
+}

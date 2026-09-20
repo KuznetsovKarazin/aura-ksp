@@ -1,0 +1,220 @@
+[
+  {
+    "file": "final/run/analysis/FINAL_TEST_PAIRED_RESULTS.npz",
+    "arrays": {
+      "sample_ids": {
+        "shape": [
+          59477
+        ],
+        "dtype": "<U20"
+      },
+      "labels": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "setups": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "reference_logits": {
+        "shape": [
+          59477,
+          120
+        ],
+        "dtype": "float32"
+      },
+      "candidate_logits": {
+        "shape": [
+          59477,
+          120
+        ],
+        "dtype": "float32"
+      },
+      "reference_predictions": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "candidate_predictions": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "reference_confusion": {
+        "shape": [
+          120,
+          120
+        ],
+        "dtype": "int64"
+      },
+      "candidate_confusion": {
+        "shape": [
+          120,
+          120
+        ],
+        "dtype": "int64"
+      },
+      "bootstrap_distribution": {
+        "shape": [
+          10000,
+          3
+        ],
+        "dtype": "float64"
+      }
+    }
+  },
+  {
+    "file": "final/run/predictions/bone_motion/predictions.npz",
+    "arrays": {
+      "logits": {
+        "shape": [
+          59477,
+          120
+        ],
+        "dtype": "float32"
+      },
+      "labels": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "setups": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "sample_ids": {
+        "shape": [
+          59477
+        ],
+        "dtype": "<U20"
+      },
+      "selected_indices": {
+        "shape": [
+          59477,
+          64
+        ],
+        "dtype": "int64"
+      }
+    }
+  },
+  {
+    "file": "final/run/predictions/bone/predictions.npz",
+    "arrays": {
+      "logits": {
+        "shape": [
+          59477,
+          120
+        ],
+        "dtype": "float32"
+      },
+      "labels": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "setups": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "sample_ids": {
+        "shape": [
+          59477
+        ],
+        "dtype": "<U20"
+      },
+      "selected_indices": {
+        "shape": [
+          59477,
+          64
+        ],
+        "dtype": "int64"
+      }
+    }
+  },
+  {
+    "file": "final/run/predictions/joint/predictions.npz",
+    "arrays": {
+      "logits": {
+        "shape": [
+          59477,
+          120
+        ],
+        "dtype": "float32"
+      },
+      "labels": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "setups": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "sample_ids": {
+        "shape": [
+          59477
+        ],
+        "dtype": "<U20"
+      },
+      "selected_indices": {
+        "shape": [
+          59477,
+          64
+        ],
+        "dtype": "int64"
+      }
+    }
+  },
+  {
+    "file": "final/run/predictions/joint_motion/predictions.npz",
+    "arrays": {
+      "logits": {
+        "shape": [
+          59477,
+          120
+        ],
+        "dtype": "float32"
+      },
+      "labels": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "setups": {
+        "shape": [
+          59477
+        ],
+        "dtype": "int64"
+      },
+      "sample_ids": {
+        "shape": [
+          59477
+        ],
+        "dtype": "<U20"
+      },
+      "selected_indices": {
+        "shape": [
+          59477,
+          64
+        ],
+        "dtype": "int64"
+      }
+    }
+  }
+]

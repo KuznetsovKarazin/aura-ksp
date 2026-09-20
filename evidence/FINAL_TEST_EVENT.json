@@ -1,0 +1,20 @@
+{
+  "schema": "aura-ksp.stream3-sealed-test-event.v1",
+  "created_utc": "2026-09-06T06:02:52.812044Z",
+  "status": "CONSUMED_BEFORE_FIRST_TEST_TENSOR",
+  "binding": {
+    "protocol_id": "aura-ksp-stream3-ntu120-xset-final-v1",
+    "protocol_sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+    "plan_sha256": "ff802370c85ed286d2ff8bad8cdf681c59ad9aa892037adc971cc2e8fc34d8f3",
+    "data_binding_sha256": "36ad4f6e0a212f01f637d4fc37ce1f3544e30e41b773013b9195f8abcc15479d",
+    "instance_id": "49850271",
+    "model_sha256": {
+      "joint": "c335121ee4d5661a57dffef486695c7e6ee58c90247f3d6ec69e3978ea4d43f5",
+      "bone": "2117a21178835717939a08663f9c1b7b0eac0b5cfabe9d752044992ed996962c",
+      "joint_motion": "e948ee55fa8a70ee9cdd0c6c8db6bb5ad435f24bd6a00cd30520fef29fced427",
+      "bone_motion": "e15cb6bcb39511fe7838a1cef9737ac3089a8d1d28332a7c721772c24a2665ed"
+    },
+    "test_manifest_canonical_sha256": "5aed365468ad753ffd6887df88109841155f302db6cc033459c79cd9afd3194f",
+    "event_id": "aura-ksp-stream3-ntu120-xset-final-v1-single-test-event"
+  }
+}

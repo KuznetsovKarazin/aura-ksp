@@ -1,0 +1,3 @@
+﻿regime,reference_total_ms,k32_total_ms,fixed_inference_ms,analytical_saving_ceiling_pct,required_saving_pct,assumption
+warm_reuse,53.6463285,53.608976999999996,53.171611999999996,0.8849002592973498,20.0,"Reported inference timing stays fixed and every other cost becomes zero; idealized profile-based ceiling, not a confidence bound."
+fresh_mapping,56.177438,56.233757,55.2887745,1.58188684218743,20.0,"Reported inference timing stays fixed and every other cost becomes zero; idealized profile-based ceiling, not a confidence bound."

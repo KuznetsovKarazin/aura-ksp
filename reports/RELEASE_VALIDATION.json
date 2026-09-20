@@ -1,0 +1,16 @@
+{
+  "status": "LOCAL_RELEASE_VALIDATION_PASS",
+  "date": "2026-09-20",
+  "version": "1.0.0",
+  "manuscript_version": "1.5.0",
+  "funding_award": "AP23486538",
+  "numerical_evidence": "Original selected final model/prediction audit retained; no new training or test forward. Original 10000x3 bootstrap not repeated in editorial revision.",
+  "new_descriptive_analysis": "Saved paired outputs verified; 605 introduced and 559 corrected errors; 1778 label changes.",
+  "math_tests": "5/5 PASS",
+  "latency_trace_recomputation": "PASS: 18 existing traces, no new measurement",
+  "license": "CC-BY-NC-4.0 with manuscript CC-BY-4.0 exception and original third-party notices",
+  "powershell_execution": "Not executed in this Linux environment; Python packaging helper tested.",
+  "ci_workflow": "Local equivalent commands passed; remote GitHub execution not yet observed.",
+  "curated_runtime_files_unchanged_from_rc1": 54,
+  "research_asset_manifest_files_verified": 298
+}

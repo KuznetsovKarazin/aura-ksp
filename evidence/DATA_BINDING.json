@@ -1,0 +1,72 @@
+{
+  "schema": "aura-ksp.stream3-final-data-binding.v1",
+  "protocol_id": "aura-ksp-stream3-ntu120-xset-final-v1",
+  "protocol_sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+  "status": "BOUND_BEFORE_TRAINING_NO_TEST_ARRAYS_READ",
+  "created_utc": "2026-09-05T16:34:43.403478Z",
+  "canonical_source_hashes": {
+    "train": "fd037a9f71dbb00778bf71428892c8de407577402ee8330fdba0b02cea20edaa",
+    "val": "2ece0ff18ea434cea3815dfeaf4832cb527d2f64dbbc5167f7389d9d2892ff35",
+    "test": "5aed365468ad753ffd6887df88109841155f302db6cc033459c79cd9afd3194f"
+  },
+  "samples": {
+    "base_train": 38670,
+    "old_validation_training_only": 15798,
+    "final_train": 54468,
+    "test": 59477
+  },
+  "npz_files": 75311,
+  "npz_bytes": 1911323398,
+  "parity_samples": 36,
+  "bootstrap": {
+    "shape": [
+      10000,
+      16
+    ],
+    "dtype": "little_endian_int64",
+    "bootstrap_seed": 223607,
+    "pool_sha256": "bf9c3b01981efdaf125c2dbeb57fd066ae36d89f079b9f3c2ba5145234ff089a",
+    "rejected_before_10000_valid": 0,
+    "raw_sha256": "34205430218b562cdeea341cb2e6cbf8c888a969937b91b9f804fc4c0a0b05ce",
+    "a61_a120_support_by_setup": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3224,
+      2144,
+      5032,
+      2517,
+      5384,
+      5343,
+      5731
+    ],
+    "prediction_data_inspected": false
+  },
+  "bound_file_hashes": {
+    "source_manifests/train.jsonl": "6ab087b665b25c43dc0978233dd76d528773894cbc2834437243cd54b45f75a4",
+    "source_manifests/val.jsonl": "94868e14ae5a3c168514db7298ebd0f747259080b843a5ca244c234a0a82a769",
+    "source_manifests/test.jsonl": "35d2c844680e00939f596d031441e51f5d4da89e1905b6553c803b461e1b7fd5",
+    "FINAL_TRAIN.jsonl": "ed8ceb7c4f89ebd71655959709c5c6fde77cb31889ecc4d01997c42b43e7cb8d",
+    "TEST.jsonl": "0b09df9bb50e3a413fd1df9054c533ef94ff6ec61a156f7183bc90975abab836",
+    "PARITY_SAMPLES.json": "f0f249ae07532490cb43e2d600d90097efce1d61150538d72bfef95bc60ac3a0",
+    "BOOTSTRAP_DRAW_INDICES.json.gz": "b753734b3d0acb1bdfbe5080b80b92b11a35634d9ac6b1e9bbf8052e9e645cc8",
+    "HISTORY_AUDIT_WINDOWS.json": "810e04a1c2080a1cd57af27db5bfa1c3a231ddad17727035a18dd9affd5bf979",
+    "NPZ_INVENTORY.jsonl": "e9ba0774759d601e5c78153d33c1cf7cbeddae7bf49ea9e3c6f1aa8aa2207a8b"
+  },
+  "preparation_scope": {
+    "test_manifest_metadata_read": true,
+    "old_validation_manifest_metadata_read": true,
+    "compressed_npz_copied_and_hashed": true,
+    "test_npz_tensors_decoded": false,
+    "old_validation_npz_tensors_decoded": false,
+    "models_run": false,
+    "preprocessing_repeated": false
+  },
+  "preparation_script_sha256": "3a0535a95a6516e26bfb33983c1f50dd37764767bb3a4e318a6be4d335f55c2e"
+}

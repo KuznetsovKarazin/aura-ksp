@@ -1,0 +1,72 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=22mm]{geometry}
+\usepackage{lmodern,amsmath,booktabs,longtable,graphicx,hyperref}
+\setlength{\emergencystretch}{2em}
+\title{Supplementary Materials\\\large Stream Reduction in Multi-Stream Graph Convolutional Networks: A Non-Inferiority Study for Skeleton-Based Action Recognition}
+\author{Aida Issembayeva, Oleksandr Kuznetsov, Anargul Shaushenova,\\Ardak Nurpeisova, Lyazzat Zhumaliyeva and Maral Ongarbayeva}
+\date{20 September 2026}
+\begin{document}\maketitle
+\renewcommand{\thetable}{S\arabic{table}}
+\section*{S1. Numerical Evidence and Reproduction Scope}
+The final plan comprised four trainings, four stream evaluations, and one paired analysis. The source audit verified all nine receipts and their 31 output files. Four final checkpoints contained epoch 65, the planned configurations and bindings, and finite tensor values. A separately implemented analysis reproduced the fixed float32 logit fusion, predicted classes, confusion matrices, and all 10,000 three-endpoint bootstrap replicates exactly. The separate implementation aggregates per-setup true, predicted, and true-positive counts; the original implementation uses weighted confusion matrices.
+
+These checks apply to the selected final evidence. The transported selection covered 370 of 614 entries in the original manifest. The remaining 244 entries concern intermediate epoch or evaluation-chunk tensors. This is not a claim that the original TAR was directly checked in its entirety. The public curation preserves the outputs needed to reproduce the final numerical comparison; it does not include raw NTU skeleton arrays or a certified portable raw-data-to-trained-model workflow.
+
+The earlier latency experiment provides 18 paired traces over three folds, two mapping regimes, and three process repetitions. Saved traces support CPU reanalysis of timings, not a new measurement of final-model latency. The original final training environment was Python 3.11.16, PyTorch 2.11.0 with CUDA 12.8, and NumPy 2.4.6. Separate saved-output analysis used Python 3.12.13 and NumPy 2.3.5. Exact floating-point agreement was observed in those recorded analyses; identical bits on arbitrary future environments are not guaranteed.
+
+\section*{S2. Training and Temporal Representation}
+All final streams use the configurations reported in the main text: 65 epochs, final-epoch selection without validation monitoring, and separate fixed stream seeds. The sparse adapter reads interpolation supports, then reconstructs 64 temporal outputs for K64. Nominal temporal indices saved in the prediction files describe output positions and should not be mistaken for all source supports read by interpolation. A metadata and tensor parity check on 432 base-training cases preceded final execution; it did not use test tensors. The original scientific source and immutable configurations are retained in the research package.
+
+\section*{S3. Complete Setup Results (Table S1)}
+Accuracy values are percentages; differences are percentage points. A61 $n$ denotes the number of A61--A120 samples. Zero support is not an observed zero accuracy. Lost and gained count paired correct-to-error and error-to-correct transitions, respectively. All entries are descriptive.
+\begin{center}\small\setlength{\tabcolsep}{4pt}\input{setup_table.tex}\end{center}
+\section*{S4. Complete Action Results (Table S2)}
+Every action is retained in action-ID order. Recall and F1 are percentages; recall differences are percentage points. These are descriptive summaries, not 120 individually confirmed non-inferiority claims. F1 also depends on predicted positives, so its direction of change can differ from that of recall.
+\begin{center}\small\setlength{\tabcolsep}{4pt}\input{class_table.tex}\end{center}
+\clearpage
+\section*{S5. Descriptive Paired Decision Changes}
+This extension was computed from the already audited paired result file after the final test comparison. It reads the saved fused predictions and verifies their consistency with saved logits and confusion matrices. It performs no training, new test forward, refitting, or additional hypothesis test. The fusion weights, non-inferiority margins and original bootstrap draws are unchanged.
+
+\begin{table}[h]\centering\small
+\caption{Correctness changes by true action group. Same and different refer to the two predicted labels among examples misclassified by both systems.}
+\begin{tabular}{lrrrrrr}
+\toprule
+Group & $n$ & Both correct & Lost & Gained & Wrong, same & Wrong, different\\
+\midrule
+All 120 & 59,477 & 52,392 & 605 & 559 & 5,307 & 614 \\
+A1--A60 & 30,102 & 27,178 & 243 & 256 & 2,215 & 210 \\
+A61--A120 & 29,375 & 25,214 & 362 & 303 & 3,092 & 404 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The complete outputs preserve all 120 classes and all $120\times120$ label pairs, including zero counts. The directed transition matrix records the Full-4 predicted label as the source and the Stream-3 predicted label as the destination. A separate true-class/error-class table counts introduced and corrected errors against the same erroneous alternative. These are distinct representations and must not be interchanged.
+
+Table S4 lists the ten most frequent off-diagonal prediction transitions, ordered by decreasing count, then ascending source and destination action IDs to resolve ties. The ordering was determined descriptively after inspecting the final predictions. It does not define an independently confirmed subgroup effect.
+
+\begin{table}[h]\centering\small
+\caption{Most frequent directed changes in predicted label. Lost: Full-4 correct and Stream-3 incorrect. Gained: Full-4 incorrect and Stream-3 correct. Both wrong: both predictions incorrect.}
+\begin{tabular}{llrrrr}
+\toprule
+Full-4 label & Stream-3 label & Lost & Gained & Both wrong & Total\\
+\midrule
+A073 & A076 & 14 & 18 & 1 & 33 \\
+A012 & A030 & 6 & 14 & 12 & 32 \\
+A071 & A072 & 7 & 14 & 6 & 27 \\
+A072 & A071 & 8 & 10 & 6 & 24 \\
+A016 & A017 & 3 & 10 & 3 & 16 \\
+A106 & A107 & 8 & 5 & 3 & 16 \\
+A069 & A072 & 7 & 2 & 6 & 15 \\
+A011 & A012 & 4 & 4 & 6 & 14 \\
+A075 & A073 & 3 & 6 & 5 & 14 \\
+A074 & A084 & 6 & 5 & 2 & 13 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+For example, A073 to A076 comprises 14 introduced errors on true A073 examples, 18 corrected errors on true A076 examples, and one example with a different true class that both systems misclassified. The official dataset list names A073 ``staple book'' and A076 ``cutting paper'' (\url{https://rose1.ntu.edu.sg/dataset/actionRecognition/}, accessed 20 September 2026). This observation identifies where decisions changed; it does not establish an anatomical or graph-topological cause.
+
+The script \texttt{describe\_paired\_errors.py}, input SHA-256, full CSV matrices, and its environment/provenance record accompany the research artifact. Reported inference remains the original three-endpoint paired setup-bootstrap analysis.
+\end{document}

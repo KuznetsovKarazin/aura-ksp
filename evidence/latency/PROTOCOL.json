@@ -1,0 +1,60 @@
+{
+  "schema": "aura-ksp.stream3-gpu-microbenchmark-protocol.v1",
+  "protocol_id": "aura-ksp-stream3-latency-microbenchmark-v1",
+  "source_protocol_id": "aura-ksp-ntu120-xset-trainonly-sparse-v1",
+  "status": "FROZEN_AWAITING_EXPLICIT_USER_LAUNCH",
+  "candidate": {
+    "name": "drop_bone_motion",
+    "reference_system": "full4_k64",
+    "candidate_system": "stream3_drop_bone_motion",
+    "reference_streams": ["joint", "bone", "joint_motion", "bone_motion"],
+    "candidate_streams": ["joint", "bone", "joint_motion"],
+    "reference_prior": [0.3, 0.3, 0.2, 0.2],
+    "candidate_prior": [0.375, 0.375, 0.25]
+  },
+  "source": {
+    "variant": "k64_resize_reference",
+    "base_seed": 271828,
+    "folds": [1, 2, 3],
+    "role": "train-only nested setup-held-out",
+    "existing_checkpoints_only": true
+  },
+  "benchmark": {
+    "cache_regimes": ["warm_reuse", "fresh_mapping"],
+    "process_repetitions": 3,
+    "samples_per_setup": 100,
+    "setups_per_fold": 4,
+    "samples_per_trace": 400,
+    "warmup_per_system": 30,
+    "batch_size": 1,
+    "paired_execution_order": true,
+    "raw_traces": 18
+  },
+  "statistics": {
+    "primary_endpoint": "end-to-end latency saving",
+    "required_saving": 0.2,
+    "co_primary_cache_regimes": 2,
+    "family_alpha": 0.05,
+    "per_regime_alpha": 0.025,
+    "cluster_bootstrap": "setup",
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 314159,
+    "bootstrap_draw_sha256": "1147c97e41e81e04b00f62aa3de02e282ff292f57b179668e797d53f1e831212",
+    "pass_rule": "one-sided LCB > 0.20 in both cache regimes"
+  },
+  "interpretation": {
+    "latency_only": true,
+    "quality_confirmatory": false,
+    "quality_confirmation_requires_new_seed": true
+  },
+  "forbidden": [
+    "training",
+    "retraining",
+    "test split",
+    "old validation",
+    "external confirmation",
+    "modification of existing checkpoints"
+  ],
+  "autostop": "VAST_STOP_PRESERVE_STORAGE_ON_SUCCESS_OR_FAILURE",
+  "accounting_rate_usd_per_hour": 0.33
+}

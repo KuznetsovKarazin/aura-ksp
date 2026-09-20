@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aura-har"
+version = "0.3.3"
+description = "Reproducible adaptive temporal sampling research for human action recognition"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<3",
+  "PyYAML>=6.0",
+  "scikit-learn>=1.4",
+  "scipy>=1.10",
+  "pandas>=2.1",
+  "matplotlib>=3.8",
+  "tqdm>=4.66",
+  "torch>=2.4,<2.14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+benchmark = ["fvcore>=0.1.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+ignore = ["EXE001"]

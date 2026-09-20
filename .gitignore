@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.reproduced/
+research-assets/
+*.pt
+*.zip
+*.tar.gz
+*.log
+*.aux
+*.out
+*.blg

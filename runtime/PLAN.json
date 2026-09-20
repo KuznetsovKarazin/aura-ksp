@@ -1,0 +1,281 @@
+{
+  "schema": "aura-ksp.stream3-final-job-plan.v1",
+  "protocol_id": "aura-ksp-stream3-ntu120-xset-final-v1",
+  "protocol_sha256": "f02d5750a96f5532168aaf37a2a2b19d2bd2f20342837fc5459b4114485d350a",
+  "jobs": [
+    {
+      "job_id": "train_joint",
+      "action": "train",
+      "stream": "joint",
+      "config": {
+        "experiment": {
+          "seed": 161803,
+          "deterministic": true
+        },
+        "data": {
+          "num_frames": 64,
+          "num_classes": 120,
+          "num_joints": 25,
+          "num_person": 2,
+          "modality": "joint"
+        },
+        "model": {
+          "name": "ctrgcn_reference",
+          "in_channels": 3,
+          "base_channels": 64,
+          "dropout": 0.0,
+          "adaptive": true
+        },
+        "training": {
+          "epochs": 65,
+          "batch_size": 64,
+          "num_workers": 8,
+          "optimizer": "sgd",
+          "learning_rate": 0.1,
+          "momentum": 0.9,
+          "nesterov": true,
+          "weight_decay": 0.0004,
+          "scheduler": "warmup_multistep",
+          "warmup_epochs": 5,
+          "milestones": [
+            35,
+            55
+          ],
+          "lr_decay_rate": 0.1,
+          "label_smoothing": 0.0,
+          "amp": false,
+          "gradient_accumulation": 1,
+          "validate_every": 0,
+          "checkpoint_rule": "final_epoch_65_no_validation_monitoring"
+        },
+        "evaluation": {
+          "batch_size": 64,
+          "num_workers": 8
+        }
+      },
+      "output_relative": "checkpoints/joint"
+    },
+    {
+      "job_id": "train_bone",
+      "action": "train",
+      "stream": "bone",
+      "config": {
+        "experiment": {
+          "seed": 161813,
+          "deterministic": true
+        },
+        "data": {
+          "num_frames": 64,
+          "num_classes": 120,
+          "num_joints": 25,
+          "num_person": 2,
+          "modality": "bone"
+        },
+        "model": {
+          "name": "ctrgcn_reference",
+          "in_channels": 3,
+          "base_channels": 64,
+          "dropout": 0.0,
+          "adaptive": true
+        },
+        "training": {
+          "epochs": 65,
+          "batch_size": 64,
+          "num_workers": 8,
+          "optimizer": "sgd",
+          "learning_rate": 0.1,
+          "momentum": 0.9,
+          "nesterov": true,
+          "weight_decay": 0.0004,
+          "scheduler": "warmup_multistep",
+          "warmup_epochs": 5,
+          "milestones": [
+            35,
+            55
+          ],
+          "lr_decay_rate": 0.1,
+          "label_smoothing": 0.0,
+          "amp": false,
+          "gradient_accumulation": 1,
+          "validate_every": 0,
+          "checkpoint_rule": "final_epoch_65_no_validation_monitoring"
+        },
+        "evaluation": {
+          "batch_size": 64,
+          "num_workers": 8
+        }
+      },
+      "output_relative": "checkpoints/bone"
+    },
+    {
+      "job_id": "train_joint_motion",
+      "action": "train",
+      "stream": "joint_motion",
+      "config": {
+        "experiment": {
+          "seed": 161823,
+          "deterministic": true
+        },
+        "data": {
+          "num_frames": 64,
+          "num_classes": 120,
+          "num_joints": 25,
+          "num_person": 2,
+          "modality": "joint_motion"
+        },
+        "model": {
+          "name": "ctrgcn_reference",
+          "in_channels": 3,
+          "base_channels": 64,
+          "dropout": 0.0,
+          "adaptive": true
+        },
+        "training": {
+          "epochs": 65,
+          "batch_size": 64,
+          "num_workers": 8,
+          "optimizer": "sgd",
+          "learning_rate": 0.1,
+          "momentum": 0.9,
+          "nesterov": true,
+          "weight_decay": 0.0004,
+          "scheduler": "warmup_multistep",
+          "warmup_epochs": 5,
+          "milestones": [
+            35,
+            55
+          ],
+          "lr_decay_rate": 0.1,
+          "label_smoothing": 0.0,
+          "amp": false,
+          "gradient_accumulation": 1,
+          "validate_every": 0,
+          "checkpoint_rule": "final_epoch_65_no_validation_monitoring"
+        },
+        "evaluation": {
+          "batch_size": 64,
+          "num_workers": 8
+        }
+      },
+      "output_relative": "checkpoints/joint_motion"
+    },
+    {
+      "job_id": "train_bone_motion",
+      "action": "train",
+      "stream": "bone_motion",
+      "config": {
+        "experiment": {
+          "seed": 161833,
+          "deterministic": true
+        },
+        "data": {
+          "num_frames": 64,
+          "num_classes": 120,
+          "num_joints": 25,
+          "num_person": 2,
+          "modality": "bone_motion"
+        },
+        "model": {
+          "name": "ctrgcn_reference",
+          "in_channels": 3,
+          "base_channels": 64,
+          "dropout": 0.0,
+          "adaptive": true
+        },
+        "training": {
+          "epochs": 65,
+          "batch_size": 64,
+          "num_workers": 8,
+          "optimizer": "sgd",
+          "learning_rate": 0.1,
+          "momentum": 0.9,
+          "nesterov": true,
+          "weight_decay": 0.0004,
+          "scheduler": "warmup_multistep",
+          "warmup_epochs": 5,
+          "milestones": [
+            35,
+            55
+          ],
+          "lr_decay_rate": 0.1,
+          "label_smoothing": 0.0,
+          "amp": false,
+          "gradient_accumulation": 1,
+          "validate_every": 0,
+          "checkpoint_rule": "final_epoch_65_no_validation_monitoring"
+        },
+        "evaluation": {
+          "batch_size": 64,
+          "num_workers": 8
+        }
+      },
+      "output_relative": "checkpoints/bone_motion"
+    },
+    {
+      "job_id": "evaluate_joint",
+      "action": "evaluate",
+      "stream": "joint",
+      "depends_on": [
+        "train_joint",
+        "train_bone",
+        "train_joint_motion",
+        "train_bone_motion"
+      ],
+      "output_relative": "predictions/joint"
+    },
+    {
+      "job_id": "evaluate_bone",
+      "action": "evaluate",
+      "stream": "bone",
+      "depends_on": [
+        "train_joint",
+        "train_bone",
+        "train_joint_motion",
+        "train_bone_motion"
+      ],
+      "output_relative": "predictions/bone"
+    },
+    {
+      "job_id": "evaluate_joint_motion",
+      "action": "evaluate",
+      "stream": "joint_motion",
+      "depends_on": [
+        "train_joint",
+        "train_bone",
+        "train_joint_motion",
+        "train_bone_motion"
+      ],
+      "output_relative": "predictions/joint_motion"
+    },
+    {
+      "job_id": "evaluate_bone_motion",
+      "action": "evaluate",
+      "stream": "bone_motion",
+      "depends_on": [
+        "train_joint",
+        "train_bone",
+        "train_joint_motion",
+        "train_bone_motion"
+      ],
+      "output_relative": "predictions/bone_motion"
+    },
+    {
+      "job_id": "analysis",
+      "action": "analysis",
+      "depends_on": [
+        "evaluate_joint",
+        "evaluate_bone",
+        "evaluate_joint_motion",
+        "evaluate_bone_motion"
+      ],
+      "output_relative": "analysis"
+    }
+  ],
+  "expected_receipts": 9,
+  "run_root_default": "/workspace/aura_ksp_stream3_final_run_v1/seed_161803",
+  "control_root_default": "/workspace/aura_ksp_stream3_final_control",
+  "source_root": "project/src",
+  "metadata_binding_required": true,
+  "controller_max_cumulative_seconds": 64800,
+  "finalization_reserve_seconds": 600
+}

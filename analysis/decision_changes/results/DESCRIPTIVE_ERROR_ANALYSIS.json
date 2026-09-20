@@ -1,0 +1,337 @@
+{
+  "analysis": "Post-hoc descriptive decomposition of fixed final predictions",
+  "analysis_timing": "Descriptive analysis designed after the final test result was known; not a prespecified or confirmatory endpoint",
+  "input_relative_path": "final/run/analysis/FINAL_TEST_PAIRED_RESULTS.npz",
+  "input_sha256": "0d03c56a36861efd080200942c7a46264e985cd6bd73c1ce7a060f300e76623b",
+  "script_sha256": "6b91df459195e8f371f87a9f13e941250525fcabfbed3b5798d0ff3615a7997c",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "groups": [
+    {
+      "group": "all120",
+      "n": 59477,
+      "both_correct": 52392,
+      "lost_correct": 605,
+      "gained_correct": 559,
+      "both_wrong_same_label": 5307,
+      "both_wrong_different_labels": 614,
+      "both_wrong": 5921,
+      "reference_correct": 52997,
+      "candidate_correct": 52951,
+      "changed_predicted_label": 1778,
+      "unchanged_predicted_label": 57699,
+      "correctness_changed": 1164,
+      "net_additional_errors": 46,
+      "label_change_pct": 2.989390856969921,
+      "correctness_change_pct": 1.9570590312221532,
+      "net_additional_errors_per_1000": 0.7734082082149403,
+      "delta_accuracy_pp": -0.07734082082149402
+    },
+    {
+      "group": "A001-A060",
+      "n": 30102,
+      "both_correct": 27178,
+      "lost_correct": 243,
+      "gained_correct": 256,
+      "both_wrong_same_label": 2215,
+      "both_wrong_different_labels": 210,
+      "both_wrong": 2425,
+      "reference_correct": 27421,
+      "candidate_correct": 27434,
+      "changed_predicted_label": 709,
+      "unchanged_predicted_label": 29393,
+      "correctness_changed": 499,
+      "net_additional_errors": -13,
+      "label_change_pct": 2.355325227559631,
+      "correctness_change_pct": 1.657697162979204,
+      "net_additional_errors_per_1000": -0.4318649923593117,
+      "delta_accuracy_pp": 0.04318649923593117
+    },
+    {
+      "group": "A061-A120",
+      "n": 29375,
+      "both_correct": 25214,
+      "lost_correct": 362,
+      "gained_correct": 303,
+      "both_wrong_same_label": 3092,
+      "both_wrong_different_labels": 404,
+      "both_wrong": 3496,
+      "reference_correct": 25576,
+      "candidate_correct": 25517,
+      "changed_predicted_label": 1069,
+      "unchanged_predicted_label": 28306,
+      "correctness_changed": 665,
+      "net_additional_errors": 59,
+      "label_change_pct": 3.639148936170213,
+      "correctness_change_pct": 2.2638297872340427,
+      "net_additional_errors_per_1000": 2.008510638297872,
+      "delta_accuracy_pp": -0.20085106382978724
+    }
+  ],
+  "top10_introduced_error_pairs": [
+    {
+      "true_action_id": "A073",
+      "wrong_action_id": "A076",
+      "lost_correct": 14,
+      "gained_correct": 6,
+      "net_additional_errors": 8
+    },
+    {
+      "true_action_id": "A089",
+      "wrong_action_id": "A090",
+      "lost_correct": 9,
+      "gained_correct": 3,
+      "net_additional_errors": 6
+    },
+    {
+      "true_action_id": "A072",
+      "wrong_action_id": "A071",
+      "lost_correct": 8,
+      "gained_correct": 14,
+      "net_additional_errors": -6
+    },
+    {
+      "true_action_id": "A106",
+      "wrong_action_id": "A107",
+      "lost_correct": 8,
+      "gained_correct": 1,
+      "net_additional_errors": 7
+    },
+    {
+      "true_action_id": "A069",
+      "wrong_action_id": "A072",
+      "lost_correct": 7,
+      "gained_correct": 3,
+      "net_additional_errors": 4
+    },
+    {
+      "true_action_id": "A071",
+      "wrong_action_id": "A072",
+      "lost_correct": 7,
+      "gained_correct": 10,
+      "net_additional_errors": -3
+    },
+    {
+      "true_action_id": "A105",
+      "wrong_action_id": "A067",
+      "lost_correct": 7,
+      "gained_correct": 1,
+      "net_additional_errors": 6
+    },
+    {
+      "true_action_id": "A012",
+      "wrong_action_id": "A030",
+      "lost_correct": 6,
+      "gained_correct": 2,
+      "net_additional_errors": 4
+    },
+    {
+      "true_action_id": "A074",
+      "wrong_action_id": "A084",
+      "lost_correct": 6,
+      "gained_correct": 5,
+      "net_additional_errors": 1
+    },
+    {
+      "true_action_id": "A041",
+      "wrong_action_id": "A105",
+      "lost_correct": 5,
+      "gained_correct": 4,
+      "net_additional_errors": 1
+    }
+  ],
+  "top10_corrected_error_pairs": [
+    {
+      "true_action_id": "A076",
+      "wrong_action_id": "A073",
+      "lost_correct": 4,
+      "gained_correct": 18,
+      "net_additional_errors": -14
+    },
+    {
+      "true_action_id": "A030",
+      "wrong_action_id": "A012",
+      "lost_correct": 2,
+      "gained_correct": 14,
+      "net_additional_errors": -12
+    },
+    {
+      "true_action_id": "A072",
+      "wrong_action_id": "A071",
+      "lost_correct": 8,
+      "gained_correct": 14,
+      "net_additional_errors": -6
+    },
+    {
+      "true_action_id": "A017",
+      "wrong_action_id": "A016",
+      "lost_correct": 4,
+      "gained_correct": 10,
+      "net_additional_errors": -6
+    },
+    {
+      "true_action_id": "A071",
+      "wrong_action_id": "A072",
+      "lost_correct": 7,
+      "gained_correct": 10,
+      "net_additional_errors": -3
+    },
+    {
+      "true_action_id": "A053",
+      "wrong_action_id": "A054",
+      "lost_correct": 2,
+      "gained_correct": 8,
+      "net_additional_errors": -6
+    },
+    {
+      "true_action_id": "A103",
+      "wrong_action_id": "A105",
+      "lost_correct": 2,
+      "gained_correct": 7,
+      "net_additional_errors": -5
+    },
+    {
+      "true_action_id": "A054",
+      "wrong_action_id": "A110",
+      "lost_correct": 0,
+      "gained_correct": 6,
+      "net_additional_errors": -6
+    },
+    {
+      "true_action_id": "A073",
+      "wrong_action_id": "A075",
+      "lost_correct": 2,
+      "gained_correct": 6,
+      "net_additional_errors": -4
+    },
+    {
+      "true_action_id": "A073",
+      "wrong_action_id": "A076",
+      "lost_correct": 14,
+      "gained_correct": 6,
+      "net_additional_errors": 8
+    }
+  ],
+  "top10_directed_label_changes": [
+    {
+      "full4_action_id": "A073",
+      "stream3_action_id": "A076",
+      "both_correct": 0,
+      "lost_correct": 14,
+      "gained_correct": 18,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 1,
+      "all_events": 33
+    },
+    {
+      "full4_action_id": "A012",
+      "stream3_action_id": "A030",
+      "both_correct": 0,
+      "lost_correct": 6,
+      "gained_correct": 14,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 12,
+      "all_events": 32
+    },
+    {
+      "full4_action_id": "A071",
+      "stream3_action_id": "A072",
+      "both_correct": 0,
+      "lost_correct": 7,
+      "gained_correct": 14,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 6,
+      "all_events": 27
+    },
+    {
+      "full4_action_id": "A072",
+      "stream3_action_id": "A071",
+      "both_correct": 0,
+      "lost_correct": 8,
+      "gained_correct": 10,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 6,
+      "all_events": 24
+    },
+    {
+      "full4_action_id": "A016",
+      "stream3_action_id": "A017",
+      "both_correct": 0,
+      "lost_correct": 3,
+      "gained_correct": 10,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 3,
+      "all_events": 16
+    },
+    {
+      "full4_action_id": "A106",
+      "stream3_action_id": "A107",
+      "both_correct": 0,
+      "lost_correct": 8,
+      "gained_correct": 5,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 3,
+      "all_events": 16
+    },
+    {
+      "full4_action_id": "A069",
+      "stream3_action_id": "A072",
+      "both_correct": 0,
+      "lost_correct": 7,
+      "gained_correct": 2,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 6,
+      "all_events": 15
+    },
+    {
+      "full4_action_id": "A011",
+      "stream3_action_id": "A012",
+      "both_correct": 0,
+      "lost_correct": 4,
+      "gained_correct": 4,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 6,
+      "all_events": 14
+    },
+    {
+      "full4_action_id": "A075",
+      "stream3_action_id": "A073",
+      "both_correct": 0,
+      "lost_correct": 3,
+      "gained_correct": 6,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 5,
+      "all_events": 14
+    },
+    {
+      "full4_action_id": "A074",
+      "stream3_action_id": "A084",
+      "both_correct": 0,
+      "lost_correct": 6,
+      "gained_correct": 5,
+      "both_wrong_same_label": 0,
+      "both_wrong_different_labels": 2,
+      "all_events": 13
+    }
+  ],
+  "class_effect_counts": {
+    "recall_decreased": 61,
+    "recall_unchanged": 22,
+    "recall_increased": 37
+  },
+  "restrictions": {
+    "new_training": false,
+    "new_test_forward": false,
+    "changed_fusion": false,
+    "changed_margins": false,
+    "changed_checkpoints": false,
+    "new_statistical_gates": false,
+    "bootstrap_read_or_modified": false,
+    "semantic_names_assigned": false,
+    "causal_anatomical_or_topology_claims": false
+  },
+  "interpretation": "Descriptive counts only; not independently confirmed subgroup hypotheses. No action names are assigned without a verified official mapping.",
+  "direction_note": "Directed matrix: Full-4 predicted label to Stream-3 predicted label. Error-pair matrix: true label and erroneous alternative, separately for introduced and corrected errors.",
+  "top_pair_tie_rule": "Count descending, then true action ID and wrong action ID ascending; all tied/untied pairs remain in complete CSV.",
+  "top_directed_transition_selection_rule": "Off-diagonal Full-4-to-Stream-3 predicted-label transitions ranked by total count descending, then Full-4 action ID and Stream-3 action ID ascending. First 10 reported descriptively; all 14,400 transitions, including zeros, retained in complete CSV."
+}

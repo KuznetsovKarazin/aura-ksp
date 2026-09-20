@@ -1,0 +1,13 @@
+group,reference_correct,candidate_correct,n
+all120,True,True,52392
+all120,True,False,605
+all120,False,True,559
+all120,False,False,5921
+A001-A060,True,True,27178
+A001-A060,True,False,243
+A001-A060,False,True,256
+A001-A060,False,False,2425
+A061-A120,True,True,25214
+A061-A120,True,False,362
+A061-A120,False,True,303
+A061-A120,False,False,3496

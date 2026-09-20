@@ -1,0 +1,54 @@
+{
+  "title": "AURA-KSP: Stream Reduction for Skeleton Action Recognition — Code, Models and Reproducible Results",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Research software, fixed protocols, trained checkpoints and saved predictions for the Full-4 versus Stream-3 NTU RGB+D 120 XSet comparison. The artifact includes CPU scripts for independently reproducing aggregate metrics and paired setup-bootstrap analyses, original latency traces, negative temporal-reduction results, and documented scope limitations. Raw NTU RGB+D data are not redistributed. Earlier latency measurements used seed-271828 models; final checkpoints were not retimed. This research has been funded by the Science Committee of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. AP23486538 Research and development of a system for recognizing images in video streams based on artificial intelligence).",
+  "access_right": "open",
+  "license": "cc-by-nc-4.0",
+  "creators": [
+    {
+      "name": "Issembayeva, Aida",
+      "orcid": "0009-0005-8440-9106",
+      "affiliation": "Department of Information Systems, Faculty of Computer Systems and Professional Education, Saken Seifullin Kazakh Agrotechnical University, Astana 010000, Kazakhstan"
+    },
+    {
+      "name": "Kuznetsov, Oleksandr",
+      "orcid": "0000-0003-2331-6326",
+      "affiliation": "Department of Theoretical and Applied Sciences, eCampus University, Via Isimbardi 10, 22060 Novedrate (CO), Italy; SMARTEST Research Center, eCampus University, Via Isimbardi 10, 22060 Novedrate (CO), Italy; Department of Intelligent Software Systems and Technologies, School of Computer Science and Artificial Intelligence, V. N. Karazin Kharkiv National University, 4 Svobody Sq., 61022 Kharkiv, Ukraine"
+    },
+    {
+      "name": "Shaushenova, Anargul",
+      "orcid": "0000-0002-3164-3688",
+      "affiliation": "Department of Information Systems, Faculty of Computer Systems and Professional Education, Saken Seifullin Kazakh Agrotechnical University, Astana 010000, Kazakhstan"
+    },
+    {
+      "name": "Nurpeisova, Ardak",
+      "orcid": "0000-0002-1245-8313",
+      "affiliation": "Department of Information Systems, Faculty of Computer Systems and Professional Education, Saken Seifullin Kazakh Agrotechnical University, Astana 010000, Kazakhstan"
+    },
+    {
+      "name": "Zhumaliyeva, Lyazzat",
+      "orcid": "0000-0002-1353-2677",
+      "affiliation": "Department of Physics, Mathematics and Computer Science, Astana International University, Astana 010000, Kazakhstan"
+    },
+    {
+      "name": "Ongarbayeva, Maral",
+      "orcid": "0000-0003-0698-666X",
+      "affiliation": "Department of Information and Communication Technologies, Faculty of Natural Sciences, International Taraz University Named After Sherkhan Murtaza, Taraz 080000, Kazakhstan"
+    }
+  ],
+  "keywords": [
+    "skeleton action recognition",
+    "stream reduction",
+    "non-inferiority",
+    "reproducibility",
+    "NTU RGB+D 120"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/KuznetsovKarazin/aura-ksp",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

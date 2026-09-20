@@ -1,0 +1,16 @@
+name: Verify research release
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-audit.txt
+      - run: python scripts/verify_release.py
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/reproduce_latency.py --trace-root evidence/latency/raw --protocol-file evidence/latency/PROTOCOL.json --output .reproduced/latency
