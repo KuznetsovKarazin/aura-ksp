@@ -349,13 +349,13 @@ def analyze(loaded: dict[str, Any], output: Path, protocol_sha256: str) -> dict[
     write_csv(output / "03_stage_timing.csv", stage_rows)
     write_json(output / "GPU_MICROBENCH_SUMMARY.json", summary)
     lines = [
-        "# AURA-KSP: результат GPU latency microbenchmark",
+        "# AURA-KSP: latency reanalysis",
         "",
-        "Этот этап измеряет только стоимость существующих K64 checkpoints. Обучение и оценка качества не выполнялись.",
+        "Reanalysis of the original RTX 4090 batch-one traces from seed-271828 K64 checkpoints. Final checkpoints were not timed again.",
         "",
-        f"Итоговый latency gate: **{'PASS' if passed else 'FAIL'}**.",
+        f"Prespecified latency criterion: **{'PASS' if passed else 'FAIL'}**.",
         "",
-        "| Cache regime | Full-4, ms | Stream-3, ms | Saving | LCB | Требование | Результат |",
+        "| Cache regime | Full-4, ms | Stream-3, ms | Saving | LCB | Requirement | Result |",
         "|---|---:|---:|---:|---:|---:|---|",
     ]
     for row in regime_rows:
@@ -366,10 +366,9 @@ def analyze(loaded: dict[str, Any], output: Path, protocol_sha256: str) -> dict[
         )
     lines.extend([
         "",
-        "PASS разрешает заморозить отдельный confirmatory quality protocol. Он не является подтверждением качества сам по себе.",
-        "Независимое подтверждение качества требует нового seed и девяти обучений: 3 folds × 3 retained streams.",
+        "These measurements quantify latency only. The final XSet quality results are reported separately in the repository README and tables.",
     ])
-    (output / "REPORT_RU.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (output / "REPORT.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     manifest_rows = []
     for path in sorted(output.iterdir()):
         if path.name == "MANIFEST_SHA256.txt" or not path.is_file():

@@ -1,12 +1,14 @@
 # Changelog
 
-## 1.0.0 — prepared 20 September 2026
+## 1.0.1 — 20 September 2026
 
-- Curated final NTU120 XSet code, four checkpoints, aligned predictions, frozen protocols and original latency traces.
-- Recorded all six authors, ORCIDs and affiliations; Oleksandr Kuznetsov is second.
-- Applied CC BY-NC 4.0 with concrete CTR-GCN source mapping and retained third-party notices.
-- Added descriptive paired-error decomposition: 605 introduced errors, 559 corrections and 614 changes between incorrect labels. Original selection and inferential criteria remain unchanged.
-- Updated the scientific manuscript to editorial version 1.5.0 and included the complete supplementary tables.
-- Added deterministic release packaging and a Windows GitHub publisher; original models, predictions, runtime source pins and statistical results are unchanged.
+- Simplified the repository structure and research documentation.
+- Aligned citation metadata and clarified the scope of licenses.
+- Preserved the original scientific code, numerical results, checkpoints, predictions and experimental provenance.
 
-Publication date and version DOI are recorded by the hosting services when the release is actually published. The earlier 1.0.0-rc1 was a private preparation candidate.
+## 1.0.0 — 20 September 2026
+
+- Released the final NTU120 XSet comparison with four checkpoints, aligned predictions, fixed protocols and original latency traces.
+- Included independent reconstruction of fusion, metrics and all 10,000 bootstrap draws.
+- Added descriptive paired-error analysis: 605 introduced errors, 559 corrections and 614 changes between incorrect labels.
+- Retained the unsuccessful temporal K32 experiment and documented the limits of the evidence.

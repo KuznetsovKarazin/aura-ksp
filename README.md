@@ -1,19 +1,14 @@
 # AURA-KSP
-### Auditable stream reduction for skeleton action recognition
 
-**A quarter less measured latency. A 0.077 percentage-point overall accuracy loss. An explicitly bounded claim.**
+**Stream reduction for skeleton action recognition**
 
-AURA-KSP investigates how much computation can be removed from multi-stream skeleton action recognition while retaining prespecified aggregate quality. This release brings together the final NTU RGB+D 120 XSet results, frozen protocols, original model code, four checkpoints, aligned logits, raw latency traces, and CPU reproduction scripts.
+AURA-KSP studies whether a multi-stream action recognizer can use fewer input streams while retaining prespecified aggregate quality. This repository contains the fixed Full-4 versus Stream-3 comparison on NTU RGB+D 120 XSet: model code, protocols, numerical results and scripts for reproducing the analysis. Companion research assets contain the four final checkpoints, aligned predictions and bootstrap draws.
 
-> **Research artifact 1.0.0.** Code, metadata and selected numerical evidence are prepared for public release. License: **CC BY-NC 4.0**. Raw NTU data are excluded. The version DOI is recorded after assignment by Zenodo.
+## Method and results
 
-## The comparison
+Both systems use the same retained checkpoints and 64 temporal positions. Full-4 combines joint, bone, joint-motion and bone-motion logits with weights `[0.3, 0.3, 0.2, 0.2]`. Stream-3 removes bone-motion and renormalizes the weights to `[0.375, 0.375, 0.25]`. Fusion uses the fixed float32 weighted sum of logits.
 
-Both systems use the same retained checkpoints and 64 temporal positions. Full-4 combines joint, bone, joint-motion and bone-motion logits with weights `[0.3, 0.3, 0.2, 0.2]`. Stream-3 removes bone-motion and renormalizes the remaining weights to `[0.375, 0.375, 0.25]`. Fusion is the frozen float32 weighted-logit operation, not probability averaging or test-time weight fitting.
-
-## Final quality results
-
-Training: 54,468 retained official-training examples; final epoch 65. Evaluation: 59,477 XSet test examples. All differences are Stream-3 minus Full-4.
+Training used 54,468 retained official-training examples, with the final checkpoint at epoch 65. Evaluation used 59,477 XSet test examples. Differences below are Stream-3 minus Full-4; pp denotes percentage points.
 
 | Endpoint | Full-4 (%) | Stream-3 (%) | Difference (pp) | Lower bound (pp) | Margin (pp) |
 |---|---:|---:|---:|---:|---:|
@@ -21,26 +16,30 @@ Training: 54,468 retained official-training examples; final epoch 65. Evaluation
 | A61–A120 Top-1 | 87.067234 | 86.866383 | −0.200851 | −0.369294 | −1.5 |
 | Macro-F1, all 120 | 89.105911 | 89.023340 | −0.082571 | −0.264688 | −1.5 |
 
-All three prespecified non-inferiority gates passed. Bounds use 10,000 frozen paired setup bootstrap draws, centered-basic intervals, and Bonferroni alpha 0.05/3. A separately implemented numerical check reproduced the complete stored bootstrap array exactly in its recorded environment.
+All three prespecified non-inferiority criteria were met. Bounds use 10,000 fixed paired setup-bootstrap draws, centered-basic intervals and Bonferroni alpha 0.05/3. An independent implementation reproduced the complete stored bootstrap array exactly in its recorded environment.
 
-![Prespecified quality gates](figures/FINAL_NONINFERIORITY.png)
+![Prespecified quality criteria](figures/FINAL_NONINFERIORITY.png)
 
-Full-4 correctly classifies **52,997** samples and Stream-3 **52,951**: a net difference of **46**. Recall decreases for 61 classes, is unchanged for 22, and increases for 37. The worst class recall difference is A073, −2.459 pp. Aggregate non-inferiority is not a guarantee for each class.
+Full-4 correctly classified **52,997** examples and Stream-3 **52,951**: a net loss of **46**. This comprises 605 introduced errors and 559 corrections. Labels changed for 1,778 examples (2.9894%), including 614 changes between two incorrect labels. Class recall decreased for 61 classes, was unchanged for 22 and increased for 37; the largest decrease was A073, −2.459 pp. See the [descriptive error analysis](analysis/decision_changes/README.md).
 
-A small net difference also conceals individual changes: 605 correct decisions became errors and 559 errors were corrected. Predicted labels changed for 1,778 examples (2.9894%); 614 of those changes were between two incorrect labels. See the complete [descriptive error analysis](analysis/decision_changes/README.md).
-
-## Latency is a separate measurement
+### Earlier latency measurements
 
 | RTX 4090, batch 1 | Full-4 (ms) | Stream-3 (ms) | Latency reduction |
 |---|---:|---:|---:|
 | Warm reuse | 65.2755 | 48.9959 | 24.9399% |
 | Fresh mapping | 68.5097 | 51.8634 | 24.2977% |
 
-These traces used seed-271828 models from the earlier campaign. Final checkpoints were **not** timed again. A latency reduction is not the same numerical quantity as a throughput increase. See raw paired traces under `evidence/latency`.
+These measurements used earlier seed-271828 models. **The final checkpoints were not timed again.** The reported percentages are latency reductions; throughput increases use a different denominator. Original paired traces are included under `evidence/latency/`.
 
-## Reproduce without a GPU
+### Scope
 
-Requires Python 3.11 or 3.12. Extract `repository` and `research-assets` as sibling directories. From `repository`:
+The result concerns this fixed system pair and the prespecified aggregate margins. It does not establish preservation of every class, a new architecture, state-of-the-art accuracy, or generalization across training seeds and devices. A61–A120 is the strongest held-out action subset within NTU120; A1–A60 is connected to earlier NTU60 work. Neither is an external dataset.
+
+The earlier temporal K32 branch failed its required criterion and is retained as negative evidence. Stream selection was exploratory and preceded the frozen final evaluation. See the [research history](docs/RESEARCH_HISTORY.md).
+
+## Reproduce the analysis
+
+Requires Python 3.11 or 3.12. Extract `repository/` and `research-assets/` as sibling directories. From `repository/`:
 
 ```bash
 python -m pip install -r requirements-audit.txt
@@ -50,39 +49,35 @@ python scripts/reproduce_latency.py --trace-root evidence/latency/raw --protocol
 python scripts/describe_paired_errors.py --assets ../research-assets --output .reproduced/decision_changes
 ```
 
-On Windows PowerShell, replace `python` with `py -3.11`. These commands read saved predictions and traces; they do not train models or run inference. See [reproduction details](docs/REPRODUCIBILITY.md).
+On Windows PowerShell, replace `python` with `py -3.11`. These CPU commands analyze saved predictions and traces. [Reproducibility details](docs/REPRODUCIBILITY.md) describe the checks, figure generation and the scope of the retained training code.
 
-## What is included
+## Repository contents
 
-| Location | Purpose |
+| Location | Contents |
 |---|---|
-| `scripts/` | Hash verification, independent quality recomputation, latency analysis, figure construction |
-| `tables/`, `figures/` | Exact numerical tables and publication figures |
-| `manuscript/` | MDPI author manuscript, supplement and complete LaTeX sources |
-| `evidence/` | Frozen protocol, plan, bindings, earlier quality audit, raw latency evidence |
-| `runtime/` | Historical scientific training/data/model code with original pins |
-| `reports/` | Prior independent audit and this release's validation |
-| `../research-assets/` | Four final models, four prediction files, frozen draws, sample metadata, receipts, derived comparison |
-| `docs/` | Methods, limitations, provenance, publication instructions |
-| `analysis/decision_changes/` | Post-hoc decomposition of fixed predictions, all 120 classes and complete label-pair matrices |
-| `tools/publishing/` | Checked local packaging helper and Windows PowerShell publication workflow |
+| `scripts/`, `tests/` | Integrity checks, numerical analysis and figure generation |
+| `tables/`, `figures/` | Numerical results and research figures |
+| `evidence/` | Frozen protocol, plan, bindings, earlier quality audit and raw latency traces |
+| `runtime/` | Original scientific training, preprocessing and model code with source pins |
+| `reports/` | Independent numerical reproduction records |
+| `analysis/decision_changes/` | Descriptive error decomposition, all 120 classes and label-pair matrices |
+| `docs/` | Reproducibility, methods, limitations and research history |
+| `../research-assets/` | Four final models, four prediction files, fixed draws, sample metadata, receipts and derived comparison |
 
-## What the evidence supports
-
-For this frozen system pair on NTU120 XSet, removing bone-motion met the prespecified aggregate quality margins. Earlier hardware measurements met the latency gate. This is a controlled efficiency result; it is not a new recognition architecture or a SOTA claim.
-
-The unsuccessful temporal K32 branch is retained in the results and research history. Development choices preceded the final test; they should not be represented as a single hypothesis fixed before all exploration. A61–A120 is the strongest held-out action subset within NTU120, not an external dataset. A1–A60 is connected to earlier NTU60 work. No seed-wide or device-wide generalization is established.
+Raw NTU recordings, skeleton sequences and preprocessing caches are not redistributed. Benchmark access is governed by the dataset provider's terms.
 
 ## Authors and funding
 
-Aida Issembayeva · **Oleksandr Kuznetsov** · Anargul Shaushenova · Ardak Nurpeisova · Lyazzat Zhumaliyeva · Maral Ongarbayeva.
+Aida Issembayeva · Oleksandr Kuznetsov · Anargul Shaushenova · Ardak Nurpeisova · Lyazzat Zhumaliyeva · Maral Ongarbayeva.
 
-ORCID identifiers and affiliations are recorded in [CITATION.cff](CITATION.cff). This research has been funded by the Science Committee of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. AP23486538 Research and development of a system for recognizing images in video streams based on artificial intelligence).
+Affiliations and ORCID identifiers are recorded in [CITATION.cff](CITATION.cff).
 
-## Citation and reuse
+This research has been funded by the Science Committee of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. AP23486538 Research and development of a system for recognizing images in video streams based on artificial intelligence).
 
-Use the version-specific Zenodo DOI once it is assigned. `CITATION.cff` contains the complete author list; no fictitious DOI is supplied. The companion manuscript is **Stream Reduction in Multi-Stream Graph Convolutional Networks: A Non-Inferiority Study for Skeleton-Based Action Recognition**. It is an author manuscript, not a claim of journal acceptance or publication.
+## Citation and license
 
-The research code, assets and identified CTR-GCN adaptations are provided under **CC BY-NC 4.0**: attribution is required and commercial permission is not granted. See [LICENSE](LICENSE), [scope](LICENSE_SCOPE.md), and [third-party notices](THIRD_PARTY_NOTICES.md). Benchmark access remains subject to NTU's own terms; the project does not license the original dataset. The manuscript and original article figures are separately licensed under CC BY 4.0. Software dependencies keep their own licenses.
+Cite the version used in your research: [AURA-KSP 1.0.1](https://doi.org/10.5281/zenodo.22858090). Machine-readable citation metadata are provided in [CITATION.cff](CITATION.cff).
 
-[Research history](docs/RESEARCH_HISTORY.md) · [Reproducibility](docs/REPRODUCIBILITY.md) · [Publishing](tools/publishing/START_HERE_RU.md) · [Contributing](CONTRIBUTING.md)
+Research code and companion assets are licensed under **CC BY-NC 4.0**. Original article figures and tables retain the **CC BY 4.0** exception described in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Third-party components and dependencies retain their own terms; see [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+[Contributing](CONTRIBUTING.md) · [Reproducibility](docs/REPRODUCIBILITY.md)

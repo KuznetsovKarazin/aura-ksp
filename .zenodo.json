@@ -1,8 +1,8 @@
 {
-  "title": "AURA-KSP: Stream Reduction for Skeleton Action Recognition — Code, Models and Reproducible Results",
+  "title": "AURA-KSP: Stream Reduction for Skeleton Action Recognition",
   "upload_type": "software",
-  "version": "1.0.0",
-  "description": "Research software, fixed protocols, trained checkpoints and saved predictions for the Full-4 versus Stream-3 NTU RGB+D 120 XSet comparison. The artifact includes CPU scripts for independently reproducing aggregate metrics and paired setup-bootstrap analyses, original latency traces, negative temporal-reduction results, and documented scope limitations. Raw NTU RGB+D data are not redistributed. Earlier latency measurements used seed-271828 models; final checkpoints were not retimed. This research has been funded by the Science Committee of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. AP23486538 Research and development of a system for recognizing images in video streams based on artificial intelligence).",
+  "version": "1.0.1",
+  "description": "AURA-KSP provides code, pretrained checkpoints, saved stream predictions and analysis scripts for comparing fixed three-stream fusion with a four-stream baseline on the NTU RGB+D 120 cross-setup benchmark. The three-stream system omits bone motion and shares its retained checkpoints with the baseline. The analysis scripts reproduce accuracy, macro-F1, paired error analysis and setup-cluster bootstrap intervals from saved predictions. All three prespecified non-inferiority criteria were met; overall Top-1 accuracy decreased by 0.077341 percentage points, corresponding to 46 fewer correct predictions among 59,477 examples. Earlier RTX 4090 batch-one timing measurements and the negative K32 experiment are included with their protocols. Those timing measurements used earlier checkpoints; the final checkpoints were not timed again. Raw NTU recordings and skeleton files are not redistributed. This research has been funded by the Science Committee of the Ministry of Science and Higher Education of the Republic of Kazakhstan (Grant No. AP23486538 Research and development of a system for recognizing images in video streams based on artificial intelligence).",
   "access_right": "open",
   "license": "cc-by-nc-4.0",
   "creators": [
@@ -47,8 +47,10 @@
   "related_identifiers": [
     {
       "identifier": "https://github.com/KuznetsovKarazin/aura-ksp",
-      "relation": "isSupplementTo",
+      "relation": "isVersionOf",
       "scheme": "url"
     }
-  ]
+  ],
+  "publication_date": "2026-09-20",
+  "doi": "10.5281/zenodo.22858090"
 }

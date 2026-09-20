@@ -1,24 +1,52 @@
-# Reproduction levels
+# Reproducibility
 
-## 1. Integrity
-`python scripts/verify_release.py` checks the exact release manifest. `python scripts/verify_release.py --root ../research-assets` verifies the larger companion files. SHA-256 sidecars verify distributed ZIPs before extraction. Git attributes preserve source line endings.
+## Integrity
 
-## 2. Final saved-output analysis (CPU)
-Install `requirements-audit.txt` and run the README command. The script checks the assets manifest; receipt outputs and model/event pins; sample alignment; fixed fusion; frozen draw hash; all endpoints; and every stored derived array. Checkpoint serialization is inspected by a restricted inert decoder, without importing PyTorch or executing a model. A successful run writes JSON with comparisons and environment versions. Allocate approximately 2 GB available RAM for the analysis, plus room for the extracted assets; this is an estimate, not a measured peak.
+`python scripts/verify_release.py` checks the repository manifest. `python scripts/verify_release.py --root ../research-assets` checks the companion assets. Verify the SHA-256 sidecars before extracting downloaded ZIPs. Git attributes preserve source line endings.
 
-The independent math tests use synthetic examples and compare sufficient-statistic bootstrap calculations with literal repeated examples. Run `python -m unittest discover -s tests -v`; only NumPy is needed.
+## Final saved-output analysis
 
-## 3. Latency reanalysis (CPU)
-The README command processes the original 18 paired traces (three folds, two regimes, three replicates). It recomputes saved measurements, not fresh hardware latency. Historical generated reports refer to the next stage as of that experiment; the current project status is in README.
+Install `requirements-audit.txt` and run:
 
-## 4. Figures
-Install requirements-figures.txt, then `python scripts/build_paper_assets.py`. This regenerates figures and LaTeX table fragments from verified tables. It changes derived file hashes, so do it in a working copy. Full article submission sources remain a separate manuscript deliverable.
+```bash
+python scripts/reproduce_final.py --assets ../research-assets --output .reproduced/final
+```
 
-## 5. Training and data reconstruction
-The exact model modules, preprocessing helpers, final scientific scripts and PLAN configs are included under runtime. They preserve experiment semantics, including fail-closed execution checks. Provider controllers, private authorization records and obsolete launchers were deliberately omitted. The old runtime manifest describes the **original** kit and is provenance, not a claim that this curated folder is the complete launch kit. Do not run it as a fresh cloud launcher.
+The script checks the assets manifest, receipt outputs, model and event pins, sample alignment, fixed fusion, the frozen draw hash, all endpoints and every stored derived array. Checkpoint serialization is inspected by a restricted inert decoder, without importing PyTorch or executing a model. The output JSON records numerical comparisons and environment versions. Allow approximately 2 GB available RAM, plus storage for the extracted assets; this is an estimate, not a measured peak.
 
-End-to-end training from raw NTU data is not certified by this public release. Raw datasets, the 1.6 GB sparse frame store and its full preprocessing environment are not bundled. This release certifies saved-output reproduction; it preserves the original training implementation for inspection. A portable training entry point and a complete, independently checked preprocessing environment remain follow-up work before claiming turnkey training reproducibility. Release licensing and the retained CTR-GCN attribution are documented in LICENSE and THIRD_PARTY_NOTICES.md. Reproducing independent training should use new directories and a separately identified replication protocol, not mutate the sealed original test event.
+The independent math tests compare sufficient-statistic bootstrap calculations against literal repeated examples on synthetic data. Run `python -m unittest discover -s tests -v`; only NumPy is needed.
 
-Original final training environment: PyTorch 2.11.0+cu128, RTX 4090; see evidence/PLAN.json for exact configurations. Analysis reference environment: Python 3.12.13, NumPy 2.3.5. Floating point portability tolerance for bootstrap is 2e-15; exact equality is reported separately.
+## Descriptive error analysis
 
-CSV fractions use the 0–1 scale unless field names explicitly say pct/pp. Convert to percent/percentage points by multiplying by 100.
+```bash
+python scripts/describe_paired_errors.py --assets ../research-assets --output .reproduced/decision_changes
+```
+
+This reports introduced and corrected errors, all 120 classes and complete label-pair matrices from the saved decisions. See [output interpretation](../analysis/decision_changes/README.md). Choose a fresh output directory; the script does not overwrite existing output.
+
+## Latency reanalysis
+
+```bash
+python scripts/reproduce_latency.py --trace-root evidence/latency/raw --protocol-file evidence/latency/PROTOCOL.json --output .reproduced/latency
+```
+
+The script processes the original 18 paired traces: three folds, two regimes and three replicates. It recomputes saved measurements from the earlier seed-271828 models. It does not measure the final checkpoints or current hardware.
+
+## Figures and tables
+
+```bash
+python -m pip install -r requirements-figures.txt
+python scripts/build_paper_assets.py --output .reproduced/figures
+```
+
+Figures are generated from the verified numerical tables into the selected output directory. LaTeX table fragments are written under its `tables/` subdirectory. The source tables and distributed figures remain unchanged.
+
+## Training and data
+
+`runtime/` contains the original model modules, preprocessing helpers, final scientific scripts and PLAN configurations. These preserve the experiment's semantics and execution checks. The historical runtime manifest describes the original runtime kit, rather than the curated `runtime/` directory.
+
+Raw NTU data, the 1.6 GB sparse frame store and its complete preprocessing environment are not bundled. Saved-output analysis is reproducible with this release; end-to-end training from raw data has not been independently checked as a portable workflow. The retained training implementation supports inspection of the experiment. Benchmark data must be obtained from the provider under its access terms.
+
+The final training environment used PyTorch 2.11.0+cu128 and an RTX 4090; exact configurations are in `evidence/PLAN.json`. The analysis reference environment used Python 3.12.13 and NumPy 2.3.5. The floating-point portability tolerance for bootstrap values is 2e-15; exact equality is reported separately.
+
+CSV fractions use the 0–1 scale unless a field name explicitly indicates pct or pp. Multiply fractions by 100 to express percentages or percentage points.

@@ -1,17 +1,21 @@
 """Build publication figures and LaTeX tables from audited/identified evidence."""
 from pathlib import Path
-import csv,json
+import argparse,csv,json
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 ROOT=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--output', type=Path, default=ROOT/'.reproduced/figures', help='Directory for generated figures and LaTeX tables')
+OUTPUT=parser.parse_args().output.resolve()
+OUTPUT.mkdir(parents=True, exist_ok=True)
 def rows(name):
     with (ROOT/'tables'/name).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
 def save(fig,name):
     for ext in ('pdf','png'):
-        dest=ROOT/'figures'/(name+'.'+ext)
+        dest=OUTPUT/(name+'.'+ext)
         tmp=dest.with_name(dest.stem+'.building.'+ext)
         fig.savefig(tmp,dpi=240,bbox_inches='tight')
         if tmp.stat().st_size==0:raise RuntimeError('Empty figure: '+name)
@@ -61,7 +65,8 @@ ax[1].text(.96,20.55,'20% requirement',ha='right',transform=ax[1].get_yaxis_tran
 ax[1].set_xticks(np.arange(2),names);ax[1].set(ylim=(0,30),ylabel='Paired latency saving (%)',title='(b) Stream-3, seed 271828')
 fig.tight_layout(w_pad=2.0);save(fig,'TEMPORAL_AND_STREAM_EVIDENCE')
 
-out=ROOT/'manuscript'
+out=OUTPUT/'tables'
+out.mkdir(parents=True, exist_ok=True)
 lines=[]
 for e,label in zip(a['endpoints'],['Overall Top-1','A61--A120 Top-1','Macro-F1, all 120']):
     lines.append(label+' & '+' & '.join(f'{100*e[k]:.4f}' for k in ('reference','candidate','delta','one_sided_lcb','margin'))+r' \\')

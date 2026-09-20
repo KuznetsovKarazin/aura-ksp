@@ -5,6 +5,4 @@
 4. Paired GPU measurements with seed-271828 models passed the 20% latency-saving gate in two cache regimes.
 5. A separate quality confirmation and the final frozen official-train / XSet-test experiment followed. Final training included the old validation samples solely for training, without validation checkpoint selection. The selected final checkpoint was epoch 65.
 6. Nine final jobs completed: four training, four stream evaluations, one comparison. A single recorded final test event bound the four checkpoints and protocol. The two systems shared their three retained models.
-7. Independent read-only audit verified selected final outputs and reproduced fusion, predictions, confusion matrices and all 10,000 bootstrap draws. No retraining or additional test forward was used in auditing or packaging.
-
-Historical negative evidence is retained, while obsolete handoff ZIPs, repeated drafts, provider logs, resumable epoch tensors and caches are excluded. The release is scoped to the paper's AURA-KSP claim, not every earlier AURA-HAR experiment.
+7. Independent read-only audit verified selected final outputs and reproduced fusion, predictions, confusion matrices and all 10,000 bootstrap draws. The audit used saved outputs without retraining or an additional test forward.

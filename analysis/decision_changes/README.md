@@ -1,13 +1,13 @@
 # Descriptive decomposition of the fixed final predictions
 
-This is a post-hoc descriptive analysis of saved AURA-KSP final decisions. It changes no model, fusion rule, tolerance, endpoint, or bootstrap procedure, and executes no training or test forward. It does not conduct new significance tests. It does not infer explanations about joints, attention, or graph topology.
+This post-hoc analysis describes how individual decisions differ between the two fixed systems. It reads the saved final predictions and reports counts by correctness, action class and predicted-label transition. These descriptive results do not establish causal mechanisms or additional inferential conclusions.
 
 ## Reproduction
 
 From the repository root (place the companion research assets next to the repository):
 
 ```bash
-python analysis/decision_changes/describe_paired_errors.py --assets ../research-assets --output .reproduced/decision_changes
+python scripts/describe_paired_errors.py --assets ../research-assets --output .reproduced/decision_changes
 ```
 
 Only Python and NumPy are required. Choose a fresh output directory: the script refuses to overwrite previous output. The input is the already audited `final/run/analysis/FINAL_TEST_PAIRED_RESULTS.npz` under the supplied assets directory. The script verifies that single file against the assets manifest, confirms the saved argmax decisions and confusion counts, and records the source and script SHA-256. It does not repeat the earlier record/provenance audit or inspect bootstrap values.
@@ -40,11 +40,3 @@ The global net difference of 46 errors is the difference between 605 introduced 
 For A061–A120, 362 introduced errors and 303 corrected errors yield 59 additional errors. For A001–A060, 243 introduced and 256 corrected errors yield 13 fewer errors. These subgroup decompositions are descriptive and do not constitute new confirmed subgroup hypotheses.
 
 The largest observed directed label change is A073 → A076 (33 samples), illustrating that the same shift can help one true class while harming another. This is an output-level observation; it does not establish a biomechanical or graph-topology mechanism.
-
-## Suggested main-text paragraph
-
-> The small aggregate accuracy difference concealed a larger redistribution of individual decisions. The two systems agreed on the correctness of 58,313 examples, comprising 52,392 jointly correct and 5,921 jointly incorrect predictions. Removing bone motion introduced 605 errors and corrected 559 reference errors. Predicted labels changed for 1,778 examples (2.9894%); 614 of these changes were between two incorrect labels. Thus, the net cost of 46 additional errors should not be interpreted as near-identical predictions.
-
-> This redistribution was not uniform across the two action groups. A61–A120 accounted for 362 introduced and 303 corrected errors, whereas A1–A60 had 243 introduced and 256 corrected errors. The largest observed directed change, A073 to A076, harmed 14 examples of the former class and corrected 18 examples of the latter, with one further example remaining incorrect. These post-hoc counts describe the balance of errors without assigning a causal explanation to skeleton topology or motion features.
-
-No confidence bounds or inferential conclusions are attached to the new descriptive slices. The original frozen quality criteria remain the sole confirmatory decision rule.
